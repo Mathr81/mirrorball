@@ -1,0 +1,16 @@
+{
+  "name": "mirrorball",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev:api": "pnpm --filter @mirrorball/api dev",
+    "dev:web": "pnpm --filter @mirrorball/web dev",
+    "build": "pnpm --filter @mirrorball/api build && pnpm --filter @mirrorball/web build",
+    "test": "pnpm --filter @mirrorball/api test && pnpm --filter @mirrorball/web test",
+    "typecheck": "pnpm --filter @mirrorball/api typecheck && pnpm --filter @mirrorball/web typecheck"
+  },
+  "packageManager": "pnpm@10.33.0"
+}
