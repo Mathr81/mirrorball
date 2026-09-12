@@ -6,6 +6,8 @@ import { DebugPanel } from '../debug/DebugPanel.js';
 import { AmLyricsPanel } from '../lyrics/AmLyricsPanel.js';
 import { useLyrics } from '../lyrics/use-lyrics.js';
 import { usePlaybackClock } from '../playback/use-playback-clock.js';
+import { useOnlineStatus } from '../pwa/use-online-status.js';
+import { useWakeLock } from '../pwa/use-wake-lock.js';
 import './App.css';
 
 export function App() {
@@ -41,6 +43,8 @@ export function App() {
 function Player({ auth }: { auth: SpotifyAuth }) {
   const playback = usePlaybackClock(getValidAccessToken);
   const lyrics = useLyrics(playback.track, getValidAccessToken);
+  const online = useOnlineStatus();
+  useWakeLock(playback.isPlaying);
 
   // Le token utilisé par le poller peut être rejeté (revocation côté Spotify,
   // déconnexion sur un autre appareil) sans que getValidAccessToken l'ait
@@ -63,7 +67,8 @@ function Player({ auth }: { auth: SpotifyAuth }) {
             Déconnexion
           </button>
         </div>
-        {playback.error && playback.error.kind !== 'unauthorized' && (
+        {!online && <p className="app-layout__error">Hors ligne — horloge de lecture indisponible, dernières paroles affichées.</p>}
+        {online && playback.error && playback.error.kind !== 'unauthorized' && (
           <p className="app-layout__error">Connexion à Spotify instable…</p>
         )}
       </aside>
