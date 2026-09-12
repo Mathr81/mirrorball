@@ -6,6 +6,9 @@ export interface CurrentlyPlaying {
   name: string;
   artists: string[];
   albumName: string;
+  albumImageUrl: string | undefined;
+  /** `external_ids.isrc` — clé de recherche prioritaire côté KPoe (cf. docs/kpoe-findings.md #9). */
+  isrc: string | undefined;
 }
 
 export interface PollResult {
@@ -35,7 +38,8 @@ interface SpotifyCurrentlyPlayingResponse {
     name: string;
     duration_ms: number;
     artists: Array<{ name: string }>;
-    album: { name: string };
+    album: { name: string; images: Array<{ url: string }> };
+    external_ids?: { isrc?: string };
   } | null;
 }
 
@@ -74,6 +78,8 @@ export async function pollCurrentlyPlaying(accessToken: string): Promise<PollRes
       name: body.item.name,
       artists: body.item.artists.map((a) => a.name),
       albumName: body.item.album.name,
+      albumImageUrl: body.item.album.images[0]?.url,
+      isrc: body.item.external_ids?.isrc,
     },
     receivedAt,
     rttMs,

@@ -1,5 +1,6 @@
 import { serve } from '@hono/node-server';
 import { Hono } from 'hono';
+import { cors } from 'hono/cors';
 import { openDb } from './cache/db.js';
 import { CacheRepository } from './cache/repository.js';
 import { loadEnv } from './config/env.js';
@@ -32,6 +33,11 @@ const orchestrator = new LyricsOrchestrator(providers, cache);
 
 const app = new Hono();
 app.use('*', spDcLeakGuard(env.spDc));
+// Le front tourne sur une origine distincte (port Vite en dev, sous-domaine
+// derrière le reverse proxy en prod) : sans CORS, /api/lyrics et /api/health
+// sont inappelables depuis le navigateur. APP_ORIGIN est la même valeur déjà
+// utilisée pour s'identifier honnêtement auprès de Spicy Lyrics.
+app.use('/api/*', cors({ origin: env.appOrigin, allowHeaders: ['authorization', 'content-type'] }));
 app.route('/api/lyrics', lyricsRoute(orchestrator));
 app.route('/api/health', healthRoute(providers));
 
