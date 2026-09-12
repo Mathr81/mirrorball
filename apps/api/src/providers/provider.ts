@@ -29,4 +29,12 @@ export interface Provider<Health = unknown> {
   readonly name: ProviderName;
   fetch(query: ProviderQuery): Promise<ProviderResult | null>;
   health(): Health;
+  /**
+   * Précondition synchrone, sans effet de bord : distingue « rien à tenter
+   * pour cette requête » (ex. Spicy sans aucun token disponible) d'un
+   * véritable « pas de paroles trouvées ». Évite qu'un manque de
+   * prérequis côté requête pollue le cache négatif pour toutes les requêtes
+   * suivantes sur la même piste. Absent = toujours tentable.
+   */
+  canAttempt?(query: ProviderQuery): boolean;
 }

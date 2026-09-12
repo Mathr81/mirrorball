@@ -81,6 +81,11 @@ export class SpicyProvider implements Provider<SpicyProviderHealth> {
     return { doc: spicyToIr(unpacked), ms };
   }
 
+  /** Rien à tenter sans un token possible (ni utilisateur, ni web-player configuré) — évite de polluer le cache négatif. */
+  canAttempt(query: ProviderQuery): boolean {
+    return Boolean(query.spotifyAccessToken || (this.spDc && this.totpConfig));
+  }
+
   health(): SpicyProviderHealth {
     const clientHealth: SpicyClientHealth = this.client.getHealth();
     return {
