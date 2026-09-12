@@ -1,0 +1,3966 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Word",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "IU"
+    ],
+    "title": "Lilac",
+    "language": "ko",
+    "agents": {
+      "v1": {
+        "type": "person",
+        "name": "",
+        "alias": "v1"
+      }
+    },
+    "songParts": [
+      {
+        "name": "Verse",
+        "time": 7719,
+        "duration": 17806
+      },
+      {
+        "name": "PreChorus",
+        "time": 25633,
+        "duration": 16477
+      },
+      {
+        "name": "Chorus",
+        "time": 41522,
+        "duration": 19978
+      },
+      {
+        "name": "Chorus",
+        "time": 59343,
+        "duration": 16721
+      },
+      {
+        "name": "Verse",
+        "time": 76726,
+        "duration": 17510
+      },
+      {
+        "name": "PreChorus",
+        "time": 94244,
+        "duration": 16736
+      },
+      {
+        "name": "Chorus",
+        "time": 110390,
+        "duration": 19927
+      },
+      {
+        "name": "Chorus",
+        "time": 128167,
+        "duration": 16511
+      },
+      {
+        "name": "Bridge",
+        "time": 145380,
+        "duration": 17483
+      },
+      {
+        "name": "Chorus",
+        "time": 160518,
+        "duration": 19936
+      },
+      {
+        "name": "Chorus",
+        "time": 178192,
+        "duration": 16471
+      },
+      {
+        "name": "Chorus",
+        "time": 194929,
+        "duration": 16554
+      }
+    ],
+    "totalDuration": "3:34.253",
+    "artist": "IU",
+    "album": "IU 5th Album 'LILAC'",
+    "isrc": "KRA382102077"
+  },
+  "lyrics": [
+    {
+      "time": 7719,
+      "duration": 4899,
+      "text": "나리는 꽃가루에 눈이 따끔해 (아야)",
+      "syllabus": [
+        {
+          "time": 7719,
+          "duration": 504,
+          "text": "나리는 "
+        },
+        {
+          "time": 8223,
+          "duration": 810,
+          "text": "꽃가루에 "
+        },
+        {
+          "time": 9033,
+          "duration": 721,
+          "text": "눈이 "
+        },
+        {
+          "time": 10089,
+          "duration": 1262,
+          "text": "따끔해 "
+        },
+        {
+          "time": 11874,
+          "duration": 214,
+          "text": "(아",
+          "isBackground": true
+        },
+        {
+          "time": 12088,
+          "duration": 530,
+          "text": "야)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L1",
+        "singer": "v1",
+        "songPartIndex": 0
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "My eyes sting from the flying pollen (Ouch)"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "na ri neun  kkot ga ru e  nu ni  tta kkeum hae (a 야)",
+        "syllabus": [
+          {
+            "time": 7719,
+            "duration": 504,
+            "text": "na ri neun  "
+          },
+          {
+            "time": 8223,
+            "duration": 810,
+            "text": "kkot ga ru e  "
+          },
+          {
+            "time": 9033,
+            "duration": 721,
+            "text": "nu ni  "
+          },
+          {
+            "time": 10089,
+            "duration": 1262,
+            "text": "tta kkeum hae "
+          },
+          {
+            "time": 11874,
+            "duration": 214,
+            "text": "(a "
+          },
+          {
+            "time": 12088,
+            "duration": 530,
+            "text": "야)"
+          }
+        ]
+      }
+    },
+    {
+      "time": 12324,
+      "duration": 3265,
+      "text": "눈물이 고여도 꾹 참을래",
+      "syllabus": [
+        {
+          "time": 12324,
+          "duration": 429,
+          "text": "눈물이 "
+        },
+        {
+          "time": 12753,
+          "duration": 999,
+          "text": "고여도 "
+        },
+        {
+          "time": 14231,
+          "duration": 370,
+          "text": "꾹 "
+        },
+        {
+          "time": 14601,
+          "duration": 494,
+          "text": "참을"
+        },
+        {
+          "time": 15095,
+          "duration": 494,
+          "text": "래"
+        }
+      ],
+      "element": {
+        "key": "L2",
+        "singer": "v1",
+        "songPartIndex": 0
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Tears well up in my eyes, but I'll hold them back"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "nun mu ri  go yeo do  kkuk  cha meul rae",
+        "syllabus": [
+          {
+            "time": 12324,
+            "duration": 429,
+            "text": "nun mu ri  "
+          },
+          {
+            "time": 12753,
+            "duration": 999,
+            "text": "go yeo do  "
+          },
+          {
+            "time": 14231,
+            "duration": 370,
+            "text": "kkuk  "
+          },
+          {
+            "time": 14601,
+            "duration": 494,
+            "text": "cha meul "
+          },
+          {
+            "time": 15095,
+            "duration": 494,
+            "text": "rae"
+          }
+        ]
+      }
+    },
+    {
+      "time": 15999,
+      "duration": 5130,
+      "text": "내 마음 한켠 비밀스런 오르골에 넣어두고서",
+      "syllabus": [
+        {
+          "time": 15999,
+          "duration": 278,
+          "text": "내 "
+        },
+        {
+          "time": 16277,
+          "duration": 484,
+          "text": "마음 "
+        },
+        {
+          "time": 16761,
+          "duration": 504,
+          "text": "한켠 "
+        },
+        {
+          "time": 17265,
+          "duration": 1061,
+          "text": "비밀스런 "
+        },
+        {
+          "time": 18326,
+          "duration": 1021,
+          "text": "오르골에 "
+        },
+        {
+          "time": 19347,
+          "duration": 437,
+          "text": "넣어"
+        },
+        {
+          "time": 19784,
+          "duration": 1345,
+          "text": "두고서"
+        }
+      ],
+      "element": {
+        "key": "L3",
+        "singer": "v1",
+        "songPartIndex": 0
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "I'll put this moment in a secret music box in a corner of my heart"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "nae  ma eum  han kyeon  bi mil seu reon  o reu go re  neo eo du go seo",
+        "syllabus": [
+          {
+            "time": 15999,
+            "duration": 278,
+            "text": "nae  "
+          },
+          {
+            "time": 16277,
+            "duration": 484,
+            "text": "ma eum  "
+          },
+          {
+            "time": 16761,
+            "duration": 504,
+            "text": "han kyeon  "
+          },
+          {
+            "time": 17265,
+            "duration": 1061,
+            "text": "bi mil seu reon  "
+          },
+          {
+            "time": 18326,
+            "duration": 1021,
+            "text": "o reu go re  "
+          },
+          {
+            "time": 19347,
+            "duration": 437,
+            "text": "neo eo "
+          },
+          {
+            "time": 19784,
+            "duration": 1345,
+            "text": "du go seo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 21339,
+      "duration": 4186,
+      "text": "영원히 되감을 순간이니까",
+      "syllabus": [
+        {
+          "time": 21339,
+          "duration": 790,
+          "text": "영원히 "
+        },
+        {
+          "time": 22129,
+          "duration": 730,
+          "text": "되감을 "
+        },
+        {
+          "time": 22859,
+          "duration": 769,
+          "text": "순간"
+        },
+        {
+          "time": 23628,
+          "duration": 1897,
+          "text": "이니까"
+        }
+      ],
+      "element": {
+        "key": "L4",
+        "singer": "v1",
+        "songPartIndex": 0
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Because it's the moment that I will rewind forever"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "yeong won hi  doe ga meul  sun ga ni ni kka",
+        "syllabus": [
+          {
+            "time": 21339,
+            "duration": 790,
+            "text": "yeong won hi  "
+          },
+          {
+            "time": 22129,
+            "duration": 730,
+            "text": "doe ga meul  "
+          },
+          {
+            "time": 22859,
+            "duration": 769,
+            "text": "sun ga "
+          },
+          {
+            "time": 23628,
+            "duration": 1897,
+            "text": "ni ni kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 25633,
+      "duration": 6865,
+      "text": "우리 둘의 마지막 페이지를 잘 부탁해",
+      "syllabus": [
+        {
+          "time": 25633,
+          "duration": 1144,
+          "text": "우리 "
+        },
+        {
+          "time": 26777,
+          "duration": 744,
+          "text": "둘의 "
+        },
+        {
+          "time": 27521,
+          "duration": 1254,
+          "text": "마지막 "
+        },
+        {
+          "time": 28775,
+          "duration": 1434,
+          "text": "페이지를 "
+        },
+        {
+          "time": 31092,
+          "duration": 247,
+          "text": "잘 "
+        },
+        {
+          "time": 31339,
+          "duration": 628,
+          "text": "부탁"
+        },
+        {
+          "time": 31967,
+          "duration": 531,
+          "text": "해"
+        }
+      ],
+      "element": {
+        "key": "L5",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Please take good care of our last page"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "u ri  du rui  ma ji mak  pe i ji reul  jal  bu tak hae",
+        "syllabus": [
+          {
+            "time": 25633,
+            "duration": 1144,
+            "text": "u ri  "
+          },
+          {
+            "time": 26777,
+            "duration": 744,
+            "text": "du rui  "
+          },
+          {
+            "time": 27521,
+            "duration": 1254,
+            "text": "ma ji mak  "
+          },
+          {
+            "time": 28775,
+            "duration": 1434,
+            "text": "pe i ji reul  "
+          },
+          {
+            "time": 31092,
+            "duration": 247,
+            "text": "jal  "
+          },
+          {
+            "time": 31339,
+            "duration": 628,
+            "text": "bu tak "
+          },
+          {
+            "time": 31967,
+            "duration": 531,
+            "text": "hae"
+          }
+        ]
+      }
+    },
+    {
+      "time": 33694,
+      "duration": 5141,
+      "text": "어느 작별이 이보다 완벽할까",
+      "syllabus": [
+        {
+          "time": 33694,
+          "duration": 820,
+          "text": "어느 "
+        },
+        {
+          "time": 34514,
+          "duration": 1471,
+          "text": "작별이 "
+        },
+        {
+          "time": 35985,
+          "duration": 820,
+          "text": "이보다 "
+        },
+        {
+          "time": 36805,
+          "duration": 664,
+          "text": "완벽"
+        },
+        {
+          "time": 37469,
+          "duration": 1366,
+          "text": "할까"
+        }
+      ],
+      "element": {
+        "key": "L6",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "What farewell could be more perfect than this?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "eo neu  jak byeo ri  i bo da  wan byeok hal kka",
+        "syllabus": [
+          {
+            "time": 33694,
+            "duration": 820,
+            "text": "eo neu  "
+          },
+          {
+            "time": 34514,
+            "duration": 1471,
+            "text": "jak byeo ri  "
+          },
+          {
+            "time": 35985,
+            "duration": 820,
+            "text": "i bo da  "
+          },
+          {
+            "time": 36805,
+            "duration": 664,
+            "text": "wan byeok "
+          },
+          {
+            "time": 37469,
+            "duration": 1366,
+            "text": "hal kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 39686,
+      "duration": 2424,
+      "text": "Love me only till this spring",
+      "syllabus": [
+        {
+          "time": 39686,
+          "duration": 331,
+          "text": "Love "
+        },
+        {
+          "time": 40017,
+          "duration": 404,
+          "text": "me "
+        },
+        {
+          "time": 40421,
+          "duration": 477,
+          "text": "only "
+        },
+        {
+          "time": 40898,
+          "duration": 248,
+          "text": "till "
+        },
+        {
+          "time": 41146,
+          "duration": 292,
+          "text": "this "
+        },
+        {
+          "time": 41438,
+          "duration": 672,
+          "text": "spring"
+        }
+      ],
+      "element": {
+        "key": "L7",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love me only till this spring"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love me only till this spring",
+        "syllabus": [
+          {
+            "time": 39686,
+            "duration": 331,
+            "text": "Love "
+          },
+          {
+            "time": 40017,
+            "duration": 404,
+            "text": "me "
+          },
+          {
+            "time": 40421,
+            "duration": 477,
+            "text": "only "
+          },
+          {
+            "time": 40898,
+            "duration": 248,
+            "text": "till "
+          },
+          {
+            "time": 41146,
+            "duration": 292,
+            "text": "this "
+          },
+          {
+            "time": 41438,
+            "duration": 672,
+            "text": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "time": 41522,
+      "duration": 4446,
+      "text": "Oh 라일락 꽃이 지는 날 goodbye",
+      "syllabus": [
+        {
+          "time": 41522,
+          "duration": 464,
+          "text": "Oh "
+        },
+        {
+          "time": 41986,
+          "duration": 821,
+          "text": "라일락 "
+        },
+        {
+          "time": 43647,
+          "duration": 277,
+          "text": "꽃이 "
+        },
+        {
+          "time": 43924,
+          "duration": 562,
+          "text": "지는 "
+        },
+        {
+          "time": 44486,
+          "duration": 330,
+          "text": "날 "
+        },
+        {
+          "time": 44816,
+          "duration": 1152,
+          "text": "goodbye"
+        }
+      ],
+      "element": {
+        "key": "L8",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Oh, the day lilac flowers fade, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Oh  ra il rak  kko chi  ji neun  nal  goodbye",
+        "syllabus": [
+          {
+            "time": 41522,
+            "duration": 464,
+            "text": "Oh  "
+          },
+          {
+            "time": 41986,
+            "duration": 821,
+            "text": "ra il rak  "
+          },
+          {
+            "time": 43647,
+            "duration": 277,
+            "text": "kko chi  "
+          },
+          {
+            "time": 43924,
+            "duration": 562,
+            "text": "ji neun  "
+          },
+          {
+            "time": 44486,
+            "duration": 330,
+            "text": "nal  "
+          },
+          {
+            "time": 44816,
+            "duration": 1152,
+            "text": "goodbye"
+          }
+        ]
+      }
+    },
+    {
+      "time": 45980,
+      "duration": 2068,
+      "text": "이런 결말이 어울려",
+      "syllabus": [
+        {
+          "time": 45980,
+          "duration": 278,
+          "text": "이런 "
+        },
+        {
+          "time": 46258,
+          "duration": 676,
+          "text": "결말이 "
+        },
+        {
+          "time": 46934,
+          "duration": 557,
+          "text": "어울"
+        },
+        {
+          "time": 47491,
+          "duration": 557,
+          "text": "려"
+        }
+      ],
+      "element": {
+        "key": "L9",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "This ending suits well"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "i reon  gyeol ma ri  eo ul ryeo",
+        "syllabus": [
+          {
+            "time": 45980,
+            "duration": 278,
+            "text": "i reon  "
+          },
+          {
+            "time": 46258,
+            "duration": 676,
+            "text": "gyeol ma ri  "
+          },
+          {
+            "time": 46934,
+            "duration": 557,
+            "text": "eo ul "
+          },
+          {
+            "time": 47491,
+            "duration": 557,
+            "text": "ryeo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 48056,
+      "duration": 2124,
+      "text": "안녕 꽃잎 같은 안녕",
+      "syllabus": [
+        {
+          "time": 48056,
+          "duration": 326,
+          "text": "안녕 "
+        },
+        {
+          "time": 48382,
+          "duration": 463,
+          "text": "꽃잎 "
+        },
+        {
+          "time": 48845,
+          "duration": 407,
+          "text": "같은 "
+        },
+        {
+          "time": 49252,
+          "duration": 928,
+          "text": "안녕"
+        }
+      ],
+      "element": {
+        "key": "L10",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Goodbye, like the falling petals, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "an nyeong  kko chip  ga teun  an nyeong",
+        "syllabus": [
+          {
+            "time": 48056,
+            "duration": 326,
+            "text": "an nyeong  "
+          },
+          {
+            "time": 48382,
+            "duration": 463,
+            "text": "kko chip  "
+          },
+          {
+            "time": 48845,
+            "duration": 407,
+            "text": "ga teun  "
+          },
+          {
+            "time": 49252,
+            "duration": 928,
+            "text": "an nyeong"
+          }
+        ]
+      }
+    },
+    {
+      "time": 50189,
+      "duration": 4565,
+      "text": "하이얀 우리 봄날의 Climax",
+      "syllabus": [
+        {
+          "time": 50189,
+          "duration": 1141,
+          "text": "하이얀 "
+        },
+        {
+          "time": 51899,
+          "duration": 388,
+          "text": "우리 "
+        },
+        {
+          "time": 52287,
+          "duration": 903,
+          "text": "봄날의 "
+        },
+        {
+          "time": 53190,
+          "duration": 553,
+          "text": "Cli"
+        },
+        {
+          "time": 53743,
+          "duration": 1011,
+          "text": "max"
+        }
+      ],
+      "element": {
+        "key": "L11",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Our white spring day, climax"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ha i yan  u ri  bom na rui  Climax",
+        "syllabus": [
+          {
+            "time": 50189,
+            "duration": 1141,
+            "text": "ha i yan  "
+          },
+          {
+            "time": 51899,
+            "duration": 388,
+            "text": "u ri  "
+          },
+          {
+            "time": 52287,
+            "duration": 903,
+            "text": "bom na rui  "
+          },
+          {
+            "time": 53190,
+            "duration": 553,
+            "text": "Cli"
+          },
+          {
+            "time": 53743,
+            "duration": 1011,
+            "text": "max"
+          }
+        ]
+      }
+    },
+    {
+      "time": 54052,
+      "duration": 7448,
+      "text": "Ah 얼마나 기쁜 일이야",
+      "syllabus": [
+        {
+          "time": 54052,
+          "duration": 321,
+          "text": "Ah "
+        },
+        {
+          "time": 54373,
+          "duration": 735,
+          "text": "얼"
+        },
+        {
+          "time": 55108,
+          "duration": 377,
+          "text": "마"
+        },
+        {
+          "time": 55485,
+          "duration": 615,
+          "text": "나 "
+        },
+        {
+          "time": 56654,
+          "duration": 470,
+          "text": "기쁜 "
+        },
+        {
+          "time": 57124,
+          "duration": 909,
+          "text": "일이"
+        },
+        {
+          "time": 58033,
+          "duration": 3467,
+          "text": "야"
+        }
+      ],
+      "element": {
+        "key": "L12",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ah, what a joy it is"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ah  eol ma na  gi ppeun  i ri ya",
+        "syllabus": [
+          {
+            "time": 54052,
+            "duration": 321,
+            "text": "Ah  "
+          },
+          {
+            "time": 54373,
+            "duration": 735,
+            "text": "eol "
+          },
+          {
+            "time": 55108,
+            "duration": 377,
+            "text": "ma "
+          },
+          {
+            "time": 55485,
+            "duration": 615,
+            "text": "na  "
+          },
+          {
+            "time": 56654,
+            "duration": 470,
+            "text": "gi ppeun  "
+          },
+          {
+            "time": 57124,
+            "duration": 909,
+            "text": "i ri "
+          },
+          {
+            "time": 58033,
+            "duration": 3467,
+            "text": "ya"
+          }
+        ]
+      }
+    },
+    {
+      "time": 59343,
+      "duration": 3248,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 59343,
+          "duration": 1239,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 60869,
+          "duration": 1722,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L13",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 59343,
+            "duration": 1239,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 60869,
+            "duration": 1722,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 62600,
+      "duration": 2334,
+      "text": "Love me only till this spring",
+      "syllabus": [
+        {
+          "time": 62600,
+          "duration": 389,
+          "text": "Love "
+        },
+        {
+          "time": 62989,
+          "duration": 389,
+          "text": "me "
+        },
+        {
+          "time": 63378,
+          "duration": 389,
+          "text": "only "
+        },
+        {
+          "time": 63767,
+          "duration": 389,
+          "text": "till "
+        },
+        {
+          "time": 64156,
+          "duration": 389,
+          "text": "this "
+        },
+        {
+          "time": 64545,
+          "duration": 389,
+          "text": "spring"
+        }
+      ],
+      "element": {
+        "key": "L14",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love me only till this spring"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love me only till this spring",
+        "syllabus": [
+          {
+            "time": 62600,
+            "duration": 389,
+            "text": "Love "
+          },
+          {
+            "time": 62989,
+            "duration": 389,
+            "text": "me "
+          },
+          {
+            "time": 63378,
+            "duration": 389,
+            "text": "only "
+          },
+          {
+            "time": 63767,
+            "duration": 389,
+            "text": "till "
+          },
+          {
+            "time": 64156,
+            "duration": 389,
+            "text": "this "
+          },
+          {
+            "time": 64545,
+            "duration": 389,
+            "text": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "time": 65046,
+      "duration": 2179,
+      "text": "봄바람처럼",
+      "syllabus": [
+        {
+          "time": 65046,
+          "duration": 269,
+          "text": "봄"
+        },
+        {
+          "time": 65315,
+          "duration": 489,
+          "text": "바람"
+        },
+        {
+          "time": 65804,
+          "duration": 304,
+          "text": "처"
+        },
+        {
+          "time": 66108,
+          "duration": 1117,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L15",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like the spring wind"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bom ba ram cheo reom",
+        "syllabus": [
+          {
+            "time": 65046,
+            "duration": 269,
+            "text": "bom "
+          },
+          {
+            "time": 65315,
+            "duration": 489,
+            "text": "ba ram "
+          },
+          {
+            "time": 65804,
+            "duration": 304,
+            "text": "cheo "
+          },
+          {
+            "time": 66108,
+            "duration": 1117,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 67664,
+      "duration": 3373,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 67664,
+          "duration": 1212,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 69201,
+          "duration": 354,
+          "text": "ooh"
+        },
+        {
+          "time": 69555,
+          "duration": 368,
+          "text": "-ooh"
+        },
+        {
+          "time": 69923,
+          "duration": 1114,
+          "text": "-ooh"
+        }
+      ],
+      "element": {
+        "key": "L16",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 67664,
+            "duration": 1212,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 69201,
+            "duration": 354,
+            "text": "ooh"
+          },
+          {
+            "time": 69555,
+            "duration": 368,
+            "text": "-ooh"
+          },
+          {
+            "time": 69923,
+            "duration": 1114,
+            "text": "-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 71046,
+      "duration": 2268,
+      "text": "Love me only till this spring",
+      "syllabus": [
+        {
+          "time": 71046,
+          "duration": 378,
+          "text": "Love "
+        },
+        {
+          "time": 71424,
+          "duration": 269,
+          "text": "me "
+        },
+        {
+          "time": 71693,
+          "duration": 405,
+          "text": "only "
+        },
+        {
+          "time": 72098,
+          "duration": 387,
+          "text": "till "
+        },
+        {
+          "time": 72485,
+          "duration": 228,
+          "text": "this "
+        },
+        {
+          "time": 72713,
+          "duration": 601,
+          "text": "spring"
+        }
+      ],
+      "element": {
+        "key": "L17",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love me only till this spring"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love me only till this spring",
+        "syllabus": [
+          {
+            "time": 71046,
+            "duration": 378,
+            "text": "Love "
+          },
+          {
+            "time": 71424,
+            "duration": 269,
+            "text": "me "
+          },
+          {
+            "time": 71693,
+            "duration": 405,
+            "text": "only "
+          },
+          {
+            "time": 72098,
+            "duration": 387,
+            "text": "till "
+          },
+          {
+            "time": 72485,
+            "duration": 228,
+            "text": "this "
+          },
+          {
+            "time": 72713,
+            "duration": 601,
+            "text": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "time": 73422,
+      "duration": 2642,
+      "text": "봄바람처럼",
+      "syllabus": [
+        {
+          "time": 73422,
+          "duration": 269,
+          "text": "봄"
+        },
+        {
+          "time": 73691,
+          "duration": 489,
+          "text": "바람"
+        },
+        {
+          "time": 74180,
+          "duration": 304,
+          "text": "처"
+        },
+        {
+          "time": 74484,
+          "duration": 1580,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L18",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like the spring wind"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bom ba ram cheo reom",
+        "syllabus": [
+          {
+            "time": 73422,
+            "duration": 269,
+            "text": "bom "
+          },
+          {
+            "time": 73691,
+            "duration": 489,
+            "text": "ba ram "
+          },
+          {
+            "time": 74180,
+            "duration": 304,
+            "text": "cheo "
+          },
+          {
+            "time": 74484,
+            "duration": 1580,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 76726,
+      "duration": 4781,
+      "text": "기분이 달아 콧노래 부르네 (랄라)",
+      "syllabus": [
+        {
+          "time": 76726,
+          "duration": 531,
+          "text": "기분이 "
+        },
+        {
+          "time": 77257,
+          "duration": 406,
+          "text": "달아 "
+        },
+        {
+          "time": 77663,
+          "duration": 656,
+          "text": "콧노래 "
+        },
+        {
+          "time": 79213,
+          "duration": 1021,
+          "text": "부르네 "
+        },
+        {
+          "time": 80656,
+          "duration": 851,
+          "text": "(랄라)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L19",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "I'm humming because I'm feeling sweet (Lala)"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "gi bu ni  da ra  kot no rae  bu reu ne (ral ra)",
+        "syllabus": [
+          {
+            "time": 76726,
+            "duration": 531,
+            "text": "gi bu ni  "
+          },
+          {
+            "time": 77257,
+            "duration": 406,
+            "text": "da ra  "
+          },
+          {
+            "time": 77663,
+            "duration": 656,
+            "text": "kot no rae  "
+          },
+          {
+            "time": 79213,
+            "duration": 1021,
+            "text": "bu reu ne "
+          },
+          {
+            "time": 80656,
+            "duration": 851,
+            "text": "(ral ra)"
+          }
+        ]
+      }
+    },
+    {
+      "time": 81232,
+      "duration": 3568,
+      "text": "입꼬리는 살짝 올린 채",
+      "syllabus": [
+        {
+          "time": 81232,
+          "duration": 892,
+          "text": "입꼬리는 "
+        },
+        {
+          "time": 82124,
+          "duration": 698,
+          "text": "살짝 "
+        },
+        {
+          "time": 83511,
+          "duration": 497,
+          "text": "올린 "
+        },
+        {
+          "time": 84008,
+          "duration": 792,
+          "text": "채"
+        }
+      ],
+      "element": {
+        "key": "L20",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "With the corners of my lips slightly raised"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ip kko ri neun  sal jjak  ol rin  chae",
+        "syllabus": [
+          {
+            "time": 81232,
+            "duration": 892,
+            "text": "ip kko ri neun  "
+          },
+          {
+            "time": 82124,
+            "duration": 698,
+            "text": "sal jjak  "
+          },
+          {
+            "time": 83511,
+            "duration": 497,
+            "text": "ol rin  "
+          },
+          {
+            "time": 84008,
+            "duration": 792,
+            "text": "chae"
+          }
+        ]
+      }
+    },
+    {
+      "time": 84808,
+      "duration": 5181,
+      "text": "어쩜 이렇게 하늘은 더 바람은 또 완벽한건지",
+      "syllabus": [
+        {
+          "time": 84808,
+          "duration": 511,
+          "text": "어쩜 "
+        },
+        {
+          "time": 85319,
+          "duration": 594,
+          "text": "이렇게 "
+        },
+        {
+          "time": 86079,
+          "duration": 720,
+          "text": "하늘은 "
+        },
+        {
+          "time": 86799,
+          "duration": 397,
+          "text": "더 "
+        },
+        {
+          "time": 87196,
+          "duration": 864,
+          "text": "바람은 "
+        },
+        {
+          "time": 88060,
+          "duration": 251,
+          "text": "또 "
+        },
+        {
+          "time": 88311,
+          "duration": 839,
+          "text": "완벽한"
+        },
+        {
+          "time": 89150,
+          "duration": 839,
+          "text": "건지"
+        }
+      ],
+      "element": {
+        "key": "L21",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "How can the sky and the wind be this perfect?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "eo jjeom  i reo ke  ha neu reun  deo  ba ra meun  tto  wan byeok han geon ji",
+        "syllabus": [
+          {
+            "time": 84808,
+            "duration": 511,
+            "text": "eo jjeom  "
+          },
+          {
+            "time": 85319,
+            "duration": 594,
+            "text": "i reo ke  "
+          },
+          {
+            "time": 86079,
+            "duration": 720,
+            "text": "ha neu reun  "
+          },
+          {
+            "time": 86799,
+            "duration": 397,
+            "text": "deo  "
+          },
+          {
+            "time": 87196,
+            "duration": 864,
+            "text": "ba ra meun  "
+          },
+          {
+            "time": 88060,
+            "duration": 251,
+            "text": "tto  "
+          },
+          {
+            "time": 88311,
+            "duration": 839,
+            "text": "wan byeok han "
+          },
+          {
+            "time": 89150,
+            "duration": 839,
+            "text": "geon ji"
+          }
+        ]
+      }
+    },
+    {
+      "time": 90296,
+      "duration": 3940,
+      "text": "오늘따라 내 모습 맘에 들어",
+      "syllabus": [
+        {
+          "time": 90296,
+          "duration": 1113,
+          "text": "오늘따라 "
+        },
+        {
+          "time": 91409,
+          "duration": 297,
+          "text": "내 "
+        },
+        {
+          "time": 91706,
+          "duration": 353,
+          "text": "모습 "
+        },
+        {
+          "time": 92184,
+          "duration": 646,
+          "text": "맘에 "
+        },
+        {
+          "time": 92830,
+          "duration": 378,
+          "text": "들"
+        },
+        {
+          "time": 93208,
+          "duration": 1028,
+          "text": "어"
+        }
+      ],
+      "element": {
+        "key": "L22",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "I like the way I look today"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "o neul tta ra  nae  mo seup  ma me  deu reo",
+        "syllabus": [
+          {
+            "time": 90296,
+            "duration": 1113,
+            "text": "o neul tta ra  "
+          },
+          {
+            "time": 91409,
+            "duration": 297,
+            "text": "nae  "
+          },
+          {
+            "time": 91706,
+            "duration": 353,
+            "text": "mo seup  "
+          },
+          {
+            "time": 92184,
+            "duration": 646,
+            "text": "ma me  "
+          },
+          {
+            "time": 92830,
+            "duration": 378,
+            "text": "deu "
+          },
+          {
+            "time": 93208,
+            "duration": 1028,
+            "text": "reo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 94244,
+      "duration": 7056,
+      "text": "처음 만난 그날 처럼 예쁘다고 말해줄래",
+      "syllabus": [
+        {
+          "time": 94244,
+          "duration": 439,
+          "text": "처음 "
+        },
+        {
+          "time": 94683,
+          "duration": 623,
+          "text": "만난 "
+        },
+        {
+          "time": 95306,
+          "duration": 666,
+          "text": "그날 "
+        },
+        {
+          "time": 95972,
+          "duration": 1119,
+          "text": "처럼 "
+        },
+        {
+          "time": 97091,
+          "duration": 1353,
+          "text": "예쁘다"
+        },
+        {
+          "time": 98444,
+          "duration": 971,
+          "text": "고 "
+        },
+        {
+          "time": 100124,
+          "duration": 1176,
+          "text": "말해줄래"
+        }
+      ],
+      "element": {
+        "key": "L23",
+        "singer": "v1",
+        "songPartIndex": 5
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Will you tell me I'm pretty like the day we first met?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "cheo eum  man nan  geu nal  cheo reom  ye ppeu da go  mal hae jul rae",
+        "syllabus": [
+          {
+            "time": 94244,
+            "duration": 439,
+            "text": "cheo eum  "
+          },
+          {
+            "time": 94683,
+            "duration": 623,
+            "text": "man nan  "
+          },
+          {
+            "time": 95306,
+            "duration": 666,
+            "text": "geu nal  "
+          },
+          {
+            "time": 95972,
+            "duration": 1119,
+            "text": "cheo reom  "
+          },
+          {
+            "time": 97091,
+            "duration": 1353,
+            "text": "ye ppeu da "
+          },
+          {
+            "time": 98444,
+            "duration": 971,
+            "text": "go  "
+          },
+          {
+            "time": 100124,
+            "duration": 1176,
+            "text": "mal hae jul rae"
+          }
+        ]
+      }
+    },
+    {
+      "time": 102517,
+      "duration": 5276,
+      "text": "어느 이별이 이토록 달콤할까",
+      "syllabus": [
+        {
+          "time": 102517,
+          "duration": 789,
+          "text": "어느 "
+        },
+        {
+          "time": 103306,
+          "duration": 1308,
+          "text": "이별이 "
+        },
+        {
+          "time": 104614,
+          "duration": 980,
+          "text": "이토록 "
+        },
+        {
+          "time": 105594,
+          "duration": 856,
+          "text": "달콤"
+        },
+        {
+          "time": 106450,
+          "duration": 1343,
+          "text": "할까"
+        }
+      ],
+      "element": {
+        "key": "L24",
+        "singer": "v1",
+        "songPartIndex": 5
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "What farewell could be more sweet than this?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "eo neu  i byeo ri  i to rok  dal kom hal kka",
+        "syllabus": [
+          {
+            "time": 102517,
+            "duration": 789,
+            "text": "eo neu  "
+          },
+          {
+            "time": 103306,
+            "duration": 1308,
+            "text": "i byeo ri  "
+          },
+          {
+            "time": 104614,
+            "duration": 980,
+            "text": "i to rok  "
+          },
+          {
+            "time": 105594,
+            "duration": 856,
+            "text": "dal kom "
+          },
+          {
+            "time": 106450,
+            "duration": 1343,
+            "text": "hal kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 108556,
+      "duration": 2424,
+      "text": "Love resembles misty dream",
+      "syllabus": [
+        {
+          "time": 108556,
+          "duration": 606,
+          "text": "Love "
+        },
+        {
+          "time": 109162,
+          "duration": 606,
+          "text": "resembles "
+        },
+        {
+          "time": 109768,
+          "duration": 606,
+          "text": "misty "
+        },
+        {
+          "time": 110374,
+          "duration": 606,
+          "text": "dream"
+        }
+      ],
+      "element": {
+        "key": "L25",
+        "singer": "v1",
+        "songPartIndex": 5
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love resembles misty dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love resembles misty dream",
+        "syllabus": [
+          {
+            "time": 108556,
+            "duration": 606,
+            "text": "Love "
+          },
+          {
+            "time": 109162,
+            "duration": 606,
+            "text": "resembles "
+          },
+          {
+            "time": 109768,
+            "duration": 606,
+            "text": "misty "
+          },
+          {
+            "time": 110374,
+            "duration": 606,
+            "text": "dream"
+          }
+        ]
+      }
+    },
+    {
+      "time": 110390,
+      "duration": 4482,
+      "text": "Oh 라일락 꽃이 지는 날 goodbye",
+      "syllabus": [
+        {
+          "time": 110390,
+          "duration": 441,
+          "text": "Oh "
+        },
+        {
+          "time": 110831,
+          "duration": 1053,
+          "text": "라일락 "
+        },
+        {
+          "time": 112307,
+          "duration": 396,
+          "text": "꽃이 "
+        },
+        {
+          "time": 112703,
+          "duration": 675,
+          "text": "지는 "
+        },
+        {
+          "time": 113378,
+          "duration": 486,
+          "text": "날 "
+        },
+        {
+          "time": 113864,
+          "duration": 1008,
+          "text": "goodbye"
+        }
+      ],
+      "element": {
+        "key": "L26",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Oh, the day lilac flowers fade, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Oh  ra il rak  kko chi  ji neun  nal  goodbye",
+        "syllabus": [
+          {
+            "time": 110390,
+            "duration": 441,
+            "text": "Oh  "
+          },
+          {
+            "time": 110831,
+            "duration": 1053,
+            "text": "ra il rak  "
+          },
+          {
+            "time": 112307,
+            "duration": 396,
+            "text": "kko chi  "
+          },
+          {
+            "time": 112703,
+            "duration": 675,
+            "text": "ji neun  "
+          },
+          {
+            "time": 113378,
+            "duration": 486,
+            "text": "nal  "
+          },
+          {
+            "time": 113864,
+            "duration": 1008,
+            "text": "goodbye"
+          }
+        ]
+      }
+    },
+    {
+      "time": 114881,
+      "duration": 2047,
+      "text": "이런 결말이 어울려",
+      "syllabus": [
+        {
+          "time": 114881,
+          "duration": 284,
+          "text": "이런 "
+        },
+        {
+          "time": 115165,
+          "duration": 603,
+          "text": "결말이 "
+        },
+        {
+          "time": 115768,
+          "duration": 580,
+          "text": "어울"
+        },
+        {
+          "time": 116348,
+          "duration": 580,
+          "text": "려"
+        }
+      ],
+      "element": {
+        "key": "L27",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "This ending suits well"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "i reon  gyeol ma ri  eo ul ryeo",
+        "syllabus": [
+          {
+            "time": 114881,
+            "duration": 284,
+            "text": "i reon  "
+          },
+          {
+            "time": 115165,
+            "duration": 603,
+            "text": "gyeol ma ri  "
+          },
+          {
+            "time": 115768,
+            "duration": 580,
+            "text": "eo ul "
+          },
+          {
+            "time": 116348,
+            "duration": 580,
+            "text": "ryeo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 116938,
+      "duration": 2100,
+      "text": "안녕 꽃잎 같은 안녕",
+      "syllabus": [
+        {
+          "time": 116938,
+          "duration": 445,
+          "text": "안녕 "
+        },
+        {
+          "time": 117383,
+          "duration": 504,
+          "text": "꽃잎 "
+        },
+        {
+          "time": 117887,
+          "duration": 293,
+          "text": "같은 "
+        },
+        {
+          "time": 118180,
+          "duration": 858,
+          "text": "안녕"
+        }
+      ],
+      "element": {
+        "key": "L28",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Goodbye, like the falling petals, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "an nyeong  kko chip  ga teun  an nyeong",
+        "syllabus": [
+          {
+            "time": 116938,
+            "duration": 445,
+            "text": "an nyeong  "
+          },
+          {
+            "time": 117383,
+            "duration": 504,
+            "text": "kko chip  "
+          },
+          {
+            "time": 117887,
+            "duration": 293,
+            "text": "ga teun  "
+          },
+          {
+            "time": 118180,
+            "duration": 858,
+            "text": "an nyeong"
+          }
+        ]
+      }
+    },
+    {
+      "time": 119046,
+      "duration": 4344,
+      "text": "하이얀 우리 봄날의 Climax",
+      "syllabus": [
+        {
+          "time": 119046,
+          "duration": 1086,
+          "text": "하이얀 "
+        },
+        {
+          "time": 120787,
+          "duration": 396,
+          "text": "우리 "
+        },
+        {
+          "time": 121183,
+          "duration": 807,
+          "text": "봄날의 "
+        },
+        {
+          "time": 121990,
+          "duration": 412,
+          "text": "Cli"
+        },
+        {
+          "time": 122402,
+          "duration": 988,
+          "text": "max"
+        }
+      ],
+      "element": {
+        "key": "L29",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Our white spring day, climax"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ha i yan  u ri  bom na rui  Climax",
+        "syllabus": [
+          {
+            "time": 119046,
+            "duration": 1086,
+            "text": "ha i yan  "
+          },
+          {
+            "time": 120787,
+            "duration": 396,
+            "text": "u ri  "
+          },
+          {
+            "time": 121183,
+            "duration": 807,
+            "text": "bom na rui  "
+          },
+          {
+            "time": 121990,
+            "duration": 412,
+            "text": "Cli"
+          },
+          {
+            "time": 122402,
+            "duration": 988,
+            "text": "max"
+          }
+        ]
+      }
+    },
+    {
+      "time": 123000,
+      "duration": 7317,
+      "text": "Ah 얼마나 기쁜 일이야",
+      "syllabus": [
+        {
+          "time": 123000,
+          "duration": 344,
+          "text": "Ah "
+        },
+        {
+          "time": 123344,
+          "duration": 621,
+          "text": "얼"
+        },
+        {
+          "time": 123965,
+          "duration": 767,
+          "text": "마나 "
+        },
+        {
+          "time": 125423,
+          "duration": 667,
+          "text": "기쁜 "
+        },
+        {
+          "time": 126090,
+          "duration": 791,
+          "text": "일이"
+        },
+        {
+          "time": 126881,
+          "duration": 3436,
+          "text": "야"
+        }
+      ],
+      "element": {
+        "key": "L30",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ah, what a joy it is"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ah  eol ma na  gi ppeun  i ri ya",
+        "syllabus": [
+          {
+            "time": 123000,
+            "duration": 344,
+            "text": "Ah  "
+          },
+          {
+            "time": 123344,
+            "duration": 621,
+            "text": "eol "
+          },
+          {
+            "time": 123965,
+            "duration": 767,
+            "text": "ma na  "
+          },
+          {
+            "time": 125423,
+            "duration": 667,
+            "text": "gi ppeun  "
+          },
+          {
+            "time": 126090,
+            "duration": 791,
+            "text": "i ri "
+          },
+          {
+            "time": 126881,
+            "duration": 3436,
+            "text": "ya"
+          }
+        ]
+      }
+    },
+    {
+      "time": 128167,
+      "duration": 3286,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 128167,
+          "duration": 1042,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 129420,
+          "duration": 2033,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L31",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 128167,
+            "duration": 1042,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 129420,
+            "duration": 2033,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 131463,
+      "duration": 2412,
+      "text": "Love resembles misty dream",
+      "syllabus": [
+        {
+          "time": 131463,
+          "duration": 603,
+          "text": "Love "
+        },
+        {
+          "time": 132066,
+          "duration": 603,
+          "text": "resembles "
+        },
+        {
+          "time": 132669,
+          "duration": 603,
+          "text": "misty "
+        },
+        {
+          "time": 133272,
+          "duration": 603,
+          "text": "dream"
+        }
+      ],
+      "element": {
+        "key": "L32",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love resembles misty dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love resembles misty dream",
+        "syllabus": [
+          {
+            "time": 131463,
+            "duration": 603,
+            "text": "Love "
+          },
+          {
+            "time": 132066,
+            "duration": 603,
+            "text": "resembles "
+          },
+          {
+            "time": 132669,
+            "duration": 603,
+            "text": "misty "
+          },
+          {
+            "time": 133272,
+            "duration": 603,
+            "text": "dream"
+          }
+        ]
+      }
+    },
+    {
+      "time": 133884,
+      "duration": 2144,
+      "text": "뜬구름처럼",
+      "syllabus": [
+        {
+          "time": 133884,
+          "duration": 311,
+          "text": "뜬"
+        },
+        {
+          "time": 134195,
+          "duration": 536,
+          "text": "구름"
+        },
+        {
+          "time": 134731,
+          "duration": 285,
+          "text": "처"
+        },
+        {
+          "time": 135016,
+          "duration": 1012,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L33",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like a drifting cloud"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "tteun gu reum cheo reom",
+        "syllabus": [
+          {
+            "time": 133884,
+            "duration": 311,
+            "text": "tteun "
+          },
+          {
+            "time": 134195,
+            "duration": 536,
+            "text": "gu reum "
+          },
+          {
+            "time": 134731,
+            "duration": 285,
+            "text": "cheo "
+          },
+          {
+            "time": 135016,
+            "duration": 1012,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 136538,
+      "duration": 3270,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 136538,
+          "duration": 1274,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 138009,
+          "duration": 1799,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L34",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 136538,
+            "duration": 1274,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 138009,
+            "duration": 1799,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 139828,
+      "duration": 2404,
+      "text": "Love resembles misty dream",
+      "syllabus": [
+        {
+          "time": 139828,
+          "duration": 601,
+          "text": "Love "
+        },
+        {
+          "time": 140429,
+          "duration": 601,
+          "text": "resembles "
+        },
+        {
+          "time": 141030,
+          "duration": 601,
+          "text": "misty "
+        },
+        {
+          "time": 141631,
+          "duration": 601,
+          "text": "dream"
+        }
+      ],
+      "element": {
+        "key": "L35",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love resembles misty dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love resembles misty dream",
+        "syllabus": [
+          {
+            "time": 139828,
+            "duration": 601,
+            "text": "Love "
+          },
+          {
+            "time": 140429,
+            "duration": 601,
+            "text": "resembles "
+          },
+          {
+            "time": 141030,
+            "duration": 601,
+            "text": "misty "
+          },
+          {
+            "time": 141631,
+            "duration": 601,
+            "text": "dream"
+          }
+        ]
+      }
+    },
+    {
+      "time": 142242,
+      "duration": 2436,
+      "text": "뜬구름처럼",
+      "syllabus": [
+        {
+          "time": 142242,
+          "duration": 311,
+          "text": "뜬"
+        },
+        {
+          "time": 142553,
+          "duration": 536,
+          "text": "구름"
+        },
+        {
+          "time": 143089,
+          "duration": 285,
+          "text": "처"
+        },
+        {
+          "time": 143374,
+          "duration": 1304,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L36",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like a drifting cloud"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "tteun gu reum cheo reom",
+        "syllabus": [
+          {
+            "time": 142242,
+            "duration": 311,
+            "text": "tteun "
+          },
+          {
+            "time": 142553,
+            "duration": 536,
+            "text": "gu reum "
+          },
+          {
+            "time": 143089,
+            "duration": 285,
+            "text": "cheo "
+          },
+          {
+            "time": 143374,
+            "duration": 1304,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 145380,
+      "duration": 4460,
+      "text": "너도 언젠가 날 잊게 될까",
+      "syllabus": [
+        {
+          "time": 145380,
+          "duration": 677,
+          "text": "너도 "
+        },
+        {
+          "time": 146057,
+          "duration": 1161,
+          "text": "언젠가 "
+        },
+        {
+          "time": 147433,
+          "duration": 354,
+          "text": "날 "
+        },
+        {
+          "time": 147787,
+          "duration": 489,
+          "text": "잊게 "
+        },
+        {
+          "time": 148276,
+          "duration": 1564,
+          "text": "될까"
+        }
+      ],
+      "element": {
+        "key": "L37",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Will you forget me too someday?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "neo do  eon jen ga  nal  it ge  doel kka",
+        "syllabus": [
+          {
+            "time": 145380,
+            "duration": 677,
+            "text": "neo do  "
+          },
+          {
+            "time": 146057,
+            "duration": 1161,
+            "text": "eon jen ga  "
+          },
+          {
+            "time": 147433,
+            "duration": 354,
+            "text": "nal  "
+          },
+          {
+            "time": 147787,
+            "duration": 489,
+            "text": "it ge  "
+          },
+          {
+            "time": 148276,
+            "duration": 1564,
+            "text": "doel kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 150154,
+      "duration": 3516,
+      "text": "지금 표정과 오늘의 향기도",
+      "syllabus": [
+        {
+          "time": 150154,
+          "duration": 434,
+          "text": "지금 "
+        },
+        {
+          "time": 150588,
+          "duration": 893,
+          "text": "표정과 "
+        },
+        {
+          "time": 151672,
+          "duration": 618,
+          "text": "오늘의 "
+        },
+        {
+          "time": 152290,
+          "duration": 1380,
+          "text": "향기도"
+        }
+      ],
+      "element": {
+        "key": "L38",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Even expressions right now and scent of today?"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ji geum  pyo jeong gwa  o neu rui  hyang gi do",
+        "syllabus": [
+          {
+            "time": 150154,
+            "duration": 434,
+            "text": "ji geum  "
+          },
+          {
+            "time": 150588,
+            "duration": 893,
+            "text": "pyo jeong gwa  "
+          },
+          {
+            "time": 151672,
+            "duration": 618,
+            "text": "o neu rui  "
+          },
+          {
+            "time": 152290,
+            "duration": 1380,
+            "text": "hyang gi do"
+          }
+        ]
+      }
+    },
+    {
+      "time": 153681,
+      "duration": 3129,
+      "text": "단잠 사이에 스쳐간",
+      "syllabus": [
+        {
+          "time": 153681,
+          "duration": 553,
+          "text": "단잠 "
+        },
+        {
+          "time": 154234,
+          "duration": 816,
+          "text": "사이에 "
+        },
+        {
+          "time": 155050,
+          "duration": 880,
+          "text": "스쳐"
+        },
+        {
+          "time": 155930,
+          "duration": 880,
+          "text": "간"
+        }
+      ],
+      "element": {
+        "key": "L39",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Passed by in a short nap"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "dan jam  sa i e  seu chyeo gan",
+        "syllabus": [
+          {
+            "time": 153681,
+            "duration": 553,
+            "text": "dan jam  "
+          },
+          {
+            "time": 154234,
+            "duration": 816,
+            "text": "sa i e  "
+          },
+          {
+            "time": 155050,
+            "duration": 880,
+            "text": "seu chyeo "
+          },
+          {
+            "time": 155930,
+            "duration": 880,
+            "text": "gan"
+          }
+        ]
+      }
+    },
+    {
+      "time": 156821,
+      "duration": 6042,
+      "text": "봄날의 꿈처럼",
+      "syllabus": [
+        {
+          "time": 156821,
+          "duration": 897,
+          "text": "봄날의 "
+        },
+        {
+          "time": 157718,
+          "duration": 1000,
+          "text": "꿈처"
+        },
+        {
+          "time": 158718,
+          "duration": 4145,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L40",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "They're gone like a spring dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bom na rui  kkum cheo reom",
+        "syllabus": [
+          {
+            "time": 156821,
+            "duration": 897,
+            "text": "bom na rui  "
+          },
+          {
+            "time": 157718,
+            "duration": 1000,
+            "text": "kkum cheo "
+          },
+          {
+            "time": 158718,
+            "duration": 4145,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 160518,
+      "duration": 4386,
+      "text": "Oh 라일락 꽃이 지는 날 goodbye",
+      "syllabus": [
+        {
+          "time": 160518,
+          "duration": 414,
+          "text": "Oh "
+        },
+        {
+          "time": 160932,
+          "duration": 889,
+          "text": "라일락 "
+        },
+        {
+          "time": 162570,
+          "duration": 379,
+          "text": "꽃이 "
+        },
+        {
+          "time": 162949,
+          "duration": 396,
+          "text": "지는 "
+        },
+        {
+          "time": 163345,
+          "duration": 343,
+          "text": "날 "
+        },
+        {
+          "time": 163688,
+          "duration": 1216,
+          "text": "goodbye"
+        }
+      ],
+      "element": {
+        "key": "L41",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Oh, the day lilac flowers fade, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Oh  ra il rak  kko chi  ji neun  nal  goodbye",
+        "syllabus": [
+          {
+            "time": 160518,
+            "duration": 414,
+            "text": "Oh  "
+          },
+          {
+            "time": 160932,
+            "duration": 889,
+            "text": "ra il rak  "
+          },
+          {
+            "time": 162570,
+            "duration": 379,
+            "text": "kko chi  "
+          },
+          {
+            "time": 162949,
+            "duration": 396,
+            "text": "ji neun  "
+          },
+          {
+            "time": 163345,
+            "duration": 343,
+            "text": "nal  "
+          },
+          {
+            "time": 163688,
+            "duration": 1216,
+            "text": "goodbye"
+          }
+        ]
+      }
+    },
+    {
+      "time": 164914,
+      "duration": 2136,
+      "text": "너의 대답이 날 울려",
+      "syllabus": [
+        {
+          "time": 164914,
+          "duration": 337,
+          "text": "너의 "
+        },
+        {
+          "time": 165251,
+          "duration": 624,
+          "text": "대답이 "
+        },
+        {
+          "time": 165875,
+          "duration": 349,
+          "text": "날 "
+        },
+        {
+          "time": 166224,
+          "duration": 826,
+          "text": "울려"
+        }
+      ],
+      "element": {
+        "key": "L42",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Your answer makes me cry"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "neo ui  dae da bi  nal  ul ryeo",
+        "syllabus": [
+          {
+            "time": 164914,
+            "duration": 337,
+            "text": "neo ui  "
+          },
+          {
+            "time": 165251,
+            "duration": 624,
+            "text": "dae da bi  "
+          },
+          {
+            "time": 165875,
+            "duration": 349,
+            "text": "nal  "
+          },
+          {
+            "time": 166224,
+            "duration": 826,
+            "text": "ul ryeo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 167060,
+      "duration": 2100,
+      "text": "안녕 약속 같은 안녕",
+      "syllabus": [
+        {
+          "time": 167060,
+          "duration": 297,
+          "text": "안녕 "
+        },
+        {
+          "time": 167357,
+          "duration": 343,
+          "text": "약속 "
+        },
+        {
+          "time": 167700,
+          "duration": 619,
+          "text": "같은 "
+        },
+        {
+          "time": 168319,
+          "duration": 841,
+          "text": "안녕"
+        }
+      ],
+      "element": {
+        "key": "L43",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Goodbye, like a promise, goodbye"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "an nyeong  yak sok  ga teun  an nyeong",
+        "syllabus": [
+          {
+            "time": 167060,
+            "duration": 297,
+            "text": "an nyeong  "
+          },
+          {
+            "time": 167357,
+            "duration": 343,
+            "text": "yak sok  "
+          },
+          {
+            "time": 167700,
+            "duration": 619,
+            "text": "ga teun  "
+          },
+          {
+            "time": 168319,
+            "duration": 841,
+            "text": "an nyeong"
+          }
+        ]
+      }
+    },
+    {
+      "time": 169169,
+      "duration": 4248,
+      "text": "하이얀 우리 봄날의 Climax",
+      "syllabus": [
+        {
+          "time": 169169,
+          "duration": 738,
+          "text": "하이얀 "
+        },
+        {
+          "time": 170811,
+          "duration": 439,
+          "text": "우리 "
+        },
+        {
+          "time": 171250,
+          "duration": 712,
+          "text": "봄날의 "
+        },
+        {
+          "time": 171962,
+          "duration": 1455,
+          "text": "Climax"
+        }
+      ],
+      "element": {
+        "key": "L44",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Our white spring day, climax"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ha i yan  u ri  bom na rui  Climax",
+        "syllabus": [
+          {
+            "time": 169169,
+            "duration": 738,
+            "text": "ha i yan  "
+          },
+          {
+            "time": 170811,
+            "duration": 439,
+            "text": "u ri  "
+          },
+          {
+            "time": 171250,
+            "duration": 712,
+            "text": "bom na rui  "
+          },
+          {
+            "time": 171962,
+            "duration": 1455,
+            "text": "Climax"
+          }
+        ]
+      }
+    },
+    {
+      "time": 172725,
+      "duration": 7729,
+      "text": "Ah 얼마나 기쁜 일이야",
+      "syllabus": [
+        {
+          "time": 172725,
+          "duration": 581,
+          "text": "Ah "
+        },
+        {
+          "time": 173306,
+          "duration": 655,
+          "text": "얼"
+        },
+        {
+          "time": 173961,
+          "duration": 936,
+          "text": "마나 "
+        },
+        {
+          "time": 175441,
+          "duration": 750,
+          "text": "기쁜 "
+        },
+        {
+          "time": 176191,
+          "duration": 672,
+          "text": "일이"
+        },
+        {
+          "time": 176863,
+          "duration": 3591,
+          "text": "야"
+        }
+      ],
+      "element": {
+        "key": "L45",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ah, what a joy it is"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ah  eol ma na  gi ppeun  i ri ya",
+        "syllabus": [
+          {
+            "time": 172725,
+            "duration": 581,
+            "text": "Ah  "
+          },
+          {
+            "time": 173306,
+            "duration": 655,
+            "text": "eol "
+          },
+          {
+            "time": 173961,
+            "duration": 936,
+            "text": "ma na  "
+          },
+          {
+            "time": 175441,
+            "duration": 750,
+            "text": "gi ppeun  "
+          },
+          {
+            "time": 176191,
+            "duration": 672,
+            "text": "i ri "
+          },
+          {
+            "time": 176863,
+            "duration": 3591,
+            "text": "ya"
+          }
+        ]
+      }
+    },
+    {
+      "time": 178192,
+      "duration": 3352,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 178192,
+          "duration": 1157,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 179686,
+          "duration": 1858,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L46",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 178192,
+            "duration": 1157,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 179686,
+            "duration": 1858,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 181653,
+      "duration": 2310,
+      "text": "Love me only till this spring",
+      "syllabus": [
+        {
+          "time": 181653,
+          "duration": 385,
+          "text": "Love "
+        },
+        {
+          "time": 182038,
+          "duration": 385,
+          "text": "me "
+        },
+        {
+          "time": 182423,
+          "duration": 269,
+          "text": "only "
+        },
+        {
+          "time": 182692,
+          "duration": 297,
+          "text": "till "
+        },
+        {
+          "time": 182989,
+          "duration": 440,
+          "text": "this "
+        },
+        {
+          "time": 183429,
+          "duration": 534,
+          "text": "spring"
+        }
+      ],
+      "element": {
+        "key": "L47",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love me only till this spring"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love me only till this spring",
+        "syllabus": [
+          {
+            "time": 181653,
+            "duration": 385,
+            "text": "Love "
+          },
+          {
+            "time": 182038,
+            "duration": 385,
+            "text": "me "
+          },
+          {
+            "time": 182423,
+            "duration": 269,
+            "text": "only "
+          },
+          {
+            "time": 182692,
+            "duration": 297,
+            "text": "till "
+          },
+          {
+            "time": 182989,
+            "duration": 440,
+            "text": "this "
+          },
+          {
+            "time": 183429,
+            "duration": 534,
+            "text": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "time": 183971,
+      "duration": 2179,
+      "text": "봄바람처럼",
+      "syllabus": [
+        {
+          "time": 183971,
+          "duration": 269,
+          "text": "봄"
+        },
+        {
+          "time": 184240,
+          "duration": 489,
+          "text": "바람"
+        },
+        {
+          "time": 184729,
+          "duration": 304,
+          "text": "처"
+        },
+        {
+          "time": 185033,
+          "duration": 1117,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L48",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like the spring wind"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bom ba ram cheo reom",
+        "syllabus": [
+          {
+            "time": 183971,
+            "duration": 269,
+            "text": "bom "
+          },
+          {
+            "time": 184240,
+            "duration": 489,
+            "text": "ba ram "
+          },
+          {
+            "time": 184729,
+            "duration": 304,
+            "text": "cheo "
+          },
+          {
+            "time": 185033,
+            "duration": 1117,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 186499,
+      "duration": 3430,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 186499,
+          "duration": 1212,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 187973,
+          "duration": 1956,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L49",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 186499,
+            "duration": 1212,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 187973,
+            "duration": 1956,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 189938,
+      "duration": 2280,
+      "text": "Love me only till this spring",
+      "syllabus": [
+        {
+          "time": 189938,
+          "duration": 265,
+          "text": "Love "
+        },
+        {
+          "time": 190203,
+          "duration": 426,
+          "text": "me "
+        },
+        {
+          "time": 190629,
+          "duration": 334,
+          "text": "only "
+        },
+        {
+          "time": 190963,
+          "duration": 417,
+          "text": "till "
+        },
+        {
+          "time": 191380,
+          "duration": 307,
+          "text": "this "
+        },
+        {
+          "time": 191687,
+          "duration": 531,
+          "text": "spring"
+        }
+      ],
+      "element": {
+        "key": "L50",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love me only till this spring"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love me only till this spring",
+        "syllabus": [
+          {
+            "time": 189938,
+            "duration": 265,
+            "text": "Love "
+          },
+          {
+            "time": 190203,
+            "duration": 426,
+            "text": "me "
+          },
+          {
+            "time": 190629,
+            "duration": 334,
+            "text": "only "
+          },
+          {
+            "time": 190963,
+            "duration": 417,
+            "text": "till "
+          },
+          {
+            "time": 191380,
+            "duration": 307,
+            "text": "this "
+          },
+          {
+            "time": 191687,
+            "duration": 531,
+            "text": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "time": 192326,
+      "duration": 2337,
+      "text": "봄바람처럼",
+      "syllabus": [
+        {
+          "time": 192326,
+          "duration": 269,
+          "text": "봄"
+        },
+        {
+          "time": 192595,
+          "duration": 489,
+          "text": "바람"
+        },
+        {
+          "time": 193084,
+          "duration": 304,
+          "text": "처"
+        },
+        {
+          "time": 193388,
+          "duration": 1275,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L51",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like the spring wind"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bom ba ram cheo reom",
+        "syllabus": [
+          {
+            "time": 192326,
+            "duration": 269,
+            "text": "bom "
+          },
+          {
+            "time": 192595,
+            "duration": 489,
+            "text": "ba ram "
+          },
+          {
+            "time": 193084,
+            "duration": 304,
+            "text": "cheo "
+          },
+          {
+            "time": 193388,
+            "duration": 1275,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 194929,
+      "duration": 3310,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 194929,
+          "duration": 1070,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 196358,
+          "duration": 1881,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L52",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 194929,
+            "duration": 1070,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 196358,
+            "duration": 1881,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 198249,
+      "duration": 2400,
+      "text": "Love resembles misty dream",
+      "syllabus": [
+        {
+          "time": 198249,
+          "duration": 600,
+          "text": "Love "
+        },
+        {
+          "time": 198849,
+          "duration": 600,
+          "text": "resembles "
+        },
+        {
+          "time": 199449,
+          "duration": 600,
+          "text": "misty "
+        },
+        {
+          "time": 200049,
+          "duration": 600,
+          "text": "dream"
+        }
+      ],
+      "element": {
+        "key": "L53",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love resembles misty dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love resembles misty dream",
+        "syllabus": [
+          {
+            "time": 198249,
+            "duration": 600,
+            "text": "Love "
+          },
+          {
+            "time": 198849,
+            "duration": 600,
+            "text": "resembles "
+          },
+          {
+            "time": 199449,
+            "duration": 600,
+            "text": "misty "
+          },
+          {
+            "time": 200049,
+            "duration": 600,
+            "text": "dream"
+          }
+        ]
+      }
+    },
+    {
+      "time": 200658,
+      "duration": 2276,
+      "text": "뜬구름처럼",
+      "syllabus": [
+        {
+          "time": 200658,
+          "duration": 311,
+          "text": "뜬"
+        },
+        {
+          "time": 200969,
+          "duration": 536,
+          "text": "구름"
+        },
+        {
+          "time": 201505,
+          "duration": 285,
+          "text": "처"
+        },
+        {
+          "time": 201790,
+          "duration": 1144,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L54",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like a drifting cloud"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "tteun gu reum cheo reom",
+        "syllabus": [
+          {
+            "time": 200658,
+            "duration": 311,
+            "text": "tteun "
+          },
+          {
+            "time": 200969,
+            "duration": 536,
+            "text": "gu reum "
+          },
+          {
+            "time": 201505,
+            "duration": 285,
+            "text": "cheo "
+          },
+          {
+            "time": 201790,
+            "duration": 1144,
+            "text": "reom"
+          }
+        ]
+      }
+    },
+    {
+      "time": 203292,
+      "duration": 3372,
+      "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 203292,
+          "duration": 1049,
+          "text": "Ooh-ooh-ooh, "
+        },
+        {
+          "time": 204680,
+          "duration": 1984,
+          "text": "ooh-ooh-ooh"
+        }
+      ],
+      "element": {
+        "key": "L55",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ooh-ooh-ooh, ooh-ooh-ooh",
+        "syllabus": [
+          {
+            "time": 203292,
+            "duration": 1049,
+            "text": "Ooh-ooh-ooh, "
+          },
+          {
+            "time": 204680,
+            "duration": 1984,
+            "text": "ooh-ooh-ooh"
+          }
+        ]
+      }
+    },
+    {
+      "time": 206674,
+      "duration": 2264,
+      "text": "Love resembles misty dream",
+      "syllabus": [
+        {
+          "time": 206674,
+          "duration": 566,
+          "text": "Love "
+        },
+        {
+          "time": 207240,
+          "duration": 566,
+          "text": "resembles "
+        },
+        {
+          "time": 207806,
+          "duration": 566,
+          "text": "misty "
+        },
+        {
+          "time": 208372,
+          "duration": 566,
+          "text": "dream"
+        }
+      ],
+      "element": {
+        "key": "L56",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Love resembles misty dream"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Love resembles misty dream",
+        "syllabus": [
+          {
+            "time": 206674,
+            "duration": 566,
+            "text": "Love "
+          },
+          {
+            "time": 207240,
+            "duration": 566,
+            "text": "resembles "
+          },
+          {
+            "time": 207806,
+            "duration": 566,
+            "text": "misty "
+          },
+          {
+            "time": 208372,
+            "duration": 566,
+            "text": "dream"
+          }
+        ]
+      }
+    },
+    {
+      "time": 209047,
+      "duration": 2436,
+      "text": "뜬구름처럼",
+      "syllabus": [
+        {
+          "time": 209047,
+          "duration": 311,
+          "text": "뜬"
+        },
+        {
+          "time": 209358,
+          "duration": 536,
+          "text": "구름"
+        },
+        {
+          "time": 209894,
+          "duration": 285,
+          "text": "처"
+        },
+        {
+          "time": 210179,
+          "duration": 1304,
+          "text": "럼"
+        }
+      ],
+      "element": {
+        "key": "L57",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "translation": {
+        "lang": "en-US",
+        "text": "Like a drifting cloud"
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "tteun gu reum cheo reom",
+        "syllabus": [
+          {
+            "time": 209047,
+            "duration": 311,
+            "text": "tteun "
+          },
+          {
+            "time": 209358,
+            "duration": 536,
+            "text": "gu reum "
+          },
+          {
+            "time": 209894,
+            "duration": 285,
+            "text": "cheo "
+          },
+          {
+            "time": 210179,
+            "duration": 1304,
+            "text": "reom"
+          }
+        ]
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 869,
+    "lastProcessed": 1789216009939,
+    "totalElapsedMs": 869,
+    "winnerSource": "qApple",
+    "syncPriority": 3,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 104
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 869
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 171
+      }
+    }
+  }
+}

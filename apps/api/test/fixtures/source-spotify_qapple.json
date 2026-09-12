@@ -1,0 +1,3208 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Word",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "Freddie Mercury"
+    ],
+    "title": "Bohemian Rhapsody",
+    "language": "en",
+    "agents": {
+      "v1": {
+        "type": "person",
+        "name": "Vocal 1",
+        "alias": "v1"
+      }
+    },
+    "songParts": [
+      {
+        "name": "Intro",
+        "duration": 50701
+      },
+      {
+        "name": "Verse",
+        "time": 55376,
+        "duration": 26694
+      },
+      {
+        "name": "Chorus",
+        "time": 82448,
+        "duration": 22430
+      },
+      {
+        "name": "Verse",
+        "time": 114679,
+        "duration": 26373
+      },
+      {
+        "name": "Chorus",
+        "time": 141851,
+        "duration": 15209
+      },
+      {
+        "name": "Verse",
+        "time": 185808,
+        "duration": 17062
+      },
+      {
+        "name": "Verse",
+        "time": 202414,
+        "duration": 9295
+      },
+      {
+        "name": "Verse",
+        "time": 213643,
+        "duration": 33522
+      },
+      {
+        "name": "Verse",
+        "time": 254765,
+        "duration": 23119
+      },
+      {
+        "name": "Bridge",
+        "time": 299830,
+        "duration": 3053
+      },
+      {
+        "name": "Verse",
+        "time": 311578,
+        "duration": 19499
+      },
+      {
+        "name": "Outro",
+        "time": 342624,
+        "duration": 4337
+      }
+    ],
+    "totalDuration": "5:54.320",
+    "artist": "Queen",
+    "album": "Greatest Hits I, II & III: The Platinum Collection",
+    "isrc": "GBUM71029604"
+  },
+  "lyrics": [
+    {
+      "time": 0,
+      "duration": 2906,
+      "text": "Is this the real life?",
+      "syllabus": [
+        {
+          "time": 0,
+          "duration": 458,
+          "text": "Is "
+        },
+        {
+          "time": 458,
+          "duration": 348,
+          "text": "this "
+        },
+        {
+          "time": 806,
+          "duration": 418,
+          "text": "the "
+        },
+        {
+          "time": 1224,
+          "duration": 833,
+          "text": "real "
+        },
+        {
+          "time": 2057,
+          "duration": 849,
+          "text": "life?"
+        }
+      ],
+      "element": {
+        "key": "L1",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 3725,
+      "duration": 2648,
+      "text": "Is this just fantasy?",
+      "syllabus": [
+        {
+          "time": 3725,
+          "duration": 415,
+          "text": "Is "
+        },
+        {
+          "time": 4140,
+          "duration": 386,
+          "text": "this "
+        },
+        {
+          "time": 4526,
+          "duration": 365,
+          "text": "just "
+        },
+        {
+          "time": 4891,
+          "duration": 383,
+          "text": "fan"
+        },
+        {
+          "time": 5274,
+          "duration": 253,
+          "text": "ta"
+        },
+        {
+          "time": 5527,
+          "duration": 846,
+          "text": "sy?"
+        }
+      ],
+      "element": {
+        "key": "L2",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 7126,
+      "duration": 2910,
+      "text": "Caught in a landslide",
+      "syllabus": [
+        {
+          "time": 7126,
+          "duration": 433,
+          "text": "Caught "
+        },
+        {
+          "time": 7559,
+          "duration": 450,
+          "text": "in "
+        },
+        {
+          "time": 8009,
+          "duration": 418,
+          "text": "a "
+        },
+        {
+          "time": 8427,
+          "duration": 731,
+          "text": "land"
+        },
+        {
+          "time": 9158,
+          "duration": 878,
+          "text": "slide"
+        }
+      ],
+      "element": {
+        "key": "L3",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 10087,
+      "duration": 4227,
+      "text": "No escape from reality",
+      "syllabus": [
+        {
+          "time": 10087,
+          "duration": 400,
+          "text": "No "
+        },
+        {
+          "time": 10487,
+          "duration": 376,
+          "text": "es"
+        },
+        {
+          "time": 10902,
+          "duration": 418,
+          "text": "cape "
+        },
+        {
+          "time": 11320,
+          "duration": 409,
+          "text": "from "
+        },
+        {
+          "time": 11729,
+          "duration": 401,
+          "text": "re"
+        },
+        {
+          "time": 12130,
+          "duration": 365,
+          "text": "al"
+        },
+        {
+          "time": 12495,
+          "duration": 369,
+          "text": "i"
+        },
+        {
+          "time": 12864,
+          "duration": 1450,
+          "text": "ty"
+        }
+      ],
+      "element": {
+        "key": "L4",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 14607,
+      "duration": 2873,
+      "text": "Open your eyes",
+      "syllabus": [
+        {
+          "time": 14607,
+          "duration": 383,
+          "text": "Op"
+        },
+        {
+          "time": 14990,
+          "duration": 435,
+          "text": "en "
+        },
+        {
+          "time": 15425,
+          "duration": 468,
+          "text": "your "
+        },
+        {
+          "time": 15893,
+          "duration": 1587,
+          "text": "eyes"
+        }
+      ],
+      "element": {
+        "key": "L5",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 17660,
+      "duration": 7276,
+      "text": "Look up to the skies and see",
+      "syllabus": [
+        {
+          "time": 17660,
+          "duration": 418,
+          "text": "Look "
+        },
+        {
+          "time": 18078,
+          "duration": 415,
+          "text": "up "
+        },
+        {
+          "time": 18493,
+          "duration": 450,
+          "text": "to "
+        },
+        {
+          "time": 18943,
+          "duration": 418,
+          "text": "the "
+        },
+        {
+          "time": 19361,
+          "duration": 966,
+          "text": "skies "
+        },
+        {
+          "time": 20327,
+          "duration": 900,
+          "text": "and "
+        },
+        {
+          "time": 21227,
+          "duration": 3709,
+          "text": "see"
+        }
+      ],
+      "element": {
+        "key": "L6",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 24961,
+      "duration": 3457,
+      "text": "I'm just a poor boy (Ooh, poor)",
+      "syllabus": [
+        {
+          "time": 24961,
+          "duration": 433,
+          "text": "I'm "
+        },
+        {
+          "time": 25394,
+          "duration": 418,
+          "text": "just "
+        },
+        {
+          "time": 25812,
+          "duration": 453,
+          "text": "a "
+        },
+        {
+          "time": 26294,
+          "duration": 850,
+          "text": "poor "
+        },
+        {
+          "time": 27144,
+          "duration": 1170,
+          "text": "boy "
+        },
+        {
+          "time": 25052,
+          "duration": 2497,
+          "text": "(Ooh, ",
+          "isBackground": true
+        },
+        {
+          "time": 27549,
+          "duration": 869,
+          "text": "poor)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L7",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 28495,
+      "duration": 2812,
+      "text": "I need no sympathy (Boy)",
+      "syllabus": [
+        {
+          "time": 28495,
+          "duration": 369,
+          "text": "I "
+        },
+        {
+          "time": 28864,
+          "duration": 365,
+          "text": "need "
+        },
+        {
+          "time": 29229,
+          "duration": 418,
+          "text": "no "
+        },
+        {
+          "time": 29647,
+          "duration": 349,
+          "text": "sym"
+        },
+        {
+          "time": 29996,
+          "duration": 1311,
+          "text": "pathy "
+        },
+        {
+          "time": 28513,
+          "duration": 1722,
+          "text": "(Boy)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L8",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 30599,
+      "duration": 4186,
+      "text": "Because I'm easy come, easy go",
+      "syllabus": [
+        {
+          "time": 30599,
+          "duration": 717,
+          "text": "Because "
+        },
+        {
+          "time": 31316,
+          "duration": 415,
+          "text": "I'm "
+        },
+        {
+          "time": 31731,
+          "duration": 850,
+          "text": "easy "
+        },
+        {
+          "time": 32581,
+          "duration": 571,
+          "text": "come, "
+        },
+        {
+          "time": 33383,
+          "duration": 833,
+          "text": "easy "
+        },
+        {
+          "time": 34216,
+          "duration": 569,
+          "text": "go"
+        }
+      ],
+      "element": {
+        "key": "L9",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 35001,
+      "duration": 3114,
+      "text": "Little high, little low",
+      "syllabus": [
+        {
+          "time": 35001,
+          "duration": 853,
+          "text": "Little "
+        },
+        {
+          "time": 35865,
+          "duration": 612,
+          "text": "high, "
+        },
+        {
+          "time": 36701,
+          "duration": 816,
+          "text": "little "
+        },
+        {
+          "time": 37517,
+          "duration": 598,
+          "text": "low"
+        }
+      ],
+      "element": {
+        "key": "L10",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 38294,
+      "duration": 3347,
+      "text": "Any way the wind blows",
+      "syllabus": [
+        {
+          "time": 38294,
+          "duration": 919,
+          "text": "Any "
+        },
+        {
+          "time": 39213,
+          "duration": 415,
+          "text": "way "
+        },
+        {
+          "time": 39628,
+          "duration": 449,
+          "text": "the "
+        },
+        {
+          "time": 40077,
+          "duration": 851,
+          "text": "wind "
+        },
+        {
+          "time": 40928,
+          "duration": 713,
+          "text": "blows"
+        }
+      ],
+      "element": {
+        "key": "L11",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 41736,
+      "duration": 5661,
+      "text": "Doesn't really matter to me",
+      "syllabus": [
+        {
+          "time": 41736,
+          "duration": 835,
+          "text": "Doesn't "
+        },
+        {
+          "time": 42571,
+          "duration": 850,
+          "text": "really "
+        },
+        {
+          "time": 43421,
+          "duration": 1283,
+          "text": "matter "
+        },
+        {
+          "time": 44704,
+          "duration": 450,
+          "text": "to "
+        },
+        {
+          "time": 45154,
+          "duration": 2243,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L12",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 47608,
+      "duration": 3093,
+      "text": "To me",
+      "syllabus": [
+        {
+          "time": 47608,
+          "duration": 966,
+          "text": "To "
+        },
+        {
+          "time": 48574,
+          "duration": 2127,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L13",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 55376,
+      "duration": 2019,
+      "text": "Mama",
+      "syllabus": [
+        {
+          "time": 55376,
+          "duration": 269,
+          "text": "Ma"
+        },
+        {
+          "time": 55645,
+          "duration": 1750,
+          "text": "ma"
+        }
+      ],
+      "element": {
+        "key": "L14",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 58242,
+      "duration": 2428,
+      "text": "Just killed a man",
+      "syllabus": [
+        {
+          "time": 58242,
+          "duration": 571,
+          "text": "Just "
+        },
+        {
+          "time": 58813,
+          "duration": 334,
+          "text": "killed "
+        },
+        {
+          "time": 59147,
+          "duration": 200,
+          "text": "a "
+        },
+        {
+          "time": 59347,
+          "duration": 1323,
+          "text": "man"
+        }
+      ],
+      "element": {
+        "key": "L15",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 61636,
+      "duration": 2598,
+      "text": "Put a gun against his head",
+      "syllabus": [
+        {
+          "time": 61636,
+          "duration": 264,
+          "text": "Put "
+        },
+        {
+          "time": 61900,
+          "duration": 263,
+          "text": "a "
+        },
+        {
+          "time": 62163,
+          "duration": 334,
+          "text": "gun "
+        },
+        {
+          "time": 62497,
+          "duration": 734,
+          "text": "against "
+        },
+        {
+          "time": 63231,
+          "duration": 366,
+          "text": "his "
+        },
+        {
+          "time": 63597,
+          "duration": 637,
+          "text": "head"
+        }
+      ],
+      "element": {
+        "key": "L16",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 64658,
+      "duration": 3253,
+      "text": "Pulled my trigger, now he's dead",
+      "syllabus": [
+        {
+          "time": 64658,
+          "duration": 415,
+          "text": "Pulled "
+        },
+        {
+          "time": 65073,
+          "duration": 433,
+          "text": "my "
+        },
+        {
+          "time": 65506,
+          "duration": 667,
+          "text": "trigger, "
+        },
+        {
+          "time": 66173,
+          "duration": 383,
+          "text": "now "
+        },
+        {
+          "time": 66556,
+          "duration": 372,
+          "text": "he's "
+        },
+        {
+          "time": 66928,
+          "duration": 983,
+          "text": "dead"
+        }
+      ],
+      "element": {
+        "key": "L17",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 68894,
+      "duration": 1952,
+      "text": "Mama",
+      "syllabus": [
+        {
+          "time": 68894,
+          "duration": 217,
+          "text": "Ma"
+        },
+        {
+          "time": 69111,
+          "duration": 1735,
+          "text": "ma"
+        }
+      ],
+      "element": {
+        "key": "L18",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 71446,
+      "duration": 3157,
+      "text": "Life had just begun",
+      "syllabus": [
+        {
+          "time": 71446,
+          "duration": 398,
+          "text": "Life "
+        },
+        {
+          "time": 71844,
+          "duration": 432,
+          "text": "had "
+        },
+        {
+          "time": 72276,
+          "duration": 731,
+          "text": "just "
+        },
+        {
+          "time": 73007,
+          "duration": 186,
+          "text": "be"
+        },
+        {
+          "time": 73193,
+          "duration": 1410,
+          "text": "gun"
+        }
+      ],
+      "element": {
+        "key": "L19",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 75259,
+      "duration": 6811,
+      "text": "But now I've gone and thrown it all away",
+      "syllabus": [
+        {
+          "time": 75259,
+          "duration": 435,
+          "text": "But "
+        },
+        {
+          "time": 75694,
+          "duration": 416,
+          "text": "now "
+        },
+        {
+          "time": 76110,
+          "duration": 435,
+          "text": "I've "
+        },
+        {
+          "time": 76545,
+          "duration": 432,
+          "text": "gone "
+        },
+        {
+          "time": 76977,
+          "duration": 418,
+          "text": "and "
+        },
+        {
+          "time": 77395,
+          "duration": 633,
+          "text": "thrown "
+        },
+        {
+          "time": 78028,
+          "duration": 200,
+          "text": "it "
+        },
+        {
+          "time": 78228,
+          "duration": 900,
+          "text": "all "
+        },
+        {
+          "time": 79195,
+          "duration": 2875,
+          "text": "away"
+        }
+      ],
+      "element": {
+        "key": "L20",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 82448,
+      "duration": 6288,
+      "text": "Mama, ooh-ooh-ooh-ooh",
+      "syllabus": [
+        {
+          "time": 82448,
+          "duration": 267,
+          "text": "Ma"
+        },
+        {
+          "time": 82715,
+          "duration": 2337,
+          "text": "ma, "
+        },
+        {
+          "time": 85101,
+          "duration": 433,
+          "text": "ooh-"
+        },
+        {
+          "time": 85534,
+          "duration": 218,
+          "text": "ooh-"
+        },
+        {
+          "time": 85752,
+          "duration": 214,
+          "text": "ooh-"
+        },
+        {
+          "time": 85966,
+          "duration": 2770,
+          "text": "ooh"
+        }
+      ],
+      "element": {
+        "key": "L21",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 88889,
+      "duration": 3456,
+      "text": "Didn't mean to make you cry",
+      "syllabus": [
+        {
+          "time": 88889,
+          "duration": 482,
+          "text": "Didn't "
+        },
+        {
+          "time": 89371,
+          "duration": 550,
+          "text": "mean "
+        },
+        {
+          "time": 89954,
+          "duration": 235,
+          "text": "to "
+        },
+        {
+          "time": 90189,
+          "duration": 317,
+          "text": "make "
+        },
+        {
+          "time": 90555,
+          "duration": 351,
+          "text": "you "
+        },
+        {
+          "time": 90906,
+          "duration": 1439,
+          "text": "cry"
+        }
+      ],
+      "element": {
+        "key": "L22",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 92519,
+      "duration": 4562,
+      "text": "If I'm not back again this time tomorrow",
+      "syllabus": [
+        {
+          "time": 92519,
+          "duration": 168,
+          "text": "If "
+        },
+        {
+          "time": 92687,
+          "duration": 392,
+          "text": "I'm "
+        },
+        {
+          "time": 93102,
+          "duration": 397,
+          "text": "not "
+        },
+        {
+          "time": 93538,
+          "duration": 418,
+          "text": "back "
+        },
+        {
+          "time": 93956,
+          "duration": 792,
+          "text": "again "
+        },
+        {
+          "time": 94771,
+          "duration": 418,
+          "text": "this "
+        },
+        {
+          "time": 95189,
+          "duration": 517,
+          "text": "time "
+        },
+        {
+          "time": 95769,
+          "duration": 186,
+          "text": "to"
+        },
+        {
+          "time": 95955,
+          "duration": 1126,
+          "text": "morrow"
+        }
+      ],
+      "element": {
+        "key": "L23",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 97289,
+      "duration": 3377,
+      "text": "Carry on, carry on",
+      "syllabus": [
+        {
+          "time": 97289,
+          "duration": 432,
+          "text": "Carry "
+        },
+        {
+          "time": 97721,
+          "duration": 1202,
+          "text": "on, "
+        },
+        {
+          "time": 98955,
+          "duration": 449,
+          "text": "carry "
+        },
+        {
+          "time": 99404,
+          "duration": 1262,
+          "text": "on"
+        }
+      ],
+      "element": {
+        "key": "L24",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 100666,
+      "duration": 4212,
+      "text": "As if nothing really matters",
+      "syllabus": [
+        {
+          "time": 100666,
+          "duration": 253,
+          "text": "As "
+        },
+        {
+          "time": 100919,
+          "duration": 192,
+          "text": "if "
+        },
+        {
+          "time": 101111,
+          "duration": 327,
+          "text": "not"
+        },
+        {
+          "time": 101438,
+          "duration": 326,
+          "text": "hing "
+        },
+        {
+          "time": 101764,
+          "duration": 697,
+          "text": "really "
+        },
+        {
+          "time": 102461,
+          "duration": 1209,
+          "text": "mat"
+        },
+        {
+          "time": 103670,
+          "duration": 1208,
+          "text": "ters"
+        }
+      ],
+      "element": {
+        "key": "L25",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 114679,
+      "duration": 1633,
+      "text": "Too late",
+      "syllabus": [
+        {
+          "time": 114679,
+          "duration": 450,
+          "text": "Too "
+        },
+        {
+          "time": 115129,
+          "duration": 1183,
+          "text": "late"
+        }
+      ],
+      "element": {
+        "key": "L26",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 117683,
+      "duration": 2177,
+      "text": "My time has come",
+      "syllabus": [
+        {
+          "time": 117683,
+          "duration": 415,
+          "text": "My "
+        },
+        {
+          "time": 118098,
+          "duration": 418,
+          "text": "time "
+        },
+        {
+          "time": 118516,
+          "duration": 217,
+          "text": "has "
+        },
+        {
+          "time": 118733,
+          "duration": 1127,
+          "text": "come"
+        }
+      ],
+      "element": {
+        "key": "L27",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 121002,
+      "duration": 2565,
+      "text": "Sends shivers down my spine",
+      "syllabus": [
+        {
+          "time": 121002,
+          "duration": 550,
+          "text": "Sends "
+        },
+        {
+          "time": 121552,
+          "duration": 618,
+          "text": "shivers "
+        },
+        {
+          "time": 122170,
+          "duration": 366,
+          "text": "down "
+        },
+        {
+          "time": 122536,
+          "duration": 298,
+          "text": "my "
+        },
+        {
+          "time": 122834,
+          "duration": 733,
+          "text": "spine"
+        }
+      ],
+      "element": {
+        "key": "L28",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 123972,
+      "duration": 3577,
+      "text": "Body's aching all the time",
+      "syllabus": [
+        {
+          "time": 123972,
+          "duration": 750,
+          "text": "Body's "
+        },
+        {
+          "time": 124722,
+          "duration": 653,
+          "text": "aching "
+        },
+        {
+          "time": 125375,
+          "duration": 383,
+          "text": "all "
+        },
+        {
+          "time": 125758,
+          "duration": 267,
+          "text": "the "
+        },
+        {
+          "time": 126025,
+          "duration": 1524,
+          "text": "time"
+        }
+      ],
+      "element": {
+        "key": "L29",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 128213,
+      "duration": 2327,
+      "text": "Goodbye, everybody",
+      "syllabus": [
+        {
+          "time": 128213,
+          "duration": 318,
+          "text": "Good"
+        },
+        {
+          "time": 128531,
+          "duration": 1016,
+          "text": "bye, "
+        },
+        {
+          "time": 129547,
+          "duration": 415,
+          "text": "every"
+        },
+        {
+          "time": 129962,
+          "duration": 578,
+          "text": "body"
+        }
+      ],
+      "element": {
+        "key": "L30",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 131248,
+      "duration": 3011,
+      "text": "I've got to go",
+      "syllabus": [
+        {
+          "time": 131248,
+          "duration": 382,
+          "text": "I've "
+        },
+        {
+          "time": 131683,
+          "duration": 633,
+          "text": "got "
+        },
+        {
+          "time": 132316,
+          "duration": 232,
+          "text": "to "
+        },
+        {
+          "time": 132548,
+          "duration": 1711,
+          "text": "go"
+        }
+      ],
+      "element": {
+        "key": "L31",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 134620,
+      "duration": 6432,
+      "text": "Gotta leave you all behind and face the truth",
+      "syllabus": [
+        {
+          "time": 134620,
+          "duration": 464,
+          "text": "Gotta "
+        },
+        {
+          "time": 135084,
+          "duration": 389,
+          "text": "leave "
+        },
+        {
+          "time": 135517,
+          "duration": 435,
+          "text": "you "
+        },
+        {
+          "time": 135952,
+          "duration": 401,
+          "text": "all "
+        },
+        {
+          "time": 136353,
+          "duration": 868,
+          "text": "behind "
+        },
+        {
+          "time": 137221,
+          "duration": 397,
+          "text": "and "
+        },
+        {
+          "time": 137618,
+          "duration": 1036,
+          "text": "face "
+        },
+        {
+          "time": 138735,
+          "duration": 214,
+          "text": "the "
+        },
+        {
+          "time": 138949,
+          "duration": 2103,
+          "text": "truth"
+        }
+      ],
+      "element": {
+        "key": "L32",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 141851,
+      "duration": 6684,
+      "text": "Mama, ooh-ooh-ooh-ooh (Any way the wind blows)",
+      "syllabus": [
+        {
+          "time": 141851,
+          "duration": 232,
+          "text": "Ma"
+        },
+        {
+          "time": 142083,
+          "duration": 2249,
+          "text": "ma, "
+        },
+        {
+          "time": 144420,
+          "duration": 415,
+          "text": "ooh-"
+        },
+        {
+          "time": 144835,
+          "duration": 200,
+          "text": "ooh-"
+        },
+        {
+          "time": 145035,
+          "duration": 232,
+          "text": "ooh-"
+        },
+        {
+          "time": 145267,
+          "duration": 2881,
+          "text": "ooh "
+        },
+        {
+          "time": 145201,
+          "duration": 500,
+          "text": "(A",
+          "isBackground": true
+        },
+        {
+          "time": 145701,
+          "duration": 433,
+          "text": "ny ",
+          "isBackground": true
+        },
+        {
+          "time": 146134,
+          "duration": 435,
+          "text": "way ",
+          "isBackground": true
+        },
+        {
+          "time": 146569,
+          "duration": 433,
+          "text": "the ",
+          "isBackground": true
+        },
+        {
+          "time": 147002,
+          "duration": 767,
+          "text": "wind ",
+          "isBackground": true
+        },
+        {
+          "time": 147835,
+          "duration": 700,
+          "text": "blows)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L33",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 148657,
+      "duration": 2856,
+      "text": "I don't wanna die",
+      "syllabus": [
+        {
+          "time": 148657,
+          "duration": 668,
+          "text": "I "
+        },
+        {
+          "time": 149325,
+          "duration": 215,
+          "text": "don't "
+        },
+        {
+          "time": 149540,
+          "duration": 583,
+          "text": "wanna "
+        },
+        {
+          "time": 150123,
+          "duration": 1390,
+          "text": "die"
+        }
+      ],
+      "element": {
+        "key": "L34",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 151756,
+      "duration": 5304,
+      "text": "I sometimes wish I'd never been born at all",
+      "syllabus": [
+        {
+          "time": 151756,
+          "duration": 205,
+          "text": "I "
+        },
+        {
+          "time": 151961,
+          "duration": 447,
+          "text": "some"
+        },
+        {
+          "time": 152408,
+          "duration": 488,
+          "text": "times "
+        },
+        {
+          "time": 152896,
+          "duration": 402,
+          "text": "wish "
+        },
+        {
+          "time": 153331,
+          "duration": 335,
+          "text": "I'd "
+        },
+        {
+          "time": 153746,
+          "duration": 401,
+          "text": "never "
+        },
+        {
+          "time": 154147,
+          "duration": 450,
+          "text": "been "
+        },
+        {
+          "time": 154597,
+          "duration": 418,
+          "text": "born "
+        },
+        {
+          "time": 155015,
+          "duration": 232,
+          "text": "at "
+        },
+        {
+          "time": 155247,
+          "duration": 1813,
+          "text": "all"
+        }
+      ],
+      "element": {
+        "key": "L35",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 185808,
+      "duration": 3024,
+      "text": "I see a little silhouetto of a man",
+      "syllabus": [
+        {
+          "time": 185808,
+          "duration": 300,
+          "text": "I "
+        },
+        {
+          "time": 186108,
+          "duration": 100,
+          "text": "see "
+        },
+        {
+          "time": 186208,
+          "duration": 100,
+          "text": "a "
+        },
+        {
+          "time": 186308,
+          "duration": 100,
+          "text": "little "
+        },
+        {
+          "time": 186408,
+          "duration": 100,
+          "text": "sil"
+        },
+        {
+          "time": 186508,
+          "duration": 100,
+          "text": "hou"
+        },
+        {
+          "time": 186608,
+          "duration": 100,
+          "text": "etto "
+        },
+        {
+          "time": 186708,
+          "duration": 100,
+          "text": "of "
+        },
+        {
+          "time": 186808,
+          "duration": 100,
+          "text": "a "
+        },
+        {
+          "time": 186908,
+          "duration": 1924,
+          "text": "man"
+        }
+      ],
+      "element": {
+        "key": "L36",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 188639,
+      "duration": 3619,
+      "text": "Scaramouche, Scaramouche, will you do the Fandango?",
+      "syllabus": [
+        {
+          "time": 188639,
+          "duration": 501,
+          "text": "Scara"
+        },
+        {
+          "time": 189140,
+          "duration": 337,
+          "text": "mouche, "
+        },
+        {
+          "time": 189523,
+          "duration": 418,
+          "text": "Scara"
+        },
+        {
+          "time": 189941,
+          "duration": 369,
+          "text": "mouche, "
+        },
+        {
+          "time": 190341,
+          "duration": 168,
+          "text": "will "
+        },
+        {
+          "time": 190509,
+          "duration": 187,
+          "text": "you "
+        },
+        {
+          "time": 190696,
+          "duration": 181,
+          "text": "do "
+        },
+        {
+          "time": 190877,
+          "duration": 214,
+          "text": "the "
+        },
+        {
+          "time": 191091,
+          "duration": 389,
+          "text": "Fan"
+        },
+        {
+          "time": 191491,
+          "duration": 767,
+          "text": "dango?"
+        }
+      ],
+      "element": {
+        "key": "L37",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 192326,
+      "duration": 1509,
+      "text": "Thunderbolt and lightning",
+      "syllabus": [
+        {
+          "time": 192326,
+          "duration": 383,
+          "text": "Thunder"
+        },
+        {
+          "time": 192709,
+          "duration": 200,
+          "text": "bolt "
+        },
+        {
+          "time": 192909,
+          "duration": 200,
+          "text": "and "
+        },
+        {
+          "time": 193109,
+          "duration": 401,
+          "text": "light"
+        },
+        {
+          "time": 193510,
+          "duration": 325,
+          "text": "ning"
+        }
+      ],
+      "element": {
+        "key": "L38",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 193931,
+      "duration": 1915,
+      "text": "Very, very frightening me",
+      "syllabus": [
+        {
+          "time": 193931,
+          "duration": 369,
+          "text": "Very, "
+        },
+        {
+          "time": 194300,
+          "duration": 398,
+          "text": "very "
+        },
+        {
+          "time": 194698,
+          "duration": 450,
+          "text": "fright"
+        },
+        {
+          "time": 195148,
+          "duration": 400,
+          "text": "ening "
+        },
+        {
+          "time": 195548,
+          "duration": 298,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L39",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 195898,
+      "duration": 2162,
+      "text": "Galileo (Galileo)",
+      "syllabus": [
+        {
+          "time": 195898,
+          "duration": 1001,
+          "text": "Galileo "
+        },
+        {
+          "time": 196703,
+          "duration": 1357,
+          "text": "(Galileo)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L40",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 197450,
+      "duration": 1893,
+      "text": "Galileo (Galileo)",
+      "syllabus": [
+        {
+          "time": 197450,
+          "duration": 934,
+          "text": "Galileo "
+        },
+        {
+          "time": 198300,
+          "duration": 1043,
+          "text": "(Galileo)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L41",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 199001,
+      "duration": 1849,
+      "text": "Galileo, Figaro",
+      "syllabus": [
+        {
+          "time": 199001,
+          "duration": 818,
+          "text": "Galileo, "
+        },
+        {
+          "time": 199819,
+          "duration": 197,
+          "text": "Fig"
+        },
+        {
+          "time": 200016,
+          "duration": 834,
+          "text": "aro"
+        }
+      ],
+      "element": {
+        "key": "L42",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 200384,
+      "duration": 2486,
+      "text": "Magnifico (Oh, oh, oh, oh)",
+      "syllabus": [
+        {
+          "time": 200384,
+          "duration": 500,
+          "text": "Magnifi"
+        },
+        {
+          "time": 200884,
+          "duration": 1986,
+          "text": "co "
+        },
+        {
+          "time": 201130,
+          "duration": 402,
+          "text": "(Oh, ",
+          "isBackground": true
+        },
+        {
+          "time": 201532,
+          "duration": 383,
+          "text": "oh, ",
+          "isBackground": true
+        },
+        {
+          "time": 201915,
+          "duration": 249,
+          "text": "oh, ",
+          "isBackground": true
+        },
+        {
+          "time": 202164,
+          "duration": 498,
+          "text": "oh)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L43",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 202414,
+      "duration": 3648,
+      "text": "I'm just a poor boy, nobody loves me",
+      "syllabus": [
+        {
+          "time": 202414,
+          "duration": 470,
+          "text": "I'm "
+        },
+        {
+          "time": 202900,
+          "duration": 183,
+          "text": "just "
+        },
+        {
+          "time": 203083,
+          "duration": 214,
+          "text": "a "
+        },
+        {
+          "time": 203297,
+          "duration": 352,
+          "text": "poor "
+        },
+        {
+          "time": 203747,
+          "duration": 337,
+          "text": "boy, "
+        },
+        {
+          "time": 204130,
+          "duration": 418,
+          "text": "no"
+        },
+        {
+          "time": 204548,
+          "duration": 401,
+          "text": "body "
+        },
+        {
+          "time": 204949,
+          "duration": 432,
+          "text": "loves "
+        },
+        {
+          "time": 205381,
+          "duration": 681,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L44",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 205657,
+      "duration": 3085,
+      "text": "He's just a poor boy from a poor family",
+      "syllabus": [
+        {
+          "time": 205657,
+          "duration": 469,
+          "text": "He's "
+        },
+        {
+          "time": 206126,
+          "duration": 182,
+          "text": "just "
+        },
+        {
+          "time": 206308,
+          "duration": 198,
+          "text": "a "
+        },
+        {
+          "time": 206506,
+          "duration": 418,
+          "text": "poor "
+        },
+        {
+          "time": 206924,
+          "duration": 370,
+          "text": "boy "
+        },
+        {
+          "time": 207342,
+          "duration": 183,
+          "text": "from "
+        },
+        {
+          "time": 207525,
+          "duration": 182,
+          "text": "a "
+        },
+        {
+          "time": 207707,
+          "duration": 401,
+          "text": "poor "
+        },
+        {
+          "time": 208108,
+          "duration": 198,
+          "text": "fam"
+        },
+        {
+          "time": 208306,
+          "duration": 200,
+          "text": "i"
+        },
+        {
+          "time": 208506,
+          "duration": 236,
+          "text": "ly"
+        }
+      ],
+      "element": {
+        "key": "L45",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 208768,
+      "duration": 2941,
+      "text": "Spare him his life from this monstrosity",
+      "syllabus": [
+        {
+          "time": 208768,
+          "duration": 520,
+          "text": "Spare "
+        },
+        {
+          "time": 209303,
+          "duration": 200,
+          "text": "him "
+        },
+        {
+          "time": 209503,
+          "duration": 201,
+          "text": "his "
+        },
+        {
+          "time": 209704,
+          "duration": 400,
+          "text": "life "
+        },
+        {
+          "time": 210119,
+          "duration": 188,
+          "text": "from "
+        },
+        {
+          "time": 210307,
+          "duration": 203,
+          "text": "this "
+        },
+        {
+          "time": 210519,
+          "duration": 388,
+          "text": "mon"
+        },
+        {
+          "time": 210920,
+          "duration": 789,
+          "text": "strosity"
+        }
+      ],
+      "element": {
+        "key": "L46",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 213643,
+      "duration": 2825,
+      "text": "Easy come, easy go, will you let me go?",
+      "syllabus": [
+        {
+          "time": 213643,
+          "duration": 483,
+          "text": "Easy "
+        },
+        {
+          "time": 214126,
+          "duration": 260,
+          "text": "come, "
+        },
+        {
+          "time": 214544,
+          "duration": 383,
+          "text": "easy "
+        },
+        {
+          "time": 214927,
+          "duration": 285,
+          "text": "go, "
+        },
+        {
+          "time": 215342,
+          "duration": 203,
+          "text": "will "
+        },
+        {
+          "time": 215545,
+          "duration": 183,
+          "text": "you "
+        },
+        {
+          "time": 215728,
+          "duration": 197,
+          "text": "let "
+        },
+        {
+          "time": 215925,
+          "duration": 218,
+          "text": "me "
+        },
+        {
+          "time": 216143,
+          "duration": 325,
+          "text": "go?"
+        }
+      ],
+      "element": {
+        "key": "L47",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 216539,
+      "duration": 1779,
+      "text": "Bismillah! No",
+      "syllabus": [
+        {
+          "time": 216539,
+          "duration": 361,
+          "text": "Bis"
+        },
+        {
+          "time": 216940,
+          "duration": 378,
+          "text": "mil"
+        },
+        {
+          "time": 217355,
+          "duration": 349,
+          "text": "lah! "
+        },
+        {
+          "time": 217790,
+          "duration": 528,
+          "text": "No"
+        }
+      ],
+      "element": {
+        "key": "L48",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 218357,
+      "duration": 3147,
+      "text": "We will not let you go (Let him go)",
+      "syllabus": [
+        {
+          "time": 218357,
+          "duration": 183,
+          "text": "We "
+        },
+        {
+          "time": 218540,
+          "duration": 183,
+          "text": "will "
+        },
+        {
+          "time": 218723,
+          "duration": 218,
+          "text": "not "
+        },
+        {
+          "time": 218941,
+          "duration": 200,
+          "text": "let "
+        },
+        {
+          "time": 219141,
+          "duration": 183,
+          "text": "you "
+        },
+        {
+          "time": 219324,
+          "duration": 222,
+          "text": "go "
+        },
+        {
+          "time": 219439,
+          "duration": 300,
+          "text": "(Let ",
+          "isBackground": true
+        },
+        {
+          "time": 219739,
+          "duration": 201,
+          "text": "him ",
+          "isBackground": true
+        },
+        {
+          "time": 219940,
+          "duration": 1564,
+          "text": "go)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L49",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 220521,
+      "duration": 3832,
+      "text": "Bismillah! We will not let you go (Let him go)",
+      "syllabus": [
+        {
+          "time": 220521,
+          "duration": 321,
+          "text": "Bis"
+        },
+        {
+          "time": 220939,
+          "duration": 337,
+          "text": "mil"
+        },
+        {
+          "time": 221357,
+          "duration": 215,
+          "text": "lah! "
+        },
+        {
+          "time": 221572,
+          "duration": 186,
+          "text": "We "
+        },
+        {
+          "time": 221758,
+          "duration": 183,
+          "text": "will "
+        },
+        {
+          "time": 221941,
+          "duration": 197,
+          "text": "not "
+        },
+        {
+          "time": 222138,
+          "duration": 183,
+          "text": "let "
+        },
+        {
+          "time": 222321,
+          "duration": 203,
+          "text": "you "
+        },
+        {
+          "time": 222524,
+          "duration": 222,
+          "text": "go "
+        },
+        {
+          "time": 222733,
+          "duration": 215,
+          "text": "(Let ",
+          "isBackground": true
+        },
+        {
+          "time": 222948,
+          "duration": 183,
+          "text": "him ",
+          "isBackground": true
+        },
+        {
+          "time": 223131,
+          "duration": 1222,
+          "text": "go)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L50",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 223667,
+      "duration": 3059,
+      "text": "Bismillah! We will not let you go (Let me go)",
+      "syllabus": [
+        {
+          "time": 223667,
+          "duration": 399,
+          "text": "Bis"
+        },
+        {
+          "time": 224117,
+          "duration": 364,
+          "text": "mil"
+        },
+        {
+          "time": 224535,
+          "duration": 200,
+          "text": "lah! "
+        },
+        {
+          "time": 224735,
+          "duration": 198,
+          "text": "We "
+        },
+        {
+          "time": 224933,
+          "duration": 200,
+          "text": "will "
+        },
+        {
+          "time": 225133,
+          "duration": 186,
+          "text": "not "
+        },
+        {
+          "time": 225319,
+          "duration": 200,
+          "text": "let "
+        },
+        {
+          "time": 225519,
+          "duration": 215,
+          "text": "you "
+        },
+        {
+          "time": 225734,
+          "duration": 176,
+          "text": "go "
+        },
+        {
+          "time": 225803,
+          "duration": 301,
+          "text": "(Let ",
+          "isBackground": true
+        },
+        {
+          "time": 226104,
+          "duration": 200,
+          "text": "me ",
+          "isBackground": true
+        },
+        {
+          "time": 226304,
+          "duration": 422,
+          "text": "go)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L51",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 226441,
+      "duration": 2016,
+      "text": "Will not let you go (Let me go)",
+      "syllabus": [
+        {
+          "time": 226441,
+          "duration": 253,
+          "text": "Will "
+        },
+        {
+          "time": 226694,
+          "duration": 215,
+          "text": "not "
+        },
+        {
+          "time": 226909,
+          "duration": 200,
+          "text": "let "
+        },
+        {
+          "time": 227109,
+          "duration": 183,
+          "text": "you "
+        },
+        {
+          "time": 227292,
+          "duration": 192,
+          "text": "go "
+        },
+        {
+          "time": 227395,
+          "duration": 315,
+          "text": "(Let ",
+          "isBackground": true
+        },
+        {
+          "time": 227710,
+          "duration": 183,
+          "text": "me ",
+          "isBackground": true
+        },
+        {
+          "time": 227893,
+          "duration": 564,
+          "text": "go)",
+          "isBackground": true
+        }
+      ],
+      "element": {
+        "key": "L52",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 227627,
+      "duration": 4488,
+      "text": "Never, never, never, never let me go",
+      "syllabus": [
+        {
+          "time": 227627,
+          "duration": 401,
+          "text": "Never, "
+        },
+        {
+          "time": 228045,
+          "duration": 373,
+          "text": "never, "
+        },
+        {
+          "time": 228463,
+          "duration": 348,
+          "text": "never, "
+        },
+        {
+          "time": 228846,
+          "duration": 353,
+          "text": "never "
+        },
+        {
+          "time": 229229,
+          "duration": 218,
+          "text": "let "
+        },
+        {
+          "time": 229447,
+          "duration": 217,
+          "text": "me "
+        },
+        {
+          "time": 229664,
+          "duration": 2451,
+          "text": "go"
+        }
+      ],
+      "element": {
+        "key": "L53",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 231082,
+      "duration": 2729,
+      "text": "No, no, no, no, no, no, no",
+      "syllabus": [
+        {
+          "time": 231082,
+          "duration": 414,
+          "text": "No, "
+        },
+        {
+          "time": 231582,
+          "duration": 271,
+          "text": "no, "
+        },
+        {
+          "time": 232000,
+          "duration": 238,
+          "text": "no, "
+        },
+        {
+          "time": 232383,
+          "duration": 295,
+          "text": "no, "
+        },
+        {
+          "time": 232784,
+          "duration": 259,
+          "text": "no, "
+        },
+        {
+          "time": 233167,
+          "duration": 241,
+          "text": "no, "
+        },
+        {
+          "time": 233585,
+          "duration": 226,
+          "text": "no"
+        }
+      ],
+      "element": {
+        "key": "L54",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 233727,
+      "duration": 2262,
+      "text": "Oh, mama mia, mama mia",
+      "syllabus": [
+        {
+          "time": 233727,
+          "duration": 286,
+          "text": "Oh, "
+        },
+        {
+          "time": 234013,
+          "duration": 201,
+          "text": "ma"
+        },
+        {
+          "time": 234214,
+          "duration": 197,
+          "text": "ma "
+        },
+        {
+          "time": 234411,
+          "duration": 351,
+          "text": "mia, "
+        },
+        {
+          "time": 234797,
+          "duration": 215,
+          "text": "ma"
+        },
+        {
+          "time": 235012,
+          "duration": 185,
+          "text": "ma "
+        },
+        {
+          "time": 235197,
+          "duration": 792,
+          "text": "mia"
+        }
+      ],
+      "element": {
+        "key": "L55",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 235528,
+      "duration": 1485,
+      "text": "Mama mia, let me go",
+      "syllabus": [
+        {
+          "time": 235528,
+          "duration": 215,
+          "text": "Ma"
+        },
+        {
+          "time": 235743,
+          "duration": 200,
+          "text": "ma "
+        },
+        {
+          "time": 235943,
+          "duration": 370,
+          "text": "mia, "
+        },
+        {
+          "time": 236326,
+          "duration": 186,
+          "text": "let "
+        },
+        {
+          "time": 236512,
+          "duration": 183,
+          "text": "me "
+        },
+        {
+          "time": 236695,
+          "duration": 318,
+          "text": "go"
+        }
+      ],
+      "element": {
+        "key": "L56",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 237065,
+      "duration": 4792,
+      "text": "Beelzebub has a devil put aside for me",
+      "syllabus": [
+        {
+          "time": 237065,
+          "duration": 483,
+          "text": "Be"
+        },
+        {
+          "time": 237548,
+          "duration": 618,
+          "text": "elz"
+        },
+        {
+          "time": 238166,
+          "duration": 178,
+          "text": "e"
+        },
+        {
+          "time": 238344,
+          "duration": 314,
+          "text": "bub "
+        },
+        {
+          "time": 238782,
+          "duration": 200,
+          "text": "has "
+        },
+        {
+          "time": 238982,
+          "duration": 166,
+          "text": "a "
+        },
+        {
+          "time": 239148,
+          "duration": 200,
+          "text": "de"
+        },
+        {
+          "time": 239348,
+          "duration": 200,
+          "text": "vil "
+        },
+        {
+          "time": 239548,
+          "duration": 189,
+          "text": "put "
+        },
+        {
+          "time": 239737,
+          "duration": 194,
+          "text": "a"
+        },
+        {
+          "time": 239931,
+          "duration": 349,
+          "text": "side "
+        },
+        {
+          "time": 240349,
+          "duration": 314,
+          "text": "for "
+        },
+        {
+          "time": 240782,
+          "duration": 1075,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L57",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 241934,
+      "duration": 1473,
+      "text": "For me",
+      "syllabus": [
+        {
+          "time": 241934,
+          "duration": 533,
+          "text": "For "
+        },
+        {
+          "time": 242467,
+          "duration": 940,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L58",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 243701,
+      "duration": 3464,
+      "text": "For me",
+      "syllabus": [
+        {
+          "time": 243701,
+          "duration": 485,
+          "text": "For "
+        },
+        {
+          "time": 244186,
+          "duration": 2979,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L59",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 254765,
+      "duration": 4930,
+      "text": "So you think you can stone me and spit in my eye?",
+      "syllabus": [
+        {
+          "time": 254765,
+          "duration": 394,
+          "text": "So "
+        },
+        {
+          "time": 255176,
+          "duration": 281,
+          "text": "you "
+        },
+        {
+          "time": 255478,
+          "duration": 261,
+          "text": "think "
+        },
+        {
+          "time": 255745,
+          "duration": 253,
+          "text": "you "
+        },
+        {
+          "time": 256027,
+          "duration": 270,
+          "text": "can "
+        },
+        {
+          "time": 256329,
+          "duration": 267,
+          "text": "stone "
+        },
+        {
+          "time": 256596,
+          "duration": 281,
+          "text": "me "
+        },
+        {
+          "time": 256877,
+          "duration": 267,
+          "text": "and "
+        },
+        {
+          "time": 257144,
+          "duration": 299,
+          "text": "spit "
+        },
+        {
+          "time": 257443,
+          "duration": 166,
+          "text": "in "
+        },
+        {
+          "time": 257609,
+          "duration": 435,
+          "text": "my "
+        },
+        {
+          "time": 258044,
+          "duration": 1651,
+          "text": "eye?"
+        }
+      ],
+      "element": {
+        "key": "L60",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 260852,
+      "duration": 4715,
+      "text": "So you think you can love me and leave me to die?",
+      "syllabus": [
+        {
+          "time": 260852,
+          "duration": 385,
+          "text": "So "
+        },
+        {
+          "time": 261268,
+          "duration": 237,
+          "text": "you "
+        },
+        {
+          "time": 261538,
+          "duration": 250,
+          "text": "think "
+        },
+        {
+          "time": 261837,
+          "duration": 257,
+          "text": "you "
+        },
+        {
+          "time": 262122,
+          "duration": 251,
+          "text": "can "
+        },
+        {
+          "time": 262421,
+          "duration": 277,
+          "text": "love "
+        },
+        {
+          "time": 262705,
+          "duration": 266,
+          "text": "me "
+        },
+        {
+          "time": 262987,
+          "duration": 267,
+          "text": "and "
+        },
+        {
+          "time": 263254,
+          "duration": 301,
+          "text": "leave "
+        },
+        {
+          "time": 263555,
+          "duration": 223,
+          "text": "me "
+        },
+        {
+          "time": 263822,
+          "duration": 221,
+          "text": "to "
+        },
+        {
+          "time": 264121,
+          "duration": 1446,
+          "text": "die?"
+        }
+      ],
+      "element": {
+        "key": "L61",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 265778,
+      "duration": 3475,
+      "text": "Oh, baby",
+      "syllabus": [
+        {
+          "time": 265778,
+          "duration": 1815,
+          "text": "Oh, "
+        },
+        {
+          "time": 267629,
+          "duration": 432,
+          "text": "ba"
+        },
+        {
+          "time": 268061,
+          "duration": 1192,
+          "text": "by"
+        }
+      ],
+      "element": {
+        "key": "L62",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 269630,
+      "duration": 3039,
+      "text": "Can't do this to me, baby",
+      "syllabus": [
+        {
+          "time": 269630,
+          "duration": 235,
+          "text": "Can't "
+        },
+        {
+          "time": 269912,
+          "duration": 284,
+          "text": "do "
+        },
+        {
+          "time": 270228,
+          "duration": 236,
+          "text": "this "
+        },
+        {
+          "time": 270512,
+          "duration": 234,
+          "text": "to "
+        },
+        {
+          "time": 270811,
+          "duration": 203,
+          "text": "me, "
+        },
+        {
+          "time": 271078,
+          "duration": 468,
+          "text": "ba"
+        },
+        {
+          "time": 271546,
+          "duration": 1123,
+          "text": "by"
+        }
+      ],
+      "element": {
+        "key": "L63",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 272863,
+      "duration": 1463,
+      "text": "Just gotta get out",
+      "syllabus": [
+        {
+          "time": 272863,
+          "duration": 267,
+          "text": "Just "
+        },
+        {
+          "time": 273130,
+          "duration": 235,
+          "text": "gotta "
+        },
+        {
+          "time": 273365,
+          "duration": 250,
+          "text": "get "
+        },
+        {
+          "time": 273615,
+          "duration": 711,
+          "text": "out"
+        }
+      ],
+      "element": {
+        "key": "L64",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 274583,
+      "duration": 3301,
+      "text": "Just gotta get right outta here",
+      "syllabus": [
+        {
+          "time": 274583,
+          "duration": 246,
+          "text": "Just "
+        },
+        {
+          "time": 274829,
+          "duration": 320,
+          "text": "gotta "
+        },
+        {
+          "time": 275149,
+          "duration": 267,
+          "text": "get "
+        },
+        {
+          "time": 275416,
+          "duration": 299,
+          "text": "right "
+        },
+        {
+          "time": 275715,
+          "duration": 600,
+          "text": "outta "
+        },
+        {
+          "time": 276315,
+          "duration": 1569,
+          "text": "here"
+        }
+      ],
+      "element": {
+        "key": "L65",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 299830,
+      "duration": 1463,
+      "text": "Ooh, yeah",
+      "syllabus": [
+        {
+          "time": 299830,
+          "duration": 816,
+          "text": "Ooh, "
+        },
+        {
+          "time": 300646,
+          "duration": 647,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L66",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 301547,
+      "duration": 1336,
+      "text": "Ooh, yeah",
+      "syllabus": [
+        {
+          "time": 301547,
+          "duration": 784,
+          "text": "Ooh, "
+        },
+        {
+          "time": 302331,
+          "duration": 552,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L67",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 311578,
+      "duration": 3213,
+      "text": "Nothing really matters",
+      "syllabus": [
+        {
+          "time": 311578,
+          "duration": 399,
+          "text": "No"
+        },
+        {
+          "time": 311977,
+          "duration": 453,
+          "text": "thing "
+        },
+        {
+          "time": 312430,
+          "duration": 331,
+          "text": "real"
+        },
+        {
+          "time": 312761,
+          "duration": 400,
+          "text": "ly "
+        },
+        {
+          "time": 313161,
+          "duration": 384,
+          "text": "mat"
+        },
+        {
+          "time": 313545,
+          "duration": 1246,
+          "text": "ters"
+        }
+      ],
+      "element": {
+        "key": "L68",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 315071,
+      "duration": 3365,
+      "text": "Anyone can see",
+      "syllabus": [
+        {
+          "time": 315071,
+          "duration": 601,
+          "text": "Any"
+        },
+        {
+          "time": 315672,
+          "duration": 432,
+          "text": "one "
+        },
+        {
+          "time": 316104,
+          "duration": 618,
+          "text": "can "
+        },
+        {
+          "time": 316722,
+          "duration": 1714,
+          "text": "see"
+        }
+      ],
+      "element": {
+        "key": "L69",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 318583,
+      "duration": 3405,
+      "text": "Nothing really matters",
+      "syllabus": [
+        {
+          "time": 318583,
+          "duration": 334,
+          "text": "Not"
+        },
+        {
+          "time": 318917,
+          "duration": 369,
+          "text": "hing "
+        },
+        {
+          "time": 319286,
+          "duration": 316,
+          "text": "real"
+        },
+        {
+          "time": 319602,
+          "duration": 252,
+          "text": "ly "
+        },
+        {
+          "time": 319901,
+          "duration": 588,
+          "text": "mat"
+        },
+        {
+          "time": 320489,
+          "duration": 1499,
+          "text": "ters"
+        }
+      ],
+      "element": {
+        "key": "L70",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 322589,
+      "duration": 2834,
+      "text": "Nothing really matters",
+      "syllabus": [
+        {
+          "time": 322589,
+          "duration": 486,
+          "text": "Not"
+        },
+        {
+          "time": 323075,
+          "duration": 383,
+          "text": "hing "
+        },
+        {
+          "time": 323458,
+          "duration": 334,
+          "text": "real"
+        },
+        {
+          "time": 323792,
+          "duration": 317,
+          "text": "ly "
+        },
+        {
+          "time": 324109,
+          "duration": 400,
+          "text": "mat"
+        },
+        {
+          "time": 324509,
+          "duration": 914,
+          "text": "ters"
+        }
+      ],
+      "element": {
+        "key": "L71",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 325658,
+      "duration": 5419,
+      "text": "To me",
+      "syllabus": [
+        {
+          "time": 325658,
+          "duration": 420,
+          "text": "To "
+        },
+        {
+          "time": 326078,
+          "duration": 4999,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L72",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 342624,
+      "duration": 4337,
+      "text": "Any way the wind blows",
+      "syllabus": [
+        {
+          "time": 342624,
+          "duration": 933,
+          "text": "Any "
+        },
+        {
+          "time": 343557,
+          "duration": 384,
+          "text": "way "
+        },
+        {
+          "time": 343941,
+          "duration": 498,
+          "text": "the "
+        },
+        {
+          "time": 344439,
+          "duration": 1068,
+          "text": "wind "
+        },
+        {
+          "time": 345589,
+          "duration": 1372,
+          "text": "blows"
+        }
+      ],
+      "element": {
+        "key": "L73",
+        "singer": "v1",
+        "songPartIndex": 11
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 46,
+    "lastProcessed": 1789215720062,
+    "totalElapsedMs": 46,
+    "winnerSource": "qApple",
+    "syncPriority": 3,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 46
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "error": {
+    "message": "Lyrics not found in sources: qapple, qq, deezer",
+    "status": 404,
+    "details": {
+      "searchedSources": [
+        "qapple",
+        "qq",
+        "deezer"
+      ],
+      "songInfo": {
+        "title": "밤편지",
+        "artist": "IU",
+        "album": "Palette"
+      }
+    }
+  },
+  "processingTime": {
+    "timeElapsed": 840,
+    "lastProcessed": 1789215821309,
+    "totalElapsedMs": 839,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "BAD",
+        "elapsedMs": 73
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 839
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 125
+      }
+    }
+  }
+}

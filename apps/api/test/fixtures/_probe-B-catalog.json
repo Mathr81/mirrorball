@@ -1,0 +1,962 @@
+[
+  {
+    "track": {
+      "slug": "queen-bohemian-rhapsody",
+      "label": "Gros hit anglophone",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "duration": 354
+    },
+    "status": 200,
+    "ms": 124,
+    "summary": {
+      "topLevelKeys": [
+        "KpoeTools",
+        "type",
+        "metadata",
+        "lyrics",
+        "cached",
+        "processingTime"
+      ],
+      "type": "Word",
+      "metadataKeys": [
+        "source",
+        "songWriters",
+        "title",
+        "language",
+        "agents",
+        "songParts",
+        "totalDuration",
+        "artist",
+        "album",
+        "isrc"
+      ],
+      "metadataSource": "qApple",
+      "songPartsCount": 12,
+      "songPartsSample": [
+        {
+          "name": "Intro",
+          "duration": 50701
+        },
+        {
+          "name": "Verse",
+          "time": 55376,
+          "duration": 26694
+        }
+      ],
+      "lineCount": 73,
+      "linesWithSyllabus": 73,
+      "lineKeys": [
+        "time",
+        "duration",
+        "text",
+        "syllabus",
+        "element"
+      ],
+      "elementKeys": [
+        "key",
+        "singer",
+        "songPartIndex"
+      ],
+      "syllabusKeys": [
+        "time",
+        "duration",
+        "text"
+      ],
+      "firstLine": {
+        "time": 0,
+        "duration": 2906,
+        "text": "Is this the real life?"
+      },
+      "lastLine": {
+        "time": 342624,
+        "duration": 4337
+      },
+      "firstSyllabus": [
+        {
+          "time": 0,
+          "duration": 458,
+          "text": "Is "
+        },
+        {
+          "time": 458,
+          "duration": 348,
+          "text": "this "
+        },
+        {
+          "time": 806,
+          "duration": 418,
+          "text": "the "
+        },
+        {
+          "time": 1224,
+          "duration": 833,
+          "text": "real "
+        }
+      ],
+      "singers": [
+        "v1"
+      ],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 322,
+        "lastProcessed": 1789215507049,
+        "totalElapsedMs": 322,
+        "winnerSource": "qApple",
+        "syncPriority": 3,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "OK",
+            "elapsedMs": 40
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 322
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 205
+          }
+        }
+      }
+    }
+  },
+  {
+    "track": {
+      "slug": "weeknd-blinding-lights",
+      "label": "Hit pop récent",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": 200
+    },
+    "status": 200,
+    "ms": 201,
+    "summary": {
+      "topLevelKeys": [
+        "KpoeTools",
+        "type",
+        "metadata",
+        "lyrics",
+        "cached",
+        "processingTime"
+      ],
+      "type": "Word",
+      "metadataKeys": [
+        "source",
+        "songWriters",
+        "title",
+        "language",
+        "agents",
+        "songParts",
+        "totalDuration",
+        "artist",
+        "album",
+        "isrc"
+      ],
+      "metadataSource": "qApple",
+      "songPartsCount": 9,
+      "songPartsSample": [
+        {
+          "name": "Verse",
+          "time": 27395,
+          "duration": 21226
+        },
+        {
+          "name": "PreChorus",
+          "time": 49631,
+          "duration": 11333
+        }
+      ],
+      "lineCount": 35,
+      "linesWithSyllabus": 35,
+      "lineKeys": [
+        "time",
+        "duration",
+        "text",
+        "syllabus",
+        "element"
+      ],
+      "elementKeys": [
+        "key",
+        "singer",
+        "songPartIndex"
+      ],
+      "syllabusKeys": [
+        "time",
+        "duration",
+        "text"
+      ],
+      "firstLine": {
+        "time": 27395,
+        "duration": 1565,
+        "text": "I been tryna call"
+      },
+      "lastLine": {
+        "time": 190387,
+        "duration": 4483
+      },
+      "firstSyllabus": [
+        {
+          "time": 27395,
+          "duration": 154,
+          "text": "I "
+        },
+        {
+          "time": 27549,
+          "duration": 191,
+          "text": "been "
+        },
+        {
+          "time": 27740,
+          "duration": 337,
+          "text": "tryna "
+        },
+        {
+          "time": 28077,
+          "duration": 883,
+          "text": "call"
+        }
+      ],
+      "singers": [
+        "v1"
+      ],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 339,
+        "lastProcessed": 1789184799091,
+        "totalElapsedMs": 339,
+        "winnerSource": "qApple",
+        "syncPriority": 3,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "OK",
+            "elapsedMs": 35
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 339
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 213
+          }
+        }
+      }
+    }
+  },
+  {
+    "track": {
+      "slug": "eminem-without-me",
+      "label": "Rap, débit rapide",
+      "title": "Without Me",
+      "artist": "Eminem",
+      "album": "The Eminem Show",
+      "duration": 290
+    },
+    "status": 404,
+    "ms": 284,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 8022,
+        "lastProcessed": 1789100553104,
+        "totalElapsedMs": 8022,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "RTO",
+            "elapsedMs": 8022
+          },
+          "qq": {
+            "status": "RTO",
+            "elapsedMs": 8022
+          },
+          "deezer": {
+            "status": "RTO",
+            "elapsedMs": 8021
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Without Me\",\"artist\":\"Eminem\",\"album\":\"The Eminem Show\"}}},\"processingTime\":{\"timeElapsed\":8022,\"lastProcessed\":1789100553104,\"totalElapsedMs\":8022,\"sourcesStatus\":{\"qapple\":{\"status\":\"RTO\",\"elapsedMs\":8022},\"qq\":{\"status\":\"RTO\",\"elapsedMs\":8022},\"deezer\":{\"status\":\"RTO\",\"elapsedMs\":8021}}}}"
+  },
+  {
+    "track": {
+      "slug": "stromae-alors-on-danse",
+      "label": "Français",
+      "title": "Alors on danse",
+      "artist": "Stromae",
+      "album": "Cheese",
+      "duration": 205
+    },
+    "status": 404,
+    "ms": 508,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 334,
+        "lastProcessed": 1789215778764,
+        "totalElapsedMs": 334,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 211
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 329
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 333
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Alors on danse\",\"artist\":\"Stromae\",\"album\":\"Cheese\"}}},\"processingTime\":{\"timeElapsed\":334,\"lastProcessed\":1789215778764,\"totalElapsedMs\":334,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":211},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":329},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":333}}}}"
+  },
+  {
+    "track": {
+      "slug": "angele-balance-ton-quoi",
+      "label": "Français, accent dans le nom d artiste",
+      "title": "Balance ton quoi",
+      "artist": "Angèle",
+      "album": "Brol",
+      "duration": 176
+    },
+    "status": 404,
+    "ms": 495,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 318,
+        "lastProcessed": 1789215784754,
+        "totalElapsedMs": 318,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 129
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 318
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 277
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Balance ton quoi\",\"artist\":\"Angèle\",\"album\":\"Brol\"}}},\"processingTime\":{\"timeElapsed\":318,\"lastProcessed\":1789215784754,\"totalElapsedMs\":318,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":129},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":318},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":277}}}}"
+  },
+  {
+    "track": {
+      "slug": "piaf-non-je-ne-regrette-rien",
+      "label": "Français, accents + virgule dans le titre",
+      "title": "Non, je ne regrette rien",
+      "artist": "Édith Piaf",
+      "duration": 142
+    },
+    "status": 200,
+    "ms": 527,
+    "summary": {
+      "topLevelKeys": [
+        "KpoeTools",
+        "type",
+        "metadata",
+        "lyrics",
+        "cached",
+        "processingTime"
+      ],
+      "type": "Line",
+      "metadataKeys": [
+        "source",
+        "songWriters",
+        "title",
+        "language",
+        "agents",
+        "songParts",
+        "totalDuration",
+        "artist",
+        "album",
+        "isrc"
+      ],
+      "metadataSource": "qApple",
+      "songPartsCount": 3,
+      "songPartsSample": [
+        {
+          "name": "Verse",
+          "time": 11406,
+          "duration": 46123
+        },
+        {
+          "name": "Verse",
+          "time": 57985,
+          "duration": 26752
+        }
+      ],
+      "lineCount": 28,
+      "linesWithSyllabus": 0,
+      "lineKeys": [
+        "time",
+        "duration",
+        "text",
+        "syllabus",
+        "element"
+      ],
+      "elementKeys": [
+        "key",
+        "singer",
+        "songPartIndex"
+      ],
+      "syllabusKeys": null,
+      "firstLine": {
+        "time": 11406,
+        "duration": 4987,
+        "text": "Non, rien de rien"
+      },
+      "lastLine": {
+        "time": 127498,
+        "duration": 9834
+      },
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 325,
+        "lastProcessed": 1789215790781,
+        "totalElapsedMs": 324,
+        "winnerSource": "qApple",
+        "syncPriority": 2,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "OK",
+            "elapsedMs": 125
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 324
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 250
+          }
+        }
+      }
+    }
+  },
+  {
+    "track": {
+      "slug": "daftpunk-get-lucky",
+      "label": "Featuring dans le titre",
+      "title": "Get Lucky (feat. Pharrell Williams & Nile Rodgers)",
+      "artist": "Daft Punk",
+      "album": "Random Access Memories",
+      "duration": 369
+    },
+    "status": 200,
+    "ms": 566,
+    "summary": {
+      "topLevelKeys": [
+        "KpoeTools",
+        "type",
+        "metadata",
+        "lyrics",
+        "cached",
+        "processingTime"
+      ],
+      "type": "Line",
+      "metadataKeys": [
+        "source",
+        "songWriters",
+        "title",
+        "language",
+        "agents",
+        "songParts",
+        "totalDuration",
+        "artist",
+        "album",
+        "isrc"
+      ],
+      "metadataSource": "qApple",
+      "songPartsCount": 18,
+      "songPartsSample": [
+        {
+          "name": "Verse",
+          "time": 31406,
+          "duration": 14928
+        },
+        {
+          "name": "PreChorus",
+          "time": 49584,
+          "duration": 16051
+        }
+      ],
+      "lineCount": 114,
+      "linesWithSyllabus": 0,
+      "lineKeys": [
+        "time",
+        "duration",
+        "text",
+        "syllabus",
+        "element"
+      ],
+      "elementKeys": [
+        "key",
+        "singer",
+        "songPartIndex"
+      ],
+      "syllabusKeys": null,
+      "firstLine": {
+        "time": 31406,
+        "duration": 2301,
+        "text": "Like the legend of the Phoenix"
+      },
+      "lastLine": {
+        "time": 312475,
+        "duration": 2000
+      },
+      "firstSyllabus": null,
+      "singers": [
+        "v1",
+        "v2"
+      ],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 318,
+        "lastProcessed": 1789215796809,
+        "totalElapsedMs": 318,
+        "winnerSource": "qApple",
+        "syncPriority": 2,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "OK",
+            "elapsedMs": 65
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 317
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 226
+          }
+        }
+      }
+    }
+  },
+  {
+    "track": {
+      "slug": "nirvana-smells-live",
+      "label": "Version live",
+      "title": "Smells Like Teen Spirit - Live",
+      "artist": "Nirvana",
+      "album": "MTV Unplugged In New York",
+      "duration": 301
+    },
+    "status": 404,
+    "ms": 556,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 377,
+        "lastProcessed": 1789215802816,
+        "totalElapsedMs": 377,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 113
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 316
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 376
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Smells Like Teen Spirit - Live\",\"artist\":\"Nirvana\",\"album\":\"MTV Unplugged In New York\"}}},\"processingTime\":{\"timeElapsed\":377,\"lastProcessed\":1789215802816,\"totalElapsedMs\":377,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":113},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":316},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":376}}}}"
+  },
+  {
+    "track": {
+      "slug": "avicii-levels-radio-edit",
+      "label": "Radio edit / remix",
+      "title": "Levels - Radio Edit",
+      "artist": "Avicii",
+      "duration": 199
+    },
+    "status": 200,
+    "ms": 508,
+    "summary": {
+      "topLevelKeys": [
+        "KpoeTools",
+        "type",
+        "metadata",
+        "lyrics",
+        "cached",
+        "processingTime"
+      ],
+      "type": "Word",
+      "metadataKeys": [
+        "source",
+        "songWriters",
+        "title",
+        "language",
+        "agents",
+        "songParts",
+        "totalDuration",
+        "artist",
+        "album",
+        "isrc"
+      ],
+      "metadataSource": "qApple",
+      "songPartsCount": 2,
+      "songPartsSample": [
+        {
+          "name": "Chorus",
+          "time": 83699,
+          "duration": 14818
+        },
+        {
+          "name": "Chorus",
+          "time": 98912,
+          "duration": 14851
+        }
+      ],
+      "lineCount": 6,
+      "linesWithSyllabus": 6,
+      "lineKeys": [
+        "time",
+        "duration",
+        "text",
+        "syllabus",
+        "element"
+      ],
+      "elementKeys": [
+        "key",
+        "singer",
+        "songPartIndex"
+      ],
+      "syllabusKeys": [
+        "time",
+        "duration",
+        "text"
+      ],
+      "firstLine": {
+        "time": 83699,
+        "duration": 6304,
+        "text": "Oh, sometimes I get a good feeling, yeah"
+      },
+      "lastLine": {
+        "time": 111514,
+        "duration": 2249
+      },
+      "firstSyllabus": [
+        {
+          "time": 83699,
+          "duration": 1661,
+          "text": "Oh, "
+        },
+        {
+          "time": 85360,
+          "duration": 397,
+          "text": "some"
+        },
+        {
+          "time": 85757,
+          "duration": 1022,
+          "text": "times "
+        },
+        {
+          "time": 86829,
+          "duration": 216,
+          "text": "I "
+        }
+      ],
+      "singers": [
+        "v1"
+      ],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 356,
+        "lastProcessed": 1789215808768,
+        "totalElapsedMs": 356,
+        "winnerSource": "qApple",
+        "syncPriority": 3,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "OK",
+            "elapsedMs": 50
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 356
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 131
+          }
+        }
+      }
+    }
+  },
+  {
+    "track": {
+      "slug": "yoasobi-yoru-ni-kakeru",
+      "label": "Japonais (candidat transliteration)",
+      "title": "夜に駆ける",
+      "artist": "YOASOBI",
+      "album": "THE BOOK",
+      "duration": 261
+    },
+    "status": 404,
+    "ms": 486,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 325,
+        "lastProcessed": 1789215814756,
+        "totalElapsedMs": 325,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 118
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 325
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 200
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"夜に駆ける\",\"artist\":\"YOASOBI\",\"album\":\"THE BOOK\"}}},\"processingTime\":{\"timeElapsed\":325,\"lastProcessed\":1789215814756,\"totalElapsedMs\":325,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":118},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":325},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":200}}}}"
+  },
+  {
+    "track": {
+      "slug": "iu-through-the-night",
+      "label": "Coréen (candidat transliteration)",
+      "title": "밤편지",
+      "artist": "IU",
+      "album": "Palette",
+      "duration": 254
+    },
+    "status": 404,
+    "ms": 1034,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 840,
+        "lastProcessed": 1789215821309,
+        "totalElapsedMs": 839,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 73
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 839
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 125
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"밤편지\",\"artist\":\"IU\",\"album\":\"Palette\"}}},\"processingTime\":{\"timeElapsed\":840,\"lastProcessed\":1789215821309,\"totalElapsedMs\":839,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":73},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":839},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":125}}}}"
+  },
+  {
+    "track": {
+      "slug": "obscure-nonexistent",
+      "label": "Morceau inexistant (contrôle négatif)",
+      "title": "Zzqxv Nonexistent Track 91847",
+      "artist": "Nobody At All Whatsoever",
+      "duration": 123
+    },
+    "status": 404,
+    "ms": 527,
+    "summary": {
+      "topLevelKeys": [
+        "error",
+        "processingTime"
+      ],
+      "type": null,
+      "metadataKeys": null,
+      "metadataSource": null,
+      "songPartsCount": null,
+      "songPartsSample": null,
+      "lineCount": 0,
+      "linesWithSyllabus": 0,
+      "lineKeys": null,
+      "elementKeys": null,
+      "syllabusKeys": null,
+      "firstLine": null,
+      "lastLine": null,
+      "firstSyllabus": null,
+      "singers": [],
+      "songPartValues": [],
+      "linesWithTransliteration": 0,
+      "transliterationSample": null,
+      "processingTime": {
+        "timeElapsed": 332,
+        "lastProcessed": 1789215826806,
+        "totalElapsedMs": 332,
+        "sourcesStatus": {
+          "qapple": {
+            "status": "BAD",
+            "elapsedMs": 129
+          },
+          "qq": {
+            "status": "BAD",
+            "elapsedMs": 332
+          },
+          "deezer": {
+            "status": "BAD",
+            "elapsedMs": 217
+          }
+        }
+      }
+    },
+    "errorBody": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Zzqxv Nonexistent Track 91847\",\"artist\":\"Nobody At All Whatsoever\",\"album\":\"\"}}},\"processingTime\":{\"timeElapsed\":332,\"lastProcessed\":1789215826806,\"totalElapsedMs\":332,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":129},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":332},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":217}}}}"
+  }
+]

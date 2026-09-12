@@ -1,0 +1,50 @@
+[
+  {
+    "label": "exacte",
+    "duration": 354,
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73
+  },
+  {
+    "label": "+3 s",
+    "duration": 357,
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73
+  },
+  {
+    "label": "-8 s",
+    "duration": 346,
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0
+  },
+  {
+    "label": "+30 s",
+    "duration": 384,
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0
+  },
+  {
+    "label": "+120 s",
+    "duration": 474,
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0
+  },
+  {
+    "label": "absente",
+    "duration": null,
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73
+  }
+]

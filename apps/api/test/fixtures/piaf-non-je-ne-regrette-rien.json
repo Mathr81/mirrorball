@@ -1,0 +1,367 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Line",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "Charles Dumont",
+      "Michel Vaucaire"
+    ],
+    "title": "Non, je ne regrette rien",
+    "language": "fr",
+    "agents": {},
+    "songParts": [
+      {
+        "name": "Verse",
+        "time": 11406,
+        "duration": 46123
+      },
+      {
+        "name": "Verse",
+        "time": 57985,
+        "duration": 26752
+      },
+      {
+        "name": "Verse",
+        "time": 85526,
+        "duration": 51806
+      }
+    ],
+    "totalDuration": "2:17.052",
+    "artist": "Édith Piaf",
+    "album": "The Best of Édith Piaf",
+    "isrc": "FRZ116000530"
+  },
+  "lyrics": [
+    {
+      "time": 11406,
+      "duration": 4987,
+      "text": "Non, rien de rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105196",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 17060,
+      "duration": 4620,
+      "text": "Non, je ne regrette rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105197",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 22260,
+      "duration": 5227,
+      "text": "Ni le bien qu'on m'a fait",
+      "syllabus": [],
+      "element": {
+        "key": "L105198",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 27750,
+      "duration": 1850,
+      "text": "Ni le mal",
+      "syllabus": [],
+      "element": {
+        "key": "L105199",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 29843,
+      "duration": 3594,
+      "text": "Tout ça m'est bien égal",
+      "syllabus": [],
+      "element": {
+        "key": "L105200",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 33631,
+      "duration": 5251,
+      "text": "Non, rien de rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105201",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 39118,
+      "duration": 4625,
+      "text": "Non, je ne regrette rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105202",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 44233,
+      "duration": 7847,
+      "text": "C'est payé, balayé, oublié",
+      "syllabus": [],
+      "element": {
+        "key": "L105203",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 52649,
+      "duration": 4880,
+      "text": "Je me fous du passé",
+      "syllabus": [],
+      "element": {
+        "key": "L105204",
+        "singer": "",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 57985,
+      "duration": 3129,
+      "text": "Avec mes souvenirs",
+      "syllabus": [],
+      "element": {
+        "key": "L105205",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 61600,
+      "duration": 2742,
+      "text": "J'ai allumé le feu",
+      "syllabus": [],
+      "element": {
+        "key": "L105206",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 64491,
+      "duration": 2665,
+      "text": "Mes chagrins, mes plaisirs",
+      "syllabus": [],
+      "element": {
+        "key": "L105207",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 67366,
+      "duration": 2872,
+      "text": "Je n'ai plus besoin d'eux",
+      "syllabus": [],
+      "element": {
+        "key": "L105208",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 70348,
+      "duration": 2718,
+      "text": "Balayées les amours",
+      "syllabus": [],
+      "element": {
+        "key": "L105209",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 73343,
+      "duration": 2783,
+      "text": "Avec leurs trémolos",
+      "syllabus": [],
+      "element": {
+        "key": "L105210",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 76256,
+      "duration": 2751,
+      "text": "Balayées pour toujours",
+      "syllabus": [],
+      "element": {
+        "key": "L105211",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 79645,
+      "duration": 5092,
+      "text": "Je repars à zéro",
+      "syllabus": [],
+      "element": {
+        "key": "L105212",
+        "singer": "",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 85526,
+      "duration": 5284,
+      "text": "Non, rien de rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105213",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 91121,
+      "duration": 4936,
+      "text": "Non, je ne regrette rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105214",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 96341,
+      "duration": 5325,
+      "text": "Ni le bien qu'on m'a fait",
+      "syllabus": [],
+      "element": {
+        "key": "L105215",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 101795,
+      "duration": 1990,
+      "text": "Ni le mal",
+      "syllabus": [],
+      "element": {
+        "key": "L105216",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 103949,
+      "duration": 3893,
+      "text": "Tout ça m'est bien égal",
+      "syllabus": [],
+      "element": {
+        "key": "L105217",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 107959,
+      "duration": 5178,
+      "text": "Non, rien de rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105218",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 113412,
+      "duration": 4735,
+      "text": "Non, je ne regrette rien",
+      "syllabus": [],
+      "element": {
+        "key": "L105219",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 118432,
+      "duration": 2545,
+      "text": "Car ma vie",
+      "syllabus": [],
+      "element": {
+        "key": "L105220",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 121301,
+      "duration": 2594,
+      "text": "Car mes joies",
+      "syllabus": [],
+      "element": {
+        "key": "L105221",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 124081,
+      "duration": 2538,
+      "text": "Aujourd'hui",
+      "syllabus": [],
+      "element": {
+        "key": "L105222",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 127498,
+      "duration": 9834,
+      "text": "Ça commence avec toi",
+      "syllabus": [],
+      "element": {
+        "key": "L105223",
+        "singer": "",
+        "songPartIndex": 2
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 325,
+    "lastProcessed": 1789215790781,
+    "totalElapsedMs": 324,
+    "winnerSource": "qApple",
+    "syncPriority": 2,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 125
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 324
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 250
+      }
+    }
+  }
+}

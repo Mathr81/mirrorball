@@ -1,0 +1,126 @@
+[
+  {
+    "group": "G1",
+    "track": "Alors on danse",
+    "variant": "album + duration",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G1",
+    "track": "Alors on danse",
+    "variant": "sans album",
+    "status": 200,
+    "type": "Word",
+    "lines": 63
+  },
+  {
+    "group": "G1",
+    "track": "Alors on danse",
+    "variant": "sans duration",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G1",
+    "track": "Alors on danse",
+    "variant": "titre + artiste seuls",
+    "status": 200,
+    "type": "Word",
+    "lines": 63
+  },
+  {
+    "group": "G1",
+    "track": "Without Me",
+    "variant": "album + duration",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G1",
+    "track": "Without Me",
+    "variant": "sans album",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G1",
+    "track": "Without Me",
+    "variant": "sans duration",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G1",
+    "track": "Without Me",
+    "variant": "titre + artiste seuls",
+    "status": 404,
+    "type": null,
+    "lines": 0
+  },
+  {
+    "group": "G2",
+    "slug": "translit-newjeans-ditto",
+    "title": "Ditto",
+    "artist": "NewJeans",
+    "status": 404,
+    "type": null,
+    "lines": 0,
+    "translit": 0
+  },
+  {
+    "group": "G2",
+    "slug": "translit-yoasobi-idol",
+    "title": "アイドル",
+    "artist": "YOASOBI",
+    "status": 404,
+    "type": null,
+    "lines": 0,
+    "translit": 0
+  },
+  {
+    "group": "G2",
+    "slug": "translit-lisa-gurenge",
+    "title": "紅蓮華",
+    "artist": "LiSA",
+    "status": 404,
+    "type": null,
+    "lines": 0,
+    "translit": 0
+  },
+  {
+    "group": "G2",
+    "slug": "translit-blackpink-hylt",
+    "title": "How You Like That",
+    "artist": "BLACKPINK",
+    "status": 200,
+    "type": "Word",
+    "lines": 54,
+    "translit": 54
+  },
+  {
+    "group": "G2",
+    "slug": "translit-kenshi-lemon",
+    "title": "Lemon",
+    "artist": "米津玄師",
+    "status": 404,
+    "type": null,
+    "lines": 0,
+    "translit": 0
+  },
+  {
+    "group": "G2",
+    "slug": "translit-iu-lilac",
+    "title": "LILAC",
+    "artist": "IU",
+    "status": 200,
+    "type": "Word",
+    "lines": 57,
+    "translit": 57
+  }
+]

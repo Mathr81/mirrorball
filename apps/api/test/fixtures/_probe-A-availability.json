@@ -1,0 +1,46 @@
+[
+  {
+    "base": "https://lyricsplus.binimum.org",
+    "verdict": "VIVANTE",
+    "ms": 412,
+    "status": 200,
+    "server": "cloudflare",
+    "cors": {
+      "access-control-allow-headers": "Content-Type, Authorization",
+      "access-control-allow-methods": "GET,HEAD,POST,PUT,DELETE,OPTIONS",
+      "access-control-allow-origin": "*",
+      "access-control-max-age": "86400"
+    }
+  },
+  {
+    "base": "https://lyricsplus.atomix.one",
+    "verdict": "HS (HTTP 503)",
+    "ms": 724,
+    "status": 503,
+    "cors": {}
+  },
+  {
+    "base": "https://lyricsplus-seven.vercel.app",
+    "verdict": "HS (HTTP 402)",
+    "ms": 302,
+    "status": 402,
+    "server": "Vercel",
+    "cors": {}
+  },
+  {
+    "base": "https://lyricsplus.prjktla.workers.dev",
+    "verdict": "HS (HTTP 429)",
+    "ms": 194,
+    "status": 429,
+    "server": "cloudflare",
+    "cors": {}
+  },
+  {
+    "base": "https://lyrics-plus-backend.vercel.app",
+    "verdict": "HS (HTTP 402)",
+    "ms": 358,
+    "status": 402,
+    "server": "Vercel",
+    "cors": {}
+  }
+]

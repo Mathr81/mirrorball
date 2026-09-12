@@ -1,0 +1,26 @@
+[
+  {
+    "label": "morceau inexistant",
+    "status": 404,
+    "contentType": "application/json",
+    "body": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq, deezer\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\",\"deezer\"],\"songInfo\":{\"title\":\"Zzqxv Nonexistent Track 91847\",\"artist\":\"Nobody At All Whatsoever\",\"album\":\"\"}}},\"processingTime\":{\"timeElapsed\":332,\"lastProcessed\":1789215826806,\"totalElapsedMs\":332,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"elapsedMs\":129},\"qq\":{\"status\":\"BAD\",\"elapsedMs\":332},\"deezer\":{\"status\":\"BAD\",\"elapsedMs\":217}}}}"
+  },
+  {
+    "label": "params vides",
+    "status": 400,
+    "contentType": "application/json",
+    "body": "{\"error\":\"Missing required parameters: (title and artist) or isrc or platformId\"}"
+  },
+  {
+    "label": "title seul, sans artist",
+    "status": 400,
+    "contentType": "application/json",
+    "body": "{\"error\":\"Missing required parameters: (title and artist) or isrc or platformId\"}"
+  },
+  {
+    "label": "aucun paramètre",
+    "status": 400,
+    "contentType": "application/json",
+    "body": "{\"error\":\"Missing required parameters: (title and artist) or isrc or platformId\"}"
+  }
+]

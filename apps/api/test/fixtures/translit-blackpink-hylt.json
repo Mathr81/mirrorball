@@ -1,0 +1,4396 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Word",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "Danny Chung"
+    ],
+    "title": "How You Like That",
+    "language": "en",
+    "agents": {
+      "v1": {
+        "type": "person",
+        "name": "",
+        "alias": "v1"
+      }
+    },
+    "songParts": [
+      {
+        "name": "Intro",
+        "time": 6867,
+        "duration": 2293
+      },
+      {
+        "name": "Verse",
+        "time": 12230,
+        "duration": 14733
+      },
+      {
+        "name": "PreChorus",
+        "time": 27153,
+        "duration": 13446
+      },
+      {
+        "name": "Chorus",
+        "time": 41025,
+        "duration": 15582
+      },
+      {
+        "name": "Chorus",
+        "time": 56725,
+        "duration": 5995
+      },
+      {
+        "name": "Chorus",
+        "time": 62730,
+        "duration": 1266
+      },
+      {
+        "name": "Chorus",
+        "time": 64006,
+        "duration": 6141
+      },
+      {
+        "name": "Chorus",
+        "time": 70157,
+        "duration": 1322
+      },
+      {
+        "name": "Verse",
+        "time": 71832,
+        "duration": 14549
+      },
+      {
+        "name": "PreChorus",
+        "time": 86491,
+        "duration": 13194
+      },
+      {
+        "name": "Chorus",
+        "time": 100144,
+        "duration": 15576
+      },
+      {
+        "name": "Chorus",
+        "time": 115830,
+        "duration": 5959
+      },
+      {
+        "name": "Chorus",
+        "time": 121810,
+        "duration": 1357
+      },
+      {
+        "name": "Chorus",
+        "time": 123177,
+        "duration": 5935
+      },
+      {
+        "name": "Chorus",
+        "time": 129122,
+        "duration": 1580
+      },
+      {
+        "name": "Bridge",
+        "time": 131450,
+        "duration": 14290
+      },
+      {
+        "name": "Bridge",
+        "time": 152359,
+        "duration": 1024
+      },
+      {
+        "name": "Bridge",
+        "time": 159936,
+        "duration": 669
+      },
+      {
+        "name": "Chorus",
+        "time": 163411,
+        "duration": 8798
+      }
+    ],
+    "totalDuration": "3:01.264",
+    "artist": "BLACKPINK",
+    "album": "How You Like That - Single",
+    "isrc": "KRA402000111"
+  },
+  "lyrics": [
+    {
+      "time": 6867,
+      "duration": 2293,
+      "text": "(BLACKPINK in your area)",
+      "syllabus": [
+        {
+          "time": 6867,
+          "duration": 573,
+          "text": "(BLACKPINK "
+        },
+        {
+          "time": 7440,
+          "duration": 574,
+          "text": "in "
+        },
+        {
+          "time": 8014,
+          "duration": 573,
+          "text": "your "
+        },
+        {
+          "time": 8587,
+          "duration": 573,
+          "text": "area)"
+        }
+      ],
+      "element": {
+        "key": "L1",
+        "singer": "v1",
+        "songPartIndex": 0
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "(BLACKPINK in your area)",
+        "syllabus": [
+          {
+            "time": 6867,
+            "duration": 573,
+            "text": "(BLACKPINK "
+          },
+          {
+            "time": 7440,
+            "duration": 574,
+            "text": "in "
+          },
+          {
+            "time": 8014,
+            "duration": 573,
+            "text": "your "
+          },
+          {
+            "time": 8587,
+            "duration": 573,
+            "text": "area)"
+          }
+        ]
+      }
+    },
+    {
+      "time": 12230,
+      "duration": 3283,
+      "text": "보란 듯이 무너졌어",
+      "syllabus": [
+        {
+          "time": 12230,
+          "duration": 511,
+          "text": "보란 "
+        },
+        {
+          "time": 12741,
+          "duration": 756,
+          "text": "듯이 "
+        },
+        {
+          "time": 14121,
+          "duration": 1392,
+          "text": "무너졌어"
+        }
+      ],
+      "element": {
+        "key": "L2",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bo ran  deu si  mu neo jyeo sseo",
+        "syllabus": [
+          {
+            "time": 12230,
+            "duration": 511,
+            "text": "bo ran  "
+          },
+          {
+            "time": 12741,
+            "duration": 756,
+            "text": "deu si  "
+          },
+          {
+            "time": 14121,
+            "duration": 1392,
+            "text": "mu neo jyeo sseo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 15783,
+      "duration": 3787,
+      "text": "바닥을 뚫고 저 지하까지",
+      "syllabus": [
+        {
+          "time": 15783,
+          "duration": 839,
+          "text": "바닥을 "
+        },
+        {
+          "time": 16622,
+          "duration": 679,
+          "text": "뚫고 "
+        },
+        {
+          "time": 17301,
+          "duration": 264,
+          "text": "저 "
+        },
+        {
+          "time": 17565,
+          "duration": 2005,
+          "text": "지하까지"
+        }
+      ],
+      "element": {
+        "key": "L3",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ba da geul  ttul ko  jeo  ji ha kka ji",
+        "syllabus": [
+          {
+            "time": 15783,
+            "duration": 839,
+            "text": "ba da geul  "
+          },
+          {
+            "time": 16622,
+            "duration": 679,
+            "text": "ttul ko  "
+          },
+          {
+            "time": 17301,
+            "duration": 264,
+            "text": "jeo  "
+          },
+          {
+            "time": 17565,
+            "duration": 2005,
+            "text": "ji ha kka ji"
+          }
+        ]
+      }
+    },
+    {
+      "time": 19580,
+      "duration": 3573,
+      "text": "옷 끝자락 잡겠다고",
+      "syllabus": [
+        {
+          "time": 19580,
+          "duration": 308,
+          "text": "옷 "
+        },
+        {
+          "time": 19888,
+          "duration": 1151,
+          "text": "끝자락 "
+        },
+        {
+          "time": 21039,
+          "duration": 2114,
+          "text": "잡겠다고"
+        }
+      ],
+      "element": {
+        "key": "L4",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ot  kkeut ja rak  jap get da go",
+        "syllabus": [
+          {
+            "time": 19580,
+            "duration": 308,
+            "text": "ot  "
+          },
+          {
+            "time": 19888,
+            "duration": 1151,
+            "text": "kkeut ja rak  "
+          },
+          {
+            "time": 21039,
+            "duration": 2114,
+            "text": "jap get da go"
+          }
+        ]
+      }
+    },
+    {
+      "time": 23163,
+      "duration": 3800,
+      "text": "저 높이 두 손을 뻗어봐도",
+      "syllabus": [
+        {
+          "time": 23163,
+          "duration": 260,
+          "text": "저 "
+        },
+        {
+          "time": 23423,
+          "duration": 561,
+          "text": "높이 "
+        },
+        {
+          "time": 23984,
+          "duration": 454,
+          "text": "두 "
+        },
+        {
+          "time": 24438,
+          "duration": 490,
+          "text": "손을 "
+        },
+        {
+          "time": 24928,
+          "duration": 2035,
+          "text": "뻗어봐도"
+        }
+      ],
+      "element": {
+        "key": "L5",
+        "singer": "v1",
+        "songPartIndex": 1
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "jeo  no pi  du  so neul  ppeo deo bwa do",
+        "syllabus": [
+          {
+            "time": 23163,
+            "duration": 260,
+            "text": "jeo  "
+          },
+          {
+            "time": 23423,
+            "duration": 561,
+            "text": "no pi  "
+          },
+          {
+            "time": 23984,
+            "duration": 454,
+            "text": "du  "
+          },
+          {
+            "time": 24438,
+            "duration": 490,
+            "text": "so neul  "
+          },
+          {
+            "time": 24928,
+            "duration": 2035,
+            "text": "ppeo deo bwa do"
+          }
+        ]
+      }
+    },
+    {
+      "time": 27153,
+      "duration": 3893,
+      "text": "다시 캄캄한 이곳에 Light up the sky",
+      "syllabus": [
+        {
+          "time": 27153,
+          "duration": 556,
+          "text": "다시 "
+        },
+        {
+          "time": 27709,
+          "duration": 832,
+          "text": "캄캄한 "
+        },
+        {
+          "time": 28541,
+          "duration": 836,
+          "text": "이곳에 "
+        },
+        {
+          "time": 29377,
+          "duration": 361,
+          "text": "Light "
+        },
+        {
+          "time": 29738,
+          "duration": 448,
+          "text": "up "
+        },
+        {
+          "time": 30186,
+          "duration": 304,
+          "text": "the "
+        },
+        {
+          "time": 30490,
+          "duration": 556,
+          "text": "sky"
+        }
+      ],
+      "element": {
+        "key": "L6",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "da si  kam kam han  i go se  Light up the sky",
+        "syllabus": [
+          {
+            "time": 27153,
+            "duration": 556,
+            "text": "da si  "
+          },
+          {
+            "time": 27709,
+            "duration": 832,
+            "text": "kam kam han  "
+          },
+          {
+            "time": 28541,
+            "duration": 836,
+            "text": "i go se  "
+          },
+          {
+            "time": 29377,
+            "duration": 361,
+            "text": "Light "
+          },
+          {
+            "time": 29738,
+            "duration": 448,
+            "text": "up "
+          },
+          {
+            "time": 30186,
+            "duration": 304,
+            "text": "the "
+          },
+          {
+            "time": 30490,
+            "duration": 556,
+            "text": "sky"
+          }
+        ]
+      }
+    },
+    {
+      "time": 31056,
+      "duration": 3871,
+      "text": "네 두 눈을 보며 I'll kiss you goodbye",
+      "syllabus": [
+        {
+          "time": 31056,
+          "duration": 484,
+          "text": "네 "
+        },
+        {
+          "time": 31540,
+          "duration": 484,
+          "text": "두 "
+        },
+        {
+          "time": 32024,
+          "duration": 484,
+          "text": "눈을 "
+        },
+        {
+          "time": 32508,
+          "duration": 484,
+          "text": "보며 "
+        },
+        {
+          "time": 32992,
+          "duration": 483,
+          "text": "I'll "
+        },
+        {
+          "time": 33475,
+          "duration": 484,
+          "text": "kiss "
+        },
+        {
+          "time": 33959,
+          "duration": 484,
+          "text": "you "
+        },
+        {
+          "time": 34443,
+          "duration": 484,
+          "text": "goodbye"
+        }
+      ],
+      "element": {
+        "key": "L7",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ne  du  nu neul  bo myeo  I'll kiss you goodbye",
+        "syllabus": [
+          {
+            "time": 31056,
+            "duration": 484,
+            "text": "ne  "
+          },
+          {
+            "time": 31540,
+            "duration": 484,
+            "text": "du  "
+          },
+          {
+            "time": 32024,
+            "duration": 484,
+            "text": "nu neul  "
+          },
+          {
+            "time": 32508,
+            "duration": 484,
+            "text": "bo myeo  "
+          },
+          {
+            "time": 32992,
+            "duration": 483,
+            "text": "I'll "
+          },
+          {
+            "time": 33475,
+            "duration": 484,
+            "text": "kiss "
+          },
+          {
+            "time": 33959,
+            "duration": 484,
+            "text": "you "
+          },
+          {
+            "time": 34443,
+            "duration": 484,
+            "text": "goodbye"
+          }
+        ]
+      }
+    },
+    {
+      "time": 34977,
+      "duration": 3285,
+      "text": "실컷 비웃어라 꼴좋으니까",
+      "syllabus": [
+        {
+          "time": 34977,
+          "duration": 822,
+          "text": "실컷 "
+        },
+        {
+          "time": 35799,
+          "duration": 1111,
+          "text": "비웃어라 "
+        },
+        {
+          "time": 36910,
+          "duration": 1352,
+          "text": "꼴좋으니까"
+        }
+      ],
+      "element": {
+        "key": "L8",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "sil keot  bi u seo ra  kkol jo eu ni kka",
+        "syllabus": [
+          {
+            "time": 34977,
+            "duration": 822,
+            "text": "sil keot  "
+          },
+          {
+            "time": 35799,
+            "duration": 1111,
+            "text": "bi u seo ra  "
+          },
+          {
+            "time": 36910,
+            "duration": 1352,
+            "text": "kkol jo eu ni kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 38272,
+      "duration": 2327,
+      "text": "이제 너희 하나 둘 셋",
+      "syllabus": [
+        {
+          "time": 38272,
+          "duration": 465,
+          "text": "이제 "
+        },
+        {
+          "time": 38737,
+          "duration": 466,
+          "text": "너희 "
+        },
+        {
+          "time": 39203,
+          "duration": 465,
+          "text": "하나 "
+        },
+        {
+          "time": 39668,
+          "duration": 466,
+          "text": "둘 "
+        },
+        {
+          "time": 40134,
+          "duration": 465,
+          "text": "셋"
+        }
+      ],
+      "element": {
+        "key": "L9",
+        "singer": "v1",
+        "songPartIndex": 2
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "i je  neo hui  ha na  dul  set",
+        "syllabus": [
+          {
+            "time": 38272,
+            "duration": 465,
+            "text": "i je  "
+          },
+          {
+            "time": 38737,
+            "duration": 466,
+            "text": "neo hui  "
+          },
+          {
+            "time": 39203,
+            "duration": 465,
+            "text": "ha na  "
+          },
+          {
+            "time": 39668,
+            "duration": 466,
+            "text": "dul  "
+          },
+          {
+            "time": 40134,
+            "duration": 465,
+            "text": "set"
+          }
+        ]
+      }
+    },
+    {
+      "time": 41025,
+      "duration": 1943,
+      "text": "Ha, How You Like That?",
+      "syllabus": [
+        {
+          "time": 41025,
+          "duration": 389,
+          "text": "Ha, "
+        },
+        {
+          "time": 41414,
+          "duration": 388,
+          "text": "How "
+        },
+        {
+          "time": 41802,
+          "duration": 389,
+          "text": "You "
+        },
+        {
+          "time": 42191,
+          "duration": 388,
+          "text": "Like "
+        },
+        {
+          "time": 42579,
+          "duration": 389,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L10",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ha, How You Like That?",
+        "syllabus": [
+          {
+            "time": 41025,
+            "duration": 389,
+            "text": "Ha, "
+          },
+          {
+            "time": 41414,
+            "duration": 388,
+            "text": "How "
+          },
+          {
+            "time": 41802,
+            "duration": 389,
+            "text": "You "
+          },
+          {
+            "time": 42191,
+            "duration": 388,
+            "text": "Like "
+          },
+          {
+            "time": 42579,
+            "duration": 389,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 45148,
+      "duration": 4021,
+      "text": "You gon' like that, that-that-that-that, that-that-that-that",
+      "syllabus": [
+        {
+          "time": 45148,
+          "duration": 335,
+          "text": "You "
+        },
+        {
+          "time": 45483,
+          "duration": 335,
+          "text": "gon' "
+        },
+        {
+          "time": 45818,
+          "duration": 335,
+          "text": "like "
+        },
+        {
+          "time": 46153,
+          "duration": 335,
+          "text": "that, "
+        },
+        {
+          "time": 46488,
+          "duration": 335,
+          "text": "that-"
+        },
+        {
+          "time": 46823,
+          "duration": 336,
+          "text": "that-"
+        },
+        {
+          "time": 47159,
+          "duration": 335,
+          "text": "that-"
+        },
+        {
+          "time": 47494,
+          "duration": 335,
+          "text": "that, "
+        },
+        {
+          "time": 47829,
+          "duration": 335,
+          "text": "that-"
+        },
+        {
+          "time": 48164,
+          "duration": 335,
+          "text": "that-"
+        },
+        {
+          "time": 48499,
+          "duration": 335,
+          "text": "that-"
+        },
+        {
+          "time": 48834,
+          "duration": 335,
+          "text": "that"
+        }
+      ],
+      "element": {
+        "key": "L11",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "You gon' like that, that-that-that-that, that-that-that-that",
+        "syllabus": [
+          {
+            "time": 45148,
+            "duration": 335,
+            "text": "You "
+          },
+          {
+            "time": 45483,
+            "duration": 335,
+            "text": "gon' "
+          },
+          {
+            "time": 45818,
+            "duration": 335,
+            "text": "like "
+          },
+          {
+            "time": 46153,
+            "duration": 335,
+            "text": "that, "
+          },
+          {
+            "time": 46488,
+            "duration": 335,
+            "text": "that-"
+          },
+          {
+            "time": 46823,
+            "duration": 336,
+            "text": "that-"
+          },
+          {
+            "time": 47159,
+            "duration": 335,
+            "text": "that-"
+          },
+          {
+            "time": 47494,
+            "duration": 335,
+            "text": "that, "
+          },
+          {
+            "time": 47829,
+            "duration": 335,
+            "text": "that-"
+          },
+          {
+            "time": 48164,
+            "duration": 335,
+            "text": "that-"
+          },
+          {
+            "time": 48499,
+            "duration": 335,
+            "text": "that-"
+          },
+          {
+            "time": 48834,
+            "duration": 335,
+            "text": "that"
+          }
+        ]
+      }
+    },
+    {
+      "time": 48861,
+      "duration": 1460,
+      "text": "How you like that?",
+      "syllabus": [
+        {
+          "time": 48861,
+          "duration": 365,
+          "text": "How "
+        },
+        {
+          "time": 49226,
+          "duration": 365,
+          "text": "you "
+        },
+        {
+          "time": 49591,
+          "duration": 365,
+          "text": "like "
+        },
+        {
+          "time": 49956,
+          "duration": 365,
+          "text": "that?"
+        }
+      ],
+      "element": {
+        "key": "L12",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How you like that?",
+        "syllabus": [
+          {
+            "time": 48861,
+            "duration": 365,
+            "text": "How "
+          },
+          {
+            "time": 49226,
+            "duration": 365,
+            "text": "you "
+          },
+          {
+            "time": 49591,
+            "duration": 365,
+            "text": "like "
+          },
+          {
+            "time": 49956,
+            "duration": 365,
+            "text": "that?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 52517,
+      "duration": 4090,
+      "text": "How you like that, that-that-that-that, that-that-that-that?",
+      "syllabus": [
+        {
+          "time": 52517,
+          "duration": 341,
+          "text": "How "
+        },
+        {
+          "time": 52858,
+          "duration": 341,
+          "text": "you "
+        },
+        {
+          "time": 53199,
+          "duration": 341,
+          "text": "like "
+        },
+        {
+          "time": 53540,
+          "duration": 340,
+          "text": "that, "
+        },
+        {
+          "time": 53880,
+          "duration": 341,
+          "text": "that-"
+        },
+        {
+          "time": 54221,
+          "duration": 341,
+          "text": "that-"
+        },
+        {
+          "time": 54562,
+          "duration": 341,
+          "text": "that-"
+        },
+        {
+          "time": 54903,
+          "duration": 341,
+          "text": "that, "
+        },
+        {
+          "time": 55244,
+          "duration": 341,
+          "text": "that-"
+        },
+        {
+          "time": 55585,
+          "duration": 340,
+          "text": "that-"
+        },
+        {
+          "time": 55925,
+          "duration": 341,
+          "text": "that-"
+        },
+        {
+          "time": 56266,
+          "duration": 341,
+          "text": "that?"
+        }
+      ],
+      "element": {
+        "key": "L13",
+        "singer": "v1",
+        "songPartIndex": 3
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How you like that, that-that-that-that, that-that-that-that?",
+        "syllabus": [
+          {
+            "time": 52517,
+            "duration": 341,
+            "text": "How "
+          },
+          {
+            "time": 52858,
+            "duration": 341,
+            "text": "you "
+          },
+          {
+            "time": 53199,
+            "duration": 341,
+            "text": "like "
+          },
+          {
+            "time": 53540,
+            "duration": 340,
+            "text": "that, "
+          },
+          {
+            "time": 53880,
+            "duration": 341,
+            "text": "that-"
+          },
+          {
+            "time": 54221,
+            "duration": 341,
+            "text": "that-"
+          },
+          {
+            "time": 54562,
+            "duration": 341,
+            "text": "that-"
+          },
+          {
+            "time": 54903,
+            "duration": 341,
+            "text": "that, "
+          },
+          {
+            "time": 55244,
+            "duration": 341,
+            "text": "that-"
+          },
+          {
+            "time": 55585,
+            "duration": 340,
+            "text": "that-"
+          },
+          {
+            "time": 55925,
+            "duration": 341,
+            "text": "that-"
+          },
+          {
+            "time": 56266,
+            "duration": 341,
+            "text": "that?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 56725,
+      "duration": 2538,
+      "text": "Now look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 56725,
+          "duration": 304,
+          "text": "Now "
+        },
+        {
+          "time": 57637,
+          "duration": 100,
+          "text": "look "
+        },
+        {
+          "time": 57737,
+          "duration": 154,
+          "text": "at "
+        },
+        {
+          "time": 57891,
+          "duration": 339,
+          "text": "you, "
+        },
+        {
+          "time": 58230,
+          "duration": 377,
+          "text": "now "
+        },
+        {
+          "time": 58607,
+          "duration": 188,
+          "text": "look "
+        },
+        {
+          "time": 58795,
+          "duration": 151,
+          "text": "at "
+        },
+        {
+          "time": 58946,
+          "duration": 317,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L14",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Now look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 56725,
+            "duration": 304,
+            "text": "Now "
+          },
+          {
+            "time": 57637,
+            "duration": 100,
+            "text": "look "
+          },
+          {
+            "time": 57737,
+            "duration": 154,
+            "text": "at "
+          },
+          {
+            "time": 57891,
+            "duration": 339,
+            "text": "you, "
+          },
+          {
+            "time": 58230,
+            "duration": 377,
+            "text": "now "
+          },
+          {
+            "time": 58607,
+            "duration": 188,
+            "text": "look "
+          },
+          {
+            "time": 58795,
+            "duration": 151,
+            "text": "at "
+          },
+          {
+            "time": 58946,
+            "duration": 317,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 59373,
+      "duration": 1546,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 59373,
+          "duration": 221,
+          "text": "Look "
+        },
+        {
+          "time": 59594,
+          "duration": 221,
+          "text": "at "
+        },
+        {
+          "time": 59815,
+          "duration": 221,
+          "text": "you, "
+        },
+        {
+          "time": 60036,
+          "duration": 220,
+          "text": "now "
+        },
+        {
+          "time": 60256,
+          "duration": 221,
+          "text": "look "
+        },
+        {
+          "time": 60477,
+          "duration": 221,
+          "text": "at "
+        },
+        {
+          "time": 60698,
+          "duration": 221,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L15",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 59373,
+            "duration": 221,
+            "text": "Look "
+          },
+          {
+            "time": 59594,
+            "duration": 221,
+            "text": "at "
+          },
+          {
+            "time": 59815,
+            "duration": 221,
+            "text": "you, "
+          },
+          {
+            "time": 60036,
+            "duration": 220,
+            "text": "now "
+          },
+          {
+            "time": 60256,
+            "duration": 221,
+            "text": "look "
+          },
+          {
+            "time": 60477,
+            "duration": 221,
+            "text": "at "
+          },
+          {
+            "time": 60698,
+            "duration": 221,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 61276,
+      "duration": 1444,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 61276,
+          "duration": 206,
+          "text": "Look "
+        },
+        {
+          "time": 61482,
+          "duration": 207,
+          "text": "at "
+        },
+        {
+          "time": 61689,
+          "duration": 206,
+          "text": "you, "
+        },
+        {
+          "time": 61895,
+          "duration": 206,
+          "text": "now "
+        },
+        {
+          "time": 62101,
+          "duration": 206,
+          "text": "look "
+        },
+        {
+          "time": 62307,
+          "duration": 207,
+          "text": "at "
+        },
+        {
+          "time": 62514,
+          "duration": 206,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L16",
+        "singer": "v1",
+        "songPartIndex": 4
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 61276,
+            "duration": 206,
+            "text": "Look "
+          },
+          {
+            "time": 61482,
+            "duration": 207,
+            "text": "at "
+          },
+          {
+            "time": 61689,
+            "duration": 206,
+            "text": "you, "
+          },
+          {
+            "time": 61895,
+            "duration": 206,
+            "text": "now "
+          },
+          {
+            "time": 62101,
+            "duration": 206,
+            "text": "look "
+          },
+          {
+            "time": 62307,
+            "duration": 207,
+            "text": "at "
+          },
+          {
+            "time": 62514,
+            "duration": 206,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 62730,
+      "duration": 1266,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 62730,
+          "duration": 317,
+          "text": "How "
+        },
+        {
+          "time": 63047,
+          "duration": 316,
+          "text": "You "
+        },
+        {
+          "time": 63363,
+          "duration": 317,
+          "text": "Like "
+        },
+        {
+          "time": 63680,
+          "duration": 316,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L17",
+        "singer": "v1",
+        "songPartIndex": 5
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 62730,
+            "duration": 317,
+            "text": "How "
+          },
+          {
+            "time": 63047,
+            "duration": 316,
+            "text": "You "
+          },
+          {
+            "time": 63363,
+            "duration": 317,
+            "text": "Like "
+          },
+          {
+            "time": 63680,
+            "duration": 316,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 64006,
+      "duration": 2368,
+      "text": "Now look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 64006,
+          "duration": 425,
+          "text": "Now "
+        },
+        {
+          "time": 65105,
+          "duration": 100,
+          "text": "look "
+        },
+        {
+          "time": 65205,
+          "duration": 141,
+          "text": "at "
+        },
+        {
+          "time": 65346,
+          "duration": 400,
+          "text": "you, "
+        },
+        {
+          "time": 65746,
+          "duration": 176,
+          "text": "now "
+        },
+        {
+          "time": 65922,
+          "duration": 162,
+          "text": "look "
+        },
+        {
+          "time": 66084,
+          "duration": 176,
+          "text": "at "
+        },
+        {
+          "time": 66260,
+          "duration": 114,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L18",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Now look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 64006,
+            "duration": 425,
+            "text": "Now "
+          },
+          {
+            "time": 65105,
+            "duration": 100,
+            "text": "look "
+          },
+          {
+            "time": 65205,
+            "duration": 141,
+            "text": "at "
+          },
+          {
+            "time": 65346,
+            "duration": 400,
+            "text": "you, "
+          },
+          {
+            "time": 65746,
+            "duration": 176,
+            "text": "now "
+          },
+          {
+            "time": 65922,
+            "duration": 162,
+            "text": "look "
+          },
+          {
+            "time": 66084,
+            "duration": 176,
+            "text": "at "
+          },
+          {
+            "time": 66260,
+            "duration": 114,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 66774,
+      "duration": 1521,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 66774,
+          "duration": 217,
+          "text": "Look "
+        },
+        {
+          "time": 66991,
+          "duration": 218,
+          "text": "at "
+        },
+        {
+          "time": 67209,
+          "duration": 217,
+          "text": "you, "
+        },
+        {
+          "time": 67426,
+          "duration": 217,
+          "text": "now "
+        },
+        {
+          "time": 67643,
+          "duration": 217,
+          "text": "look "
+        },
+        {
+          "time": 67860,
+          "duration": 218,
+          "text": "at "
+        },
+        {
+          "time": 68078,
+          "duration": 217,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L19",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 66774,
+            "duration": 217,
+            "text": "Look "
+          },
+          {
+            "time": 66991,
+            "duration": 218,
+            "text": "at "
+          },
+          {
+            "time": 67209,
+            "duration": 217,
+            "text": "you, "
+          },
+          {
+            "time": 67426,
+            "duration": 217,
+            "text": "now "
+          },
+          {
+            "time": 67643,
+            "duration": 217,
+            "text": "look "
+          },
+          {
+            "time": 67860,
+            "duration": 218,
+            "text": "at "
+          },
+          {
+            "time": 68078,
+            "duration": 217,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 68662,
+      "duration": 1485,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 68662,
+          "duration": 212,
+          "text": "Look "
+        },
+        {
+          "time": 68874,
+          "duration": 212,
+          "text": "at "
+        },
+        {
+          "time": 69086,
+          "duration": 212,
+          "text": "you, "
+        },
+        {
+          "time": 69298,
+          "duration": 213,
+          "text": "now "
+        },
+        {
+          "time": 69511,
+          "duration": 212,
+          "text": "look "
+        },
+        {
+          "time": 69723,
+          "duration": 212,
+          "text": "at "
+        },
+        {
+          "time": 69935,
+          "duration": 212,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L20",
+        "singer": "v1",
+        "songPartIndex": 6
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 68662,
+            "duration": 212,
+            "text": "Look "
+          },
+          {
+            "time": 68874,
+            "duration": 212,
+            "text": "at "
+          },
+          {
+            "time": 69086,
+            "duration": 212,
+            "text": "you, "
+          },
+          {
+            "time": 69298,
+            "duration": 213,
+            "text": "now "
+          },
+          {
+            "time": 69511,
+            "duration": 212,
+            "text": "look "
+          },
+          {
+            "time": 69723,
+            "duration": 212,
+            "text": "at "
+          },
+          {
+            "time": 69935,
+            "duration": 212,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 70157,
+      "duration": 1322,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 70157,
+          "duration": 331,
+          "text": "How "
+        },
+        {
+          "time": 70488,
+          "duration": 330,
+          "text": "You "
+        },
+        {
+          "time": 70818,
+          "duration": 331,
+          "text": "Like "
+        },
+        {
+          "time": 71149,
+          "duration": 330,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L21",
+        "singer": "v1",
+        "songPartIndex": 7
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 70157,
+            "duration": 331,
+            "text": "How "
+          },
+          {
+            "time": 70488,
+            "duration": 330,
+            "text": "You "
+          },
+          {
+            "time": 70818,
+            "duration": 331,
+            "text": "Like "
+          },
+          {
+            "time": 71149,
+            "duration": 330,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 71832,
+      "duration": 2002,
+      "text": "Your girl need it all, and that's a hundred",
+      "syllabus": [
+        {
+          "time": 71832,
+          "duration": 222,
+          "text": "Your "
+        },
+        {
+          "time": 72054,
+          "duration": 223,
+          "text": "girl "
+        },
+        {
+          "time": 72277,
+          "duration": 222,
+          "text": "need "
+        },
+        {
+          "time": 72499,
+          "duration": 223,
+          "text": "it "
+        },
+        {
+          "time": 72722,
+          "duration": 222,
+          "text": "all, "
+        },
+        {
+          "time": 72944,
+          "duration": 223,
+          "text": "and "
+        },
+        {
+          "time": 73167,
+          "duration": 222,
+          "text": "that's "
+        },
+        {
+          "time": 73389,
+          "duration": 223,
+          "text": "a "
+        },
+        {
+          "time": 73612,
+          "duration": 222,
+          "text": "hundred"
+        }
+      ],
+      "element": {
+        "key": "L22",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Your girl need it all, and that's a hundred",
+        "syllabus": [
+          {
+            "time": 71832,
+            "duration": 222,
+            "text": "Your "
+          },
+          {
+            "time": 72054,
+            "duration": 223,
+            "text": "girl "
+          },
+          {
+            "time": 72277,
+            "duration": 222,
+            "text": "need "
+          },
+          {
+            "time": 72499,
+            "duration": 223,
+            "text": "it "
+          },
+          {
+            "time": 72722,
+            "duration": 222,
+            "text": "all, "
+          },
+          {
+            "time": 72944,
+            "duration": 223,
+            "text": "and "
+          },
+          {
+            "time": 73167,
+            "duration": 222,
+            "text": "that's "
+          },
+          {
+            "time": 73389,
+            "duration": 223,
+            "text": "a "
+          },
+          {
+            "time": 73612,
+            "duration": 222,
+            "text": "hundred"
+          }
+        ]
+      }
+    },
+    {
+      "time": 73844,
+      "duration": 1610,
+      "text": "백 개 중에 백 내 몫을 원해",
+      "syllabus": [
+        {
+          "time": 73844,
+          "duration": 230,
+          "text": "백 "
+        },
+        {
+          "time": 74074,
+          "duration": 230,
+          "text": "개 "
+        },
+        {
+          "time": 74304,
+          "duration": 230,
+          "text": "중에 "
+        },
+        {
+          "time": 74534,
+          "duration": 230,
+          "text": "백 "
+        },
+        {
+          "time": 74764,
+          "duration": 230,
+          "text": "내 "
+        },
+        {
+          "time": 74994,
+          "duration": 230,
+          "text": "몫을 "
+        },
+        {
+          "time": 75224,
+          "duration": 230,
+          "text": "원해"
+        }
+      ],
+      "element": {
+        "key": "L23",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "baek  gae  jung e  baek  nae  mok seul  won hae",
+        "syllabus": [
+          {
+            "time": 73844,
+            "duration": 230,
+            "text": "baek  "
+          },
+          {
+            "time": 74074,
+            "duration": 230,
+            "text": "gae  "
+          },
+          {
+            "time": 74304,
+            "duration": 230,
+            "text": "jung e  "
+          },
+          {
+            "time": 74534,
+            "duration": 230,
+            "text": "baek  "
+          },
+          {
+            "time": 74764,
+            "duration": 230,
+            "text": "nae  "
+          },
+          {
+            "time": 74994,
+            "duration": 230,
+            "text": "mok seul  "
+          },
+          {
+            "time": 75224,
+            "duration": 230,
+            "text": "won hae"
+          }
+        ]
+      }
+    },
+    {
+      "time": 75464,
+      "duration": 921,
+      "text": "Karma come, and get some",
+      "syllabus": [
+        {
+          "time": 75464,
+          "duration": 184,
+          "text": "Karma "
+        },
+        {
+          "time": 75648,
+          "duration": 184,
+          "text": "come, "
+        },
+        {
+          "time": 75832,
+          "duration": 185,
+          "text": "and "
+        },
+        {
+          "time": 76017,
+          "duration": 184,
+          "text": "get "
+        },
+        {
+          "time": 76201,
+          "duration": 184,
+          "text": "some"
+        }
+      ],
+      "element": {
+        "key": "L24",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Karma come, and get some",
+        "syllabus": [
+          {
+            "time": 75464,
+            "duration": 184,
+            "text": "Karma "
+          },
+          {
+            "time": 75648,
+            "duration": 184,
+            "text": "come, "
+          },
+          {
+            "time": 75832,
+            "duration": 185,
+            "text": "and "
+          },
+          {
+            "time": 76017,
+            "duration": 184,
+            "text": "get "
+          },
+          {
+            "time": 76201,
+            "duration": 184,
+            "text": "some"
+          }
+        ]
+      }
+    },
+    {
+      "time": 76395,
+      "duration": 2239,
+      "text": "딱하지만 어쩔 수 없잖아",
+      "syllabus": [
+        {
+          "time": 76395,
+          "duration": 560,
+          "text": "딱하지만 "
+        },
+        {
+          "time": 76955,
+          "duration": 560,
+          "text": "어쩔 "
+        },
+        {
+          "time": 77515,
+          "duration": 559,
+          "text": "수 "
+        },
+        {
+          "time": 78074,
+          "duration": 560,
+          "text": "없잖아"
+        }
+      ],
+      "element": {
+        "key": "L25",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "ttak ha ji man  eo jjeol  su  eop ja na",
+        "syllabus": [
+          {
+            "time": 76395,
+            "duration": 560,
+            "text": "ttak ha ji man  "
+          },
+          {
+            "time": 76955,
+            "duration": 560,
+            "text": "eo jjeol  "
+          },
+          {
+            "time": 77515,
+            "duration": 559,
+            "text": "su  "
+          },
+          {
+            "time": 78074,
+            "duration": 560,
+            "text": "eop ja na"
+          }
+        ]
+      }
+    },
+    {
+      "time": 78644,
+      "duration": 1438,
+      "text": "What's up? I'm right back",
+      "syllabus": [
+        {
+          "time": 78644,
+          "duration": 288,
+          "text": "What's "
+        },
+        {
+          "time": 78932,
+          "duration": 287,
+          "text": "up? "
+        },
+        {
+          "time": 79219,
+          "duration": 288,
+          "text": "I'm "
+        },
+        {
+          "time": 79507,
+          "duration": 287,
+          "text": "right "
+        },
+        {
+          "time": 79794,
+          "duration": 288,
+          "text": "back"
+        }
+      ],
+      "element": {
+        "key": "L26",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "What's up? I'm right back",
+        "syllabus": [
+          {
+            "time": 78644,
+            "duration": 288,
+            "text": "What's "
+          },
+          {
+            "time": 78932,
+            "duration": 287,
+            "text": "up? "
+          },
+          {
+            "time": 79219,
+            "duration": 288,
+            "text": "I'm "
+          },
+          {
+            "time": 79507,
+            "duration": 287,
+            "text": "right "
+          },
+          {
+            "time": 79794,
+            "duration": 288,
+            "text": "back"
+          }
+        ]
+      }
+    },
+    {
+      "time": 80492,
+      "duration": 1429,
+      "text": "방아쇠를 Cock back",
+      "syllabus": [
+        {
+          "time": 80492,
+          "duration": 476,
+          "text": "방아쇠를 "
+        },
+        {
+          "time": 80968,
+          "duration": 477,
+          "text": "Cock "
+        },
+        {
+          "time": 81445,
+          "duration": 476,
+          "text": "back"
+        }
+      ],
+      "element": {
+        "key": "L27",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "bang a soe reul  Cock back",
+        "syllabus": [
+          {
+            "time": 80492,
+            "duration": 476,
+            "text": "bang a soe reul  "
+          },
+          {
+            "time": 80968,
+            "duration": 477,
+            "text": "Cock "
+          },
+          {
+            "time": 81445,
+            "duration": 476,
+            "text": "back"
+          }
+        ]
+      }
+    },
+    {
+      "time": 82331,
+      "duration": 1092,
+      "text": "Plain Jane get hijacked",
+      "syllabus": [
+        {
+          "time": 82331,
+          "duration": 273,
+          "text": "Plain "
+        },
+        {
+          "time": 82604,
+          "duration": 273,
+          "text": "Jane "
+        },
+        {
+          "time": 82877,
+          "duration": 273,
+          "text": "get "
+        },
+        {
+          "time": 83150,
+          "duration": 273,
+          "text": "hijacked"
+        }
+      ],
+      "element": {
+        "key": "L28",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Plain Jane get hijacked",
+        "syllabus": [
+          {
+            "time": 82331,
+            "duration": 273,
+            "text": "Plain "
+          },
+          {
+            "time": 82604,
+            "duration": 273,
+            "text": "Jane "
+          },
+          {
+            "time": 82877,
+            "duration": 273,
+            "text": "get "
+          },
+          {
+            "time": 83150,
+            "duration": 273,
+            "text": "hijacked"
+          }
+        ]
+      }
+    },
+    {
+      "time": 83433,
+      "duration": 2948,
+      "text": "Don't like me? Then tell me how you like that, like that",
+      "syllabus": [
+        {
+          "time": 83433,
+          "duration": 246,
+          "text": "Don't "
+        },
+        {
+          "time": 83679,
+          "duration": 245,
+          "text": "like "
+        },
+        {
+          "time": 83924,
+          "duration": 246,
+          "text": "me? "
+        },
+        {
+          "time": 84170,
+          "duration": 246,
+          "text": "Then "
+        },
+        {
+          "time": 84416,
+          "duration": 245,
+          "text": "tell "
+        },
+        {
+          "time": 84661,
+          "duration": 246,
+          "text": "me "
+        },
+        {
+          "time": 84907,
+          "duration": 246,
+          "text": "how "
+        },
+        {
+          "time": 85153,
+          "duration": 245,
+          "text": "you "
+        },
+        {
+          "time": 85398,
+          "duration": 246,
+          "text": "like "
+        },
+        {
+          "time": 85644,
+          "duration": 246,
+          "text": "that, "
+        },
+        {
+          "time": 85890,
+          "duration": 245,
+          "text": "like "
+        },
+        {
+          "time": 86135,
+          "duration": 246,
+          "text": "that"
+        }
+      ],
+      "element": {
+        "key": "L29",
+        "singer": "v1",
+        "songPartIndex": 8
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Don't like me? Then tell me how you like that, like that",
+        "syllabus": [
+          {
+            "time": 83433,
+            "duration": 246,
+            "text": "Don't "
+          },
+          {
+            "time": 83679,
+            "duration": 245,
+            "text": "like "
+          },
+          {
+            "time": 83924,
+            "duration": 246,
+            "text": "me? "
+          },
+          {
+            "time": 84170,
+            "duration": 246,
+            "text": "Then "
+          },
+          {
+            "time": 84416,
+            "duration": 245,
+            "text": "tell "
+          },
+          {
+            "time": 84661,
+            "duration": 246,
+            "text": "me "
+          },
+          {
+            "time": 84907,
+            "duration": 246,
+            "text": "how "
+          },
+          {
+            "time": 85153,
+            "duration": 245,
+            "text": "you "
+          },
+          {
+            "time": 85398,
+            "duration": 246,
+            "text": "like "
+          },
+          {
+            "time": 85644,
+            "duration": 246,
+            "text": "that, "
+          },
+          {
+            "time": 85890,
+            "duration": 245,
+            "text": "like "
+          },
+          {
+            "time": 86135,
+            "duration": 246,
+            "text": "that"
+          }
+        ]
+      }
+    },
+    {
+      "time": 86491,
+      "duration": 3610,
+      "text": "더 캄캄한 이곳에 Shine like the stars",
+      "syllabus": [
+        {
+          "time": 86491,
+          "duration": 516,
+          "text": "더 "
+        },
+        {
+          "time": 87007,
+          "duration": 515,
+          "text": "캄캄한 "
+        },
+        {
+          "time": 87522,
+          "duration": 1000,
+          "text": "이곳에 "
+        },
+        {
+          "time": 88522,
+          "duration": 387,
+          "text": "Shine "
+        },
+        {
+          "time": 88909,
+          "duration": 282,
+          "text": "like "
+        },
+        {
+          "time": 89191,
+          "duration": 394,
+          "text": "the "
+        },
+        {
+          "time": 89585,
+          "duration": 516,
+          "text": "stars"
+        }
+      ],
+      "element": {
+        "key": "L30",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "deo  kam kam han  i go se  Shine like the stars",
+        "syllabus": [
+          {
+            "time": 86491,
+            "duration": 516,
+            "text": "deo  "
+          },
+          {
+            "time": 87007,
+            "duration": 515,
+            "text": "kam kam han  "
+          },
+          {
+            "time": 87522,
+            "duration": 1000,
+            "text": "i go se  "
+          },
+          {
+            "time": 88522,
+            "duration": 387,
+            "text": "Shine "
+          },
+          {
+            "time": 88909,
+            "duration": 282,
+            "text": "like "
+          },
+          {
+            "time": 89191,
+            "duration": 394,
+            "text": "the "
+          },
+          {
+            "time": 89585,
+            "duration": 516,
+            "text": "stars"
+          }
+        ]
+      }
+    },
+    {
+      "time": 90151,
+      "duration": 3894,
+      "text": "그 미소를 띠며 I'll kiss you goodbye",
+      "syllabus": [
+        {
+          "time": 90151,
+          "duration": 556,
+          "text": "그 "
+        },
+        {
+          "time": 90707,
+          "duration": 557,
+          "text": "미소를 "
+        },
+        {
+          "time": 91264,
+          "duration": 556,
+          "text": "띠며 "
+        },
+        {
+          "time": 91820,
+          "duration": 556,
+          "text": "I'll "
+        },
+        {
+          "time": 92376,
+          "duration": 556,
+          "text": "kiss "
+        },
+        {
+          "time": 92932,
+          "duration": 557,
+          "text": "you "
+        },
+        {
+          "time": 93489,
+          "duration": 556,
+          "text": "goodbye"
+        }
+      ],
+      "element": {
+        "key": "L31",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "geu  mi so reul  tti myeo  I'll kiss you goodbye",
+        "syllabus": [
+          {
+            "time": 90151,
+            "duration": 556,
+            "text": "geu  "
+          },
+          {
+            "time": 90707,
+            "duration": 557,
+            "text": "mi so reul  "
+          },
+          {
+            "time": 91264,
+            "duration": 556,
+            "text": "tti myeo  "
+          },
+          {
+            "time": 91820,
+            "duration": 556,
+            "text": "I'll "
+          },
+          {
+            "time": 92376,
+            "duration": 556,
+            "text": "kiss "
+          },
+          {
+            "time": 92932,
+            "duration": 557,
+            "text": "you "
+          },
+          {
+            "time": 93489,
+            "duration": 556,
+            "text": "goodbye"
+          }
+        ]
+      }
+    },
+    {
+      "time": 94155,
+      "duration": 3167,
+      "text": "실컷 비웃어라 꼴좋으니까",
+      "syllabus": [
+        {
+          "time": 94155,
+          "duration": 1056,
+          "text": "실컷 "
+        },
+        {
+          "time": 95211,
+          "duration": 1055,
+          "text": "비웃어라 "
+        },
+        {
+          "time": 96266,
+          "duration": 1056,
+          "text": "꼴좋으니까"
+        }
+      ],
+      "element": {
+        "key": "L32",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "sil keot  bi u seo ra  kkol jo eu ni kka",
+        "syllabus": [
+          {
+            "time": 94155,
+            "duration": 1056,
+            "text": "sil keot  "
+          },
+          {
+            "time": 95211,
+            "duration": 1055,
+            "text": "bi u seo ra  "
+          },
+          {
+            "time": 96266,
+            "duration": 1056,
+            "text": "kkol jo eu ni kka"
+          }
+        ]
+      }
+    },
+    {
+      "time": 97332,
+      "duration": 2353,
+      "text": "이제 너희 하나 둘 셋",
+      "syllabus": [
+        {
+          "time": 97332,
+          "duration": 471,
+          "text": "이제 "
+        },
+        {
+          "time": 97803,
+          "duration": 470,
+          "text": "너희 "
+        },
+        {
+          "time": 98273,
+          "duration": 471,
+          "text": "하나 "
+        },
+        {
+          "time": 98744,
+          "duration": 470,
+          "text": "둘 "
+        },
+        {
+          "time": 99214,
+          "duration": 471,
+          "text": "셋"
+        }
+      ],
+      "element": {
+        "key": "L33",
+        "singer": "v1",
+        "songPartIndex": 9
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "i je  neo hui  ha na  dul  set",
+        "syllabus": [
+          {
+            "time": 97332,
+            "duration": 471,
+            "text": "i je  "
+          },
+          {
+            "time": 97803,
+            "duration": 470,
+            "text": "neo hui  "
+          },
+          {
+            "time": 98273,
+            "duration": 471,
+            "text": "ha na  "
+          },
+          {
+            "time": 98744,
+            "duration": 470,
+            "text": "dul  "
+          },
+          {
+            "time": 99214,
+            "duration": 471,
+            "text": "set"
+          }
+        ]
+      }
+    },
+    {
+      "time": 100144,
+      "duration": 1912,
+      "text": "Ha, How You Like That?",
+      "syllabus": [
+        {
+          "time": 100144,
+          "duration": 382,
+          "text": "Ha, "
+        },
+        {
+          "time": 100526,
+          "duration": 383,
+          "text": "How "
+        },
+        {
+          "time": 100909,
+          "duration": 382,
+          "text": "You "
+        },
+        {
+          "time": 101291,
+          "duration": 383,
+          "text": "Like "
+        },
+        {
+          "time": 101674,
+          "duration": 382,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L34",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Ha, How You Like That?",
+        "syllabus": [
+          {
+            "time": 100144,
+            "duration": 382,
+            "text": "Ha, "
+          },
+          {
+            "time": 100526,
+            "duration": 383,
+            "text": "How "
+          },
+          {
+            "time": 100909,
+            "duration": 382,
+            "text": "You "
+          },
+          {
+            "time": 101291,
+            "duration": 383,
+            "text": "Like "
+          },
+          {
+            "time": 101674,
+            "duration": 382,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 104259,
+      "duration": 4052,
+      "text": "You gon' like that, that-that-that-that, that-that-that-that",
+      "syllabus": [
+        {
+          "time": 104259,
+          "duration": 338,
+          "text": "You "
+        },
+        {
+          "time": 104597,
+          "duration": 337,
+          "text": "gon' "
+        },
+        {
+          "time": 104934,
+          "duration": 338,
+          "text": "like "
+        },
+        {
+          "time": 105272,
+          "duration": 338,
+          "text": "that, "
+        },
+        {
+          "time": 105610,
+          "duration": 337,
+          "text": "that-"
+        },
+        {
+          "time": 105947,
+          "duration": 338,
+          "text": "that-"
+        },
+        {
+          "time": 106285,
+          "duration": 338,
+          "text": "that-"
+        },
+        {
+          "time": 106623,
+          "duration": 337,
+          "text": "that, "
+        },
+        {
+          "time": 106960,
+          "duration": 338,
+          "text": "that-"
+        },
+        {
+          "time": 107298,
+          "duration": 338,
+          "text": "that-"
+        },
+        {
+          "time": 107636,
+          "duration": 337,
+          "text": "that-"
+        },
+        {
+          "time": 107973,
+          "duration": 338,
+          "text": "that"
+        }
+      ],
+      "element": {
+        "key": "L35",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "You gon' like that, that-that-that-that, that-that-that-that",
+        "syllabus": [
+          {
+            "time": 104259,
+            "duration": 338,
+            "text": "You "
+          },
+          {
+            "time": 104597,
+            "duration": 337,
+            "text": "gon' "
+          },
+          {
+            "time": 104934,
+            "duration": 338,
+            "text": "like "
+          },
+          {
+            "time": 105272,
+            "duration": 338,
+            "text": "that, "
+          },
+          {
+            "time": 105610,
+            "duration": 337,
+            "text": "that-"
+          },
+          {
+            "time": 105947,
+            "duration": 338,
+            "text": "that-"
+          },
+          {
+            "time": 106285,
+            "duration": 338,
+            "text": "that-"
+          },
+          {
+            "time": 106623,
+            "duration": 337,
+            "text": "that, "
+          },
+          {
+            "time": 106960,
+            "duration": 338,
+            "text": "that-"
+          },
+          {
+            "time": 107298,
+            "duration": 338,
+            "text": "that-"
+          },
+          {
+            "time": 107636,
+            "duration": 337,
+            "text": "that-"
+          },
+          {
+            "time": 107973,
+            "duration": 338,
+            "text": "that"
+          }
+        ]
+      }
+    },
+    {
+      "time": 107849,
+      "duration": 1471,
+      "text": "How you like that?",
+      "syllabus": [
+        {
+          "time": 107849,
+          "duration": 368,
+          "text": "How "
+        },
+        {
+          "time": 108217,
+          "duration": 368,
+          "text": "you "
+        },
+        {
+          "time": 108585,
+          "duration": 367,
+          "text": "like "
+        },
+        {
+          "time": 108952,
+          "duration": 368,
+          "text": "that?"
+        }
+      ],
+      "element": {
+        "key": "L36",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How you like that?",
+        "syllabus": [
+          {
+            "time": 107849,
+            "duration": 368,
+            "text": "How "
+          },
+          {
+            "time": 108217,
+            "duration": 368,
+            "text": "you "
+          },
+          {
+            "time": 108585,
+            "duration": 367,
+            "text": "like "
+          },
+          {
+            "time": 108952,
+            "duration": 368,
+            "text": "that?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 111681,
+      "duration": 4039,
+      "text": "How you like that, that-that-that-that, that-that-that-that?",
+      "syllabus": [
+        {
+          "time": 111681,
+          "duration": 337,
+          "text": "How "
+        },
+        {
+          "time": 112018,
+          "duration": 336,
+          "text": "you "
+        },
+        {
+          "time": 112354,
+          "duration": 337,
+          "text": "like "
+        },
+        {
+          "time": 112691,
+          "duration": 336,
+          "text": "that, "
+        },
+        {
+          "time": 113027,
+          "duration": 337,
+          "text": "that-"
+        },
+        {
+          "time": 113364,
+          "duration": 337,
+          "text": "that-"
+        },
+        {
+          "time": 113701,
+          "duration": 336,
+          "text": "that-"
+        },
+        {
+          "time": 114037,
+          "duration": 337,
+          "text": "that, "
+        },
+        {
+          "time": 114374,
+          "duration": 336,
+          "text": "that-"
+        },
+        {
+          "time": 114710,
+          "duration": 337,
+          "text": "that-"
+        },
+        {
+          "time": 115047,
+          "duration": 336,
+          "text": "that-"
+        },
+        {
+          "time": 115383,
+          "duration": 337,
+          "text": "that?"
+        }
+      ],
+      "element": {
+        "key": "L37",
+        "singer": "v1",
+        "songPartIndex": 10
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How you like that, that-that-that-that, that-that-that-that?",
+        "syllabus": [
+          {
+            "time": 111681,
+            "duration": 337,
+            "text": "How "
+          },
+          {
+            "time": 112018,
+            "duration": 336,
+            "text": "you "
+          },
+          {
+            "time": 112354,
+            "duration": 337,
+            "text": "like "
+          },
+          {
+            "time": 112691,
+            "duration": 336,
+            "text": "that, "
+          },
+          {
+            "time": 113027,
+            "duration": 337,
+            "text": "that-"
+          },
+          {
+            "time": 113364,
+            "duration": 337,
+            "text": "that-"
+          },
+          {
+            "time": 113701,
+            "duration": 336,
+            "text": "that-"
+          },
+          {
+            "time": 114037,
+            "duration": 337,
+            "text": "that, "
+          },
+          {
+            "time": 114374,
+            "duration": 336,
+            "text": "that-"
+          },
+          {
+            "time": 114710,
+            "duration": 337,
+            "text": "that-"
+          },
+          {
+            "time": 115047,
+            "duration": 336,
+            "text": "that-"
+          },
+          {
+            "time": 115383,
+            "duration": 337,
+            "text": "that?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 115830,
+      "duration": 2271,
+      "text": "Now look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 115830,
+          "duration": 383,
+          "text": "Now "
+        },
+        {
+          "time": 116789,
+          "duration": 100,
+          "text": "look "
+        },
+        {
+          "time": 116889,
+          "duration": 165,
+          "text": "at "
+        },
+        {
+          "time": 117054,
+          "duration": 382,
+          "text": "you, "
+        },
+        {
+          "time": 117436,
+          "duration": 235,
+          "text": "now "
+        },
+        {
+          "time": 117671,
+          "duration": 202,
+          "text": "look "
+        },
+        {
+          "time": 117873,
+          "duration": 100,
+          "text": "at "
+        },
+        {
+          "time": 117973,
+          "duration": 128,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L38",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Now look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 115830,
+            "duration": 383,
+            "text": "Now "
+          },
+          {
+            "time": 116789,
+            "duration": 100,
+            "text": "look "
+          },
+          {
+            "time": 116889,
+            "duration": 165,
+            "text": "at "
+          },
+          {
+            "time": 117054,
+            "duration": 382,
+            "text": "you, "
+          },
+          {
+            "time": 117436,
+            "duration": 235,
+            "text": "now "
+          },
+          {
+            "time": 117671,
+            "duration": 202,
+            "text": "look "
+          },
+          {
+            "time": 117873,
+            "duration": 100,
+            "text": "at "
+          },
+          {
+            "time": 117973,
+            "duration": 128,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 118501,
+      "duration": 1471,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 118501,
+          "duration": 210,
+          "text": "Look "
+        },
+        {
+          "time": 118711,
+          "duration": 210,
+          "text": "at "
+        },
+        {
+          "time": 118921,
+          "duration": 210,
+          "text": "you, "
+        },
+        {
+          "time": 119131,
+          "duration": 211,
+          "text": "now "
+        },
+        {
+          "time": 119342,
+          "duration": 210,
+          "text": "look "
+        },
+        {
+          "time": 119552,
+          "duration": 210,
+          "text": "at "
+        },
+        {
+          "time": 119762,
+          "duration": 210,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L39",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 118501,
+            "duration": 210,
+            "text": "Look "
+          },
+          {
+            "time": 118711,
+            "duration": 210,
+            "text": "at "
+          },
+          {
+            "time": 118921,
+            "duration": 210,
+            "text": "you, "
+          },
+          {
+            "time": 119131,
+            "duration": 211,
+            "text": "now "
+          },
+          {
+            "time": 119342,
+            "duration": 210,
+            "text": "look "
+          },
+          {
+            "time": 119552,
+            "duration": 210,
+            "text": "at "
+          },
+          {
+            "time": 119762,
+            "duration": 210,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 120300,
+      "duration": 1489,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 120300,
+          "duration": 213,
+          "text": "Look "
+        },
+        {
+          "time": 120513,
+          "duration": 212,
+          "text": "at "
+        },
+        {
+          "time": 120725,
+          "duration": 213,
+          "text": "you, "
+        },
+        {
+          "time": 120938,
+          "duration": 213,
+          "text": "now "
+        },
+        {
+          "time": 121151,
+          "duration": 213,
+          "text": "look "
+        },
+        {
+          "time": 121364,
+          "duration": 212,
+          "text": "at "
+        },
+        {
+          "time": 121576,
+          "duration": 213,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L40",
+        "singer": "v1",
+        "songPartIndex": 11
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 120300,
+            "duration": 213,
+            "text": "Look "
+          },
+          {
+            "time": 120513,
+            "duration": 212,
+            "text": "at "
+          },
+          {
+            "time": 120725,
+            "duration": 213,
+            "text": "you, "
+          },
+          {
+            "time": 120938,
+            "duration": 213,
+            "text": "now "
+          },
+          {
+            "time": 121151,
+            "duration": 213,
+            "text": "look "
+          },
+          {
+            "time": 121364,
+            "duration": 212,
+            "text": "at "
+          },
+          {
+            "time": 121576,
+            "duration": 213,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 121810,
+      "duration": 1357,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 121810,
+          "duration": 339,
+          "text": "How "
+        },
+        {
+          "time": 122149,
+          "duration": 340,
+          "text": "You "
+        },
+        {
+          "time": 122489,
+          "duration": 339,
+          "text": "Like "
+        },
+        {
+          "time": 122828,
+          "duration": 339,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L41",
+        "singer": "v1",
+        "songPartIndex": 12
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 121810,
+            "duration": 339,
+            "text": "How "
+          },
+          {
+            "time": 122149,
+            "duration": 340,
+            "text": "You "
+          },
+          {
+            "time": 122489,
+            "duration": 339,
+            "text": "Like "
+          },
+          {
+            "time": 122828,
+            "duration": 339,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 123177,
+      "duration": 2318,
+      "text": "Now look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 123177,
+          "duration": 399,
+          "text": "Now "
+        },
+        {
+          "time": 124109,
+          "duration": 209,
+          "text": "look "
+        },
+        {
+          "time": 124318,
+          "duration": 100,
+          "text": "at "
+        },
+        {
+          "time": 124418,
+          "duration": 440,
+          "text": "you, "
+        },
+        {
+          "time": 124858,
+          "duration": 212,
+          "text": "now "
+        },
+        {
+          "time": 125070,
+          "duration": 100,
+          "text": "look "
+        },
+        {
+          "time": 125170,
+          "duration": 100,
+          "text": "at "
+        },
+        {
+          "time": 125270,
+          "duration": 225,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L42",
+        "singer": "v1",
+        "songPartIndex": 13
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Now look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 123177,
+            "duration": 399,
+            "text": "Now "
+          },
+          {
+            "time": 124109,
+            "duration": 209,
+            "text": "look "
+          },
+          {
+            "time": 124318,
+            "duration": 100,
+            "text": "at "
+          },
+          {
+            "time": 124418,
+            "duration": 440,
+            "text": "you, "
+          },
+          {
+            "time": 124858,
+            "duration": 212,
+            "text": "now "
+          },
+          {
+            "time": 125070,
+            "duration": 100,
+            "text": "look "
+          },
+          {
+            "time": 125170,
+            "duration": 100,
+            "text": "at "
+          },
+          {
+            "time": 125270,
+            "duration": 225,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 125927,
+      "duration": 1429,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 125927,
+          "duration": 204,
+          "text": "Look "
+        },
+        {
+          "time": 126131,
+          "duration": 204,
+          "text": "at "
+        },
+        {
+          "time": 126335,
+          "duration": 204,
+          "text": "you, "
+        },
+        {
+          "time": 126539,
+          "duration": 205,
+          "text": "now "
+        },
+        {
+          "time": 126744,
+          "duration": 204,
+          "text": "look "
+        },
+        {
+          "time": 126948,
+          "duration": 204,
+          "text": "at "
+        },
+        {
+          "time": 127152,
+          "duration": 204,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L43",
+        "singer": "v1",
+        "songPartIndex": 13
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 125927,
+            "duration": 204,
+            "text": "Look "
+          },
+          {
+            "time": 126131,
+            "duration": 204,
+            "text": "at "
+          },
+          {
+            "time": 126335,
+            "duration": 204,
+            "text": "you, "
+          },
+          {
+            "time": 126539,
+            "duration": 205,
+            "text": "now "
+          },
+          {
+            "time": 126744,
+            "duration": 204,
+            "text": "look "
+          },
+          {
+            "time": 126948,
+            "duration": 204,
+            "text": "at "
+          },
+          {
+            "time": 127152,
+            "duration": 204,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 127809,
+      "duration": 1303,
+      "text": "Look at you, now look at me",
+      "syllabus": [
+        {
+          "time": 127809,
+          "duration": 186,
+          "text": "Look "
+        },
+        {
+          "time": 127995,
+          "duration": 186,
+          "text": "at "
+        },
+        {
+          "time": 128181,
+          "duration": 186,
+          "text": "you, "
+        },
+        {
+          "time": 128367,
+          "duration": 187,
+          "text": "now "
+        },
+        {
+          "time": 128554,
+          "duration": 186,
+          "text": "look "
+        },
+        {
+          "time": 128740,
+          "duration": 186,
+          "text": "at "
+        },
+        {
+          "time": 128926,
+          "duration": 186,
+          "text": "me"
+        }
+      ],
+      "element": {
+        "key": "L44",
+        "singer": "v1",
+        "songPartIndex": 13
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look at you, now look at me",
+        "syllabus": [
+          {
+            "time": 127809,
+            "duration": 186,
+            "text": "Look "
+          },
+          {
+            "time": 127995,
+            "duration": 186,
+            "text": "at "
+          },
+          {
+            "time": 128181,
+            "duration": 186,
+            "text": "you, "
+          },
+          {
+            "time": 128367,
+            "duration": 187,
+            "text": "now "
+          },
+          {
+            "time": 128554,
+            "duration": 186,
+            "text": "look "
+          },
+          {
+            "time": 128740,
+            "duration": 186,
+            "text": "at "
+          },
+          {
+            "time": 128926,
+            "duration": 186,
+            "text": "me"
+          }
+        ]
+      }
+    },
+    {
+      "time": 129122,
+      "duration": 1580,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 129122,
+          "duration": 395,
+          "text": "How "
+        },
+        {
+          "time": 129517,
+          "duration": 395,
+          "text": "You "
+        },
+        {
+          "time": 129912,
+          "duration": 395,
+          "text": "Like "
+        },
+        {
+          "time": 130307,
+          "duration": 395,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L45",
+        "singer": "v1",
+        "songPartIndex": 14
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 129122,
+            "duration": 395,
+            "text": "How "
+          },
+          {
+            "time": 129517,
+            "duration": 395,
+            "text": "You "
+          },
+          {
+            "time": 129912,
+            "duration": 395,
+            "text": "Like "
+          },
+          {
+            "time": 130307,
+            "duration": 395,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 131450,
+      "duration": 3678,
+      "text": "날개 잃은 채로 추락했던 날",
+      "syllabus": [
+        {
+          "time": 131450,
+          "duration": 613,
+          "text": "날개 "
+        },
+        {
+          "time": 132063,
+          "duration": 479,
+          "text": "잃은 "
+        },
+        {
+          "time": 132542,
+          "duration": 425,
+          "text": "채로 "
+        },
+        {
+          "time": 132967,
+          "duration": 1567,
+          "text": "추락했던 "
+        },
+        {
+          "time": 134534,
+          "duration": 594,
+          "text": "날"
+        }
+      ],
+      "element": {
+        "key": "L46",
+        "singer": "v1",
+        "songPartIndex": 15
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "nal gae  i reun  chae ro  chu rak haet deon  nal",
+        "syllabus": [
+          {
+            "time": 131450,
+            "duration": 613,
+            "text": "nal gae  "
+          },
+          {
+            "time": 132063,
+            "duration": 479,
+            "text": "i reun  "
+          },
+          {
+            "time": 132542,
+            "duration": 425,
+            "text": "chae ro  "
+          },
+          {
+            "time": 132967,
+            "duration": 1567,
+            "text": "chu rak haet deon  "
+          },
+          {
+            "time": 134534,
+            "duration": 594,
+            "text": "nal"
+          }
+        ]
+      }
+    },
+    {
+      "time": 135138,
+      "duration": 3738,
+      "text": "어두운 나날 속에 갇혀 있던 날",
+      "syllabus": [
+        {
+          "time": 135138,
+          "duration": 623,
+          "text": "어두운 "
+        },
+        {
+          "time": 135761,
+          "duration": 623,
+          "text": "나날 "
+        },
+        {
+          "time": 136384,
+          "duration": 623,
+          "text": "속에 "
+        },
+        {
+          "time": 137007,
+          "duration": 623,
+          "text": "갇혀 "
+        },
+        {
+          "time": 137630,
+          "duration": 623,
+          "text": "있던 "
+        },
+        {
+          "time": 138253,
+          "duration": 623,
+          "text": "날"
+        }
+      ],
+      "element": {
+        "key": "L47",
+        "singer": "v1",
+        "songPartIndex": 15
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "eo du un  na nal  so ge  gat hyeo  it deon  nal",
+        "syllabus": [
+          {
+            "time": 135138,
+            "duration": 623,
+            "text": "eo du un  "
+          },
+          {
+            "time": 135761,
+            "duration": 623,
+            "text": "na nal  "
+          },
+          {
+            "time": 136384,
+            "duration": 623,
+            "text": "so ge  "
+          },
+          {
+            "time": 137007,
+            "duration": 623,
+            "text": "gat hyeo  "
+          },
+          {
+            "time": 137630,
+            "duration": 623,
+            "text": "it deon  "
+          },
+          {
+            "time": 138253,
+            "duration": 623,
+            "text": "nal"
+          }
+        ]
+      }
+    },
+    {
+      "time": 138886,
+      "duration": 3309,
+      "text": "그때쯤에 넌 날 끝내야 했어",
+      "syllabus": [
+        {
+          "time": 138886,
+          "duration": 905,
+          "text": "그때쯤에 "
+        },
+        {
+          "time": 139791,
+          "duration": 304,
+          "text": "넌 "
+        },
+        {
+          "time": 140095,
+          "duration": 324,
+          "text": "날 "
+        },
+        {
+          "time": 140419,
+          "duration": 1106,
+          "text": "끝내야 "
+        },
+        {
+          "time": 141525,
+          "duration": 670,
+          "text": "했어"
+        }
+      ],
+      "element": {
+        "key": "L48",
+        "singer": "v1",
+        "songPartIndex": 15
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "geu ttae jjeu me  neon  nal  kkeut nae ya  hae sseo",
+        "syllabus": [
+          {
+            "time": 138886,
+            "duration": 905,
+            "text": "geu ttae jjeu me  "
+          },
+          {
+            "time": 139791,
+            "duration": 304,
+            "text": "neon  "
+          },
+          {
+            "time": 140095,
+            "duration": 324,
+            "text": "nal  "
+          },
+          {
+            "time": 140419,
+            "duration": 1106,
+            "text": "kkeut nae ya  "
+          },
+          {
+            "time": 141525,
+            "duration": 670,
+            "text": "hae sseo"
+          }
+        ]
+      }
+    },
+    {
+      "time": 142005,
+      "duration": 3735,
+      "text": "Look up in the sky, it's a bird, it's a plane",
+      "syllabus": [
+        {
+          "time": 142005,
+          "duration": 340,
+          "text": "Look "
+        },
+        {
+          "time": 142345,
+          "duration": 339,
+          "text": "up "
+        },
+        {
+          "time": 142684,
+          "duration": 340,
+          "text": "in "
+        },
+        {
+          "time": 143024,
+          "duration": 339,
+          "text": "the "
+        },
+        {
+          "time": 143363,
+          "duration": 340,
+          "text": "sky, "
+        },
+        {
+          "time": 143703,
+          "duration": 339,
+          "text": "it's "
+        },
+        {
+          "time": 144042,
+          "duration": 340,
+          "text": "a "
+        },
+        {
+          "time": 144382,
+          "duration": 339,
+          "text": "bird, "
+        },
+        {
+          "time": 144721,
+          "duration": 340,
+          "text": "it's "
+        },
+        {
+          "time": 145061,
+          "duration": 339,
+          "text": "a "
+        },
+        {
+          "time": 145400,
+          "duration": 340,
+          "text": "plane"
+        }
+      ],
+      "element": {
+        "key": "L49",
+        "singer": "v1",
+        "songPartIndex": 15
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Look up in the sky, it's a bird, it's a plane",
+        "syllabus": [
+          {
+            "time": 142005,
+            "duration": 340,
+            "text": "Look "
+          },
+          {
+            "time": 142345,
+            "duration": 339,
+            "text": "up "
+          },
+          {
+            "time": 142684,
+            "duration": 340,
+            "text": "in "
+          },
+          {
+            "time": 143024,
+            "duration": 339,
+            "text": "the "
+          },
+          {
+            "time": 143363,
+            "duration": 340,
+            "text": "sky, "
+          },
+          {
+            "time": 143703,
+            "duration": 339,
+            "text": "it's "
+          },
+          {
+            "time": 144042,
+            "duration": 340,
+            "text": "a "
+          },
+          {
+            "time": 144382,
+            "duration": 339,
+            "text": "bird, "
+          },
+          {
+            "time": 144721,
+            "duration": 340,
+            "text": "it's "
+          },
+          {
+            "time": 145061,
+            "duration": 339,
+            "text": "a "
+          },
+          {
+            "time": 145400,
+            "duration": 340,
+            "text": "plane"
+          }
+        ]
+      }
+    },
+    {
+      "time": 152359,
+      "duration": 1024,
+      "text": "Bring out your boss, bish",
+      "syllabus": [
+        {
+          "time": 152359,
+          "duration": 205,
+          "text": "Bring "
+        },
+        {
+          "time": 152564,
+          "duration": 205,
+          "text": "out "
+        },
+        {
+          "time": 152769,
+          "duration": 204,
+          "text": "your "
+        },
+        {
+          "time": 152973,
+          "duration": 205,
+          "text": "boss, "
+        },
+        {
+          "time": 153178,
+          "duration": 205,
+          "text": "bish"
+        }
+      ],
+      "element": {
+        "key": "L50",
+        "singer": "v1",
+        "songPartIndex": 16
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "Bring out your boss, bish",
+        "syllabus": [
+          {
+            "time": 152359,
+            "duration": 205,
+            "text": "Bring "
+          },
+          {
+            "time": 152564,
+            "duration": 205,
+            "text": "out "
+          },
+          {
+            "time": 152769,
+            "duration": 204,
+            "text": "your "
+          },
+          {
+            "time": 152973,
+            "duration": 205,
+            "text": "boss, "
+          },
+          {
+            "time": 153178,
+            "duration": 205,
+            "text": "bish"
+          }
+        ]
+      }
+    },
+    {
+      "time": 159936,
+      "duration": 669,
+      "text": "BLACKPINK",
+      "syllabus": [
+        {
+          "time": 159936,
+          "duration": 669,
+          "text": "BLACKPINK"
+        }
+      ],
+      "element": {
+        "key": "L51",
+        "singer": "v1",
+        "songPartIndex": 17
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "BLACKPINK",
+        "syllabus": [
+          {
+            "time": 159936,
+            "duration": 669,
+            "text": "BLACKPINK"
+          }
+        ]
+      }
+    },
+    {
+      "time": 163411,
+      "duration": 1396,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 163411,
+          "duration": 349,
+          "text": "How "
+        },
+        {
+          "time": 163760,
+          "duration": 349,
+          "text": "You "
+        },
+        {
+          "time": 164109,
+          "duration": 349,
+          "text": "Like "
+        },
+        {
+          "time": 164458,
+          "duration": 349,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L52",
+        "singer": "v1",
+        "songPartIndex": 18
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 163411,
+            "duration": 349,
+            "text": "How "
+          },
+          {
+            "time": 163760,
+            "duration": 349,
+            "text": "You "
+          },
+          {
+            "time": 164109,
+            "duration": 349,
+            "text": "Like "
+          },
+          {
+            "time": 164458,
+            "duration": 349,
+            "text": "That?"
+          }
+        ]
+      }
+    },
+    {
+      "time": 167046,
+      "duration": 1420,
+      "text": "You gon' like that",
+      "syllabus": [
+        {
+          "time": 167046,
+          "duration": 355,
+          "text": "You "
+        },
+        {
+          "time": 167401,
+          "duration": 355,
+          "text": "gon' "
+        },
+        {
+          "time": 167756,
+          "duration": 355,
+          "text": "like "
+        },
+        {
+          "time": 168111,
+          "duration": 355,
+          "text": "that"
+        }
+      ],
+      "element": {
+        "key": "L53",
+        "singer": "v1",
+        "songPartIndex": 18
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "You gon' like that",
+        "syllabus": [
+          {
+            "time": 167046,
+            "duration": 355,
+            "text": "You "
+          },
+          {
+            "time": 167401,
+            "duration": 355,
+            "text": "gon' "
+          },
+          {
+            "time": 167756,
+            "duration": 355,
+            "text": "like "
+          },
+          {
+            "time": 168111,
+            "duration": 355,
+            "text": "that"
+          }
+        ]
+      }
+    },
+    {
+      "time": 170756,
+      "duration": 1453,
+      "text": "How You Like That?",
+      "syllabus": [
+        {
+          "time": 170756,
+          "duration": 363,
+          "text": "How "
+        },
+        {
+          "time": 171119,
+          "duration": 364,
+          "text": "You "
+        },
+        {
+          "time": 171483,
+          "duration": 363,
+          "text": "Like "
+        },
+        {
+          "time": 171846,
+          "duration": 363,
+          "text": "That?"
+        }
+      ],
+      "element": {
+        "key": "L54",
+        "singer": "v1",
+        "songPartIndex": 18
+      },
+      "transliteration": {
+        "lang": "ko-Latn",
+        "text": "How You Like That?",
+        "syllabus": [
+          {
+            "time": 170756,
+            "duration": 363,
+            "text": "How "
+          },
+          {
+            "time": 171119,
+            "duration": 364,
+            "text": "You "
+          },
+          {
+            "time": 171483,
+            "duration": 363,
+            "text": "Like "
+          },
+          {
+            "time": 171846,
+            "duration": 363,
+            "text": "That?"
+          }
+        ]
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 322,
+    "lastProcessed": 1789215997361,
+    "totalElapsedMs": 322,
+    "winnerSource": "qApple",
+    "syncPriority": 3,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 141
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 322
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 236
+      }
+    }
+  }
+}

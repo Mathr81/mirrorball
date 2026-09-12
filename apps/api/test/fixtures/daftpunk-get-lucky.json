@@ -1,0 +1,1401 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Line",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "Guy-Manuel de Homem-Christo",
+      "Nile Rodgers",
+      "Pharrell Williams",
+      "Thomas Bangalter"
+    ],
+    "title": "Get Lucky (Drumless Edition) (feat. Pharrell Williams and Nile Rodgers)",
+    "language": "en",
+    "agents": {
+      "v1": {
+        "type": "person",
+        "name": "",
+        "alias": "v1"
+      },
+      "v2": {
+        "type": "person",
+        "name": "",
+        "alias": "v2"
+      }
+    },
+    "songParts": [
+      {
+        "name": "Verse",
+        "time": 31406,
+        "duration": 14928
+      },
+      {
+        "name": "PreChorus",
+        "time": 49584,
+        "duration": 16051
+      },
+      {
+        "name": "Chorus",
+        "time": 66210,
+        "duration": 16680
+      },
+      {
+        "name": "Refrain",
+        "time": 82890,
+        "duration": 8168
+      },
+      {
+        "name": "Verse",
+        "time": 97896,
+        "duration": 16472
+      },
+      {
+        "name": "PreChorus",
+        "time": 115819,
+        "duration": 15962
+      },
+      {
+        "name": "Chorus",
+        "time": 132517,
+        "duration": 16466
+      },
+      {
+        "name": "Refrain",
+        "time": 149151,
+        "duration": 8099
+      },
+      {
+        "name": "Chorus",
+        "time": 157381,
+        "duration": 16368
+      },
+      {
+        "name": "Refrain",
+        "time": 173933,
+        "duration": 8118
+      },
+      {
+        "name": "Chorus",
+        "time": 182219,
+        "duration": 16477
+      },
+      {
+        "name": "Refrain",
+        "time": 198696,
+        "duration": 8235
+      },
+      {
+        "name": "Bridge",
+        "time": 206931,
+        "duration": 15964
+      },
+      {
+        "name": "Bridge",
+        "time": 223594,
+        "duration": 24611
+      },
+      {
+        "name": "PreChorus",
+        "time": 248205,
+        "duration": 16008
+      },
+      {
+        "name": "Chorus",
+        "time": 264880,
+        "duration": 16480
+      },
+      {
+        "name": "Refrain",
+        "time": 281525,
+        "duration": 16360
+      },
+      {
+        "name": "Outro",
+        "time": 298019,
+        "duration": 16456
+      }
+    ],
+    "totalDuration": "6:09.747",
+    "artist": "Daft Punk, Pharrell Williams & Nile Rodgers",
+    "album": "Random Access Memories (Drumless Edition)",
+    "isrc": "GBDUW2300160"
+  },
+  "lyrics": [
+    {
+      "time": 31406,
+      "duration": 2301,
+      "text": "Like the legend of the Phoenix",
+      "syllabus": [],
+      "element": {
+        "key": "L1",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 35830,
+      "duration": 2134,
+      "text": "All ends with beginnings",
+      "syllabus": [],
+      "element": {
+        "key": "L2",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 39998,
+      "duration": 1934,
+      "text": "What keeps the planets spinning",
+      "syllabus": [],
+      "element": {
+        "key": "L3",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 43086,
+      "duration": 851,
+      "text": "Ah-ah",
+      "syllabus": [],
+      "element": {
+        "key": "L4",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 44155,
+      "duration": 2179,
+      "text": "The force from the beginning",
+      "syllabus": [],
+      "element": {
+        "key": "L5",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 49584,
+      "duration": 3302,
+      "text": "We've come too far",
+      "syllabus": [],
+      "element": {
+        "key": "L6",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 52886,
+      "duration": 4165,
+      "text": "To give up who we are",
+      "syllabus": [],
+      "element": {
+        "key": "L7",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 57552,
+      "duration": 3550,
+      "text": "So let’s raise the bar",
+      "syllabus": [],
+      "element": {
+        "key": "L8",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 61182,
+      "duration": 4453,
+      "text": "And our cups to the stars",
+      "syllabus": [],
+      "element": {
+        "key": "L9",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 66210,
+      "duration": 2179,
+      "text": "She's up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L10",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 68477,
+      "duration": 2016,
+      "text": "I'm up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L11",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 70493,
+      "duration": 2080,
+      "text": "She’s up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L12",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 72573,
+      "duration": 2016,
+      "text": "I’m up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L13",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 74634,
+      "duration": 2056,
+      "text": "We're up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L14",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 76697,
+      "duration": 2025,
+      "text": "We're up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L15",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 78722,
+      "duration": 2051,
+      "text": "We're up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L16",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 80773,
+      "duration": 2117,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L17",
+        "singer": "v1",
+        "songPartIndex": 2
+      }
+    },
+    {
+      "time": 82890,
+      "duration": 1984,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L18",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 84874,
+      "duration": 2051,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L19",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 86925,
+      "duration": 2083,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L20",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 89008,
+      "duration": 2050,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L21",
+        "singer": "v1",
+        "songPartIndex": 3
+      }
+    },
+    {
+      "time": 97896,
+      "duration": 2016,
+      "text": "The present has no ribbon",
+      "syllabus": [],
+      "element": {
+        "key": "L22",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 102029,
+      "duration": 2000,
+      "text": "Your gift keeps on giving",
+      "syllabus": [],
+      "element": {
+        "key": "L23",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 106469,
+      "duration": 2235,
+      "text": "What is this I'm feeling?",
+      "syllabus": [],
+      "element": {
+        "key": "L24",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 110354,
+      "duration": 1964,
+      "text": "If you want to leave I’m with it",
+      "syllabus": [],
+      "element": {
+        "key": "L25",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 113419,
+      "duration": 949,
+      "text": "Ah-ah",
+      "syllabus": [],
+      "element": {
+        "key": "L26",
+        "singer": "v1",
+        "songPartIndex": 4
+      }
+    },
+    {
+      "time": 115819,
+      "duration": 3282,
+      "text": "We've come too far",
+      "syllabus": [],
+      "element": {
+        "key": "L27",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 119082,
+      "duration": 4136,
+      "text": "To give up who we are",
+      "syllabus": [],
+      "element": {
+        "key": "L28",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 123733,
+      "duration": 3584,
+      "text": "So let’s raise the bar",
+      "syllabus": [],
+      "element": {
+        "key": "L29",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 127384,
+      "duration": 4397,
+      "text": "And our cup to the stars",
+      "syllabus": [],
+      "element": {
+        "key": "L30",
+        "singer": "v1",
+        "songPartIndex": 5
+      }
+    },
+    {
+      "time": 132517,
+      "duration": 2083,
+      "text": "She's up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L31",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 134600,
+      "duration": 2066,
+      "text": "I'm up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L32",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 136666,
+      "duration": 2053,
+      "text": "She's up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L33",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 138719,
+      "duration": 2051,
+      "text": "I'm up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L34",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 140863,
+      "duration": 1950,
+      "text": "We're up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L35",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 142932,
+      "duration": 1902,
+      "text": "We're up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L36",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 145031,
+      "duration": 1869,
+      "text": "We're up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L37",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 147100,
+      "duration": 1883,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L38",
+        "singer": "v1",
+        "songPartIndex": 6
+      }
+    },
+    {
+      "time": 149151,
+      "duration": 1848,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L39",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 151151,
+      "duration": 1901,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L40",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 153167,
+      "duration": 1901,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L41",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 155202,
+      "duration": 2048,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L42",
+        "singer": "v1",
+        "songPartIndex": 7
+      }
+    },
+    {
+      "time": 157381,
+      "duration": 1934,
+      "text": "She's up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L43",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 159515,
+      "duration": 1882,
+      "text": "I'm up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L44",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 161581,
+      "duration": 1819,
+      "text": "She's up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L45",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 163600,
+      "duration": 1899,
+      "text": "I'm up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L46",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 165683,
+      "duration": 1834,
+      "text": "We're up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L47",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 167717,
+      "duration": 1899,
+      "text": "We're up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L48",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 169816,
+      "duration": 1883,
+      "text": "We're up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L49",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 171883,
+      "duration": 1866,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L50",
+        "singer": "v1",
+        "songPartIndex": 8
+      }
+    },
+    {
+      "time": 173933,
+      "duration": 1867,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L51",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 175952,
+      "duration": 1949,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L52",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 178069,
+      "duration": 1899,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L53",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 180136,
+      "duration": 1915,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L54",
+        "singer": "v1",
+        "songPartIndex": 9
+      }
+    },
+    {
+      "time": 182219,
+      "duration": 2066,
+      "text": "She's up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L55",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 184285,
+      "duration": 2000,
+      "text": "I'm up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L56",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 186285,
+      "duration": 2035,
+      "text": "She's up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L57",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 188320,
+      "duration": 2117,
+      "text": "I'm up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L58",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 190437,
+      "duration": 1984,
+      "text": "We're up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L59",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 192421,
+      "duration": 2134,
+      "text": "We're up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L60",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 194555,
+      "duration": 2059,
+      "text": "We're up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L61",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 196614,
+      "duration": 2082,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L62",
+        "singer": "v1",
+        "songPartIndex": 10
+      }
+    },
+    {
+      "time": 198696,
+      "duration": 2051,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L63",
+        "singer": "v1",
+        "songPartIndex": 11
+      }
+    },
+    {
+      "time": 200747,
+      "duration": 2035,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L64",
+        "singer": "v1",
+        "songPartIndex": 11
+      }
+    },
+    {
+      "time": 202782,
+      "duration": 2066,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L65",
+        "singer": "v1",
+        "songPartIndex": 11
+      }
+    },
+    {
+      "time": 204848,
+      "duration": 2083,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L66",
+        "singer": "v1",
+        "songPartIndex": 11
+      }
+    },
+    {
+      "time": 206931,
+      "duration": 1485,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L67",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 209099,
+      "duration": 1365,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L68",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 211166,
+      "duration": 1349,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L69",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 213200,
+      "duration": 1416,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L70",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 215216,
+      "duration": 1416,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L71",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 217327,
+      "duration": 1416,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L72",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 219410,
+      "duration": 1435,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L73",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 221527,
+      "duration": 1368,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L74",
+        "singer": "v2",
+        "songPartIndex": 12
+      }
+    },
+    {
+      "time": 223594,
+      "duration": 1384,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L75",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 225660,
+      "duration": 1467,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L76",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 227743,
+      "duration": 1994,
+      "text": "We're up all night to get (Lucky)",
+      "syllabus": [],
+      "element": {
+        "key": "L77",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 229793,
+      "duration": 1334,
+      "text": "We're up all night to get",
+      "syllabus": [],
+      "element": {
+        "key": "L78",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 231844,
+      "duration": 2083,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L79",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 233948,
+      "duration": 2070,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L80",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 236018,
+      "duration": 1965,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L81",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 238074,
+      "duration": 1933,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L82",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 240156,
+      "duration": 1883,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L83",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 242132,
+      "duration": 2019,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L84",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 244195,
+      "duration": 2000,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L85",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 246379,
+      "duration": 1826,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L86",
+        "singer": "v2",
+        "songPartIndex": 13
+      }
+    },
+    {
+      "time": 248205,
+      "duration": 3301,
+      "text": "We've come too far",
+      "syllabus": [],
+      "element": {
+        "key": "L87",
+        "singer": "v1",
+        "songPartIndex": 14
+      }
+    },
+    {
+      "time": 251506,
+      "duration": 4232,
+      "text": "To give up who we are",
+      "syllabus": [],
+      "element": {
+        "key": "L88",
+        "singer": "v1",
+        "songPartIndex": 14
+      }
+    },
+    {
+      "time": 256187,
+      "duration": 3549,
+      "text": "So let's raise the bar",
+      "syllabus": [],
+      "element": {
+        "key": "L89",
+        "singer": "v1",
+        "songPartIndex": 14
+      }
+    },
+    {
+      "time": 259829,
+      "duration": 4384,
+      "text": "And our cups to the stars",
+      "syllabus": [],
+      "element": {
+        "key": "L90",
+        "singer": "v1",
+        "songPartIndex": 14
+      }
+    },
+    {
+      "time": 264880,
+      "duration": 2101,
+      "text": "She's up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L91",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 267056,
+      "duration": 2050,
+      "text": "I'm up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L92",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 269106,
+      "duration": 2016,
+      "text": "She's up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L93",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 271122,
+      "duration": 2019,
+      "text": "I'm up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L94",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 273325,
+      "duration": 1867,
+      "text": "We're up all night to the sun",
+      "syllabus": [],
+      "element": {
+        "key": "L95",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 275341,
+      "duration": 1901,
+      "text": "We're up all night to get some",
+      "syllabus": [],
+      "element": {
+        "key": "L96",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 277408,
+      "duration": 1850,
+      "text": "We're up all night for good fun",
+      "syllabus": [],
+      "element": {
+        "key": "L97",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 279458,
+      "duration": 1902,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L98",
+        "singer": "v1",
+        "songPartIndex": 15
+      }
+    },
+    {
+      "time": 281525,
+      "duration": 1949,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L99",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 283608,
+      "duration": 1818,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L100",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 285626,
+      "duration": 1851,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L101",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 287592,
+      "duration": 2066,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L102",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 289816,
+      "duration": 1803,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L103",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 291752,
+      "duration": 2000,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L104",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 293869,
+      "duration": 1931,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L105",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 295968,
+      "duration": 1917,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L106",
+        "singer": "v1",
+        "songPartIndex": 16
+      }
+    },
+    {
+      "time": 298019,
+      "duration": 1933,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L107",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 300069,
+      "duration": 1934,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L108",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 302136,
+      "duration": 1917,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L109",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 304187,
+      "duration": 1949,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L110",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 306211,
+      "duration": 2129,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L111",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 308340,
+      "duration": 1985,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L112",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 310491,
+      "duration": 1869,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L113",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    },
+    {
+      "time": 312475,
+      "duration": 2000,
+      "text": "We're up all night to get lucky",
+      "syllabus": [],
+      "element": {
+        "key": "L114",
+        "singer": "v1",
+        "songPartIndex": 17
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 318,
+    "lastProcessed": 1789215796809,
+    "totalElapsedMs": 318,
+    "winnerSource": "qApple",
+    "syncPriority": 2,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 65
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 317
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 226
+      }
+    }
+  }
+}

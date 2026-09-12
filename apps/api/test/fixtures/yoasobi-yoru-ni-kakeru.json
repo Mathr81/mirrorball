@@ -1,0 +1,37 @@
+{
+  "error": {
+    "message": "Lyrics not found in sources: qapple, qq, deezer",
+    "status": 404,
+    "details": {
+      "searchedSources": [
+        "qapple",
+        "qq",
+        "deezer"
+      ],
+      "songInfo": {
+        "title": "夜に駆ける",
+        "artist": "YOASOBI",
+        "album": "THE BOOK"
+      }
+    }
+  },
+  "processingTime": {
+    "timeElapsed": 325,
+    "lastProcessed": 1789215814756,
+    "totalElapsedMs": 325,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "BAD",
+        "elapsedMs": 118
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 325
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 200
+      }
+    }
+  }
+}

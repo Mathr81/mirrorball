@@ -1,0 +1,135 @@
+[
+  {
+    "requested": null,
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "apple,musixmatch-word,lyricsplus,musixmatch,spotify",
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0,
+    "withSyllabus": 0,
+    "searchedSources": [
+      "musixmatch-word",
+      "musixmatch"
+    ]
+  },
+  {
+    "requested": "apple",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "qapple",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "applemusic",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "apple-music",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "musixmatch-word",
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0,
+    "withSyllabus": 0,
+    "searchedSources": [
+      "musixmatch-word"
+    ]
+  },
+  {
+    "requested": "musixmatch",
+    "status": 404,
+    "type": null,
+    "returned": null,
+    "lines": 0,
+    "withSyllabus": 0,
+    "searchedSources": [
+      "musixmatch"
+    ]
+  },
+  {
+    "requested": "lyricsplus",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "spotify",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "qapple,musixmatch-word",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "musixmatch-word,qapple",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "spotify,qapple",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  },
+  {
+    "requested": "inexistant",
+    "status": 200,
+    "type": "Word",
+    "returned": "qApple",
+    "lines": 73,
+    "withSyllabus": 73,
+    "searchedSources": null
+  }
+]

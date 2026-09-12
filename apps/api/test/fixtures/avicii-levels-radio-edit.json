@@ -1,0 +1,415 @@
+{
+  "KpoeTools": "1.7-1-ConvertTTMLtoJSON-DOMParser",
+  "type": "Word",
+  "metadata": {
+    "source": "qApple",
+    "songWriters": [
+      "Ash Pournouri",
+      "Etta James",
+      "Leroy Kirkland",
+      "Pearl Woods",
+      "Tim Bergling"
+    ],
+    "title": "Levels (Radio Edit)",
+    "language": "en",
+    "agents": {
+      "v1": {
+        "type": "person",
+        "name": "Avicii",
+        "alias": "v1"
+      }
+    },
+    "songParts": [
+      {
+        "name": "Chorus",
+        "time": 83699,
+        "duration": 14818
+      },
+      {
+        "name": "Chorus",
+        "time": 98912,
+        "duration": 14851
+      }
+    ],
+    "totalDuration": "3:21.933",
+    "artist": "Avicii",
+    "album": "Levels - EP",
+    "isrc": "SEUM71100962"
+  },
+  "lyrics": [
+    {
+      "time": 83699,
+      "duration": 6304,
+      "text": "Oh, sometimes I get a good feeling, yeah",
+      "syllabus": [
+        {
+          "time": 83699,
+          "duration": 1661,
+          "text": "Oh, "
+        },
+        {
+          "time": 85360,
+          "duration": 397,
+          "text": "some"
+        },
+        {
+          "time": 85757,
+          "duration": 1022,
+          "text": "times "
+        },
+        {
+          "time": 86829,
+          "duration": 216,
+          "text": "I "
+        },
+        {
+          "time": 87045,
+          "duration": 151,
+          "text": "get "
+        },
+        {
+          "time": 87196,
+          "duration": 100,
+          "text": "a "
+        },
+        {
+          "time": 87296,
+          "duration": 285,
+          "text": "good "
+        },
+        {
+          "time": 87581,
+          "duration": 733,
+          "text": "feeling, "
+        },
+        {
+          "time": 89198,
+          "duration": 805,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L1",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 91688,
+      "duration": 4582,
+      "text": "Get a feeling that I never, never, never, never had before, no, no",
+      "syllabus": [
+        {
+          "time": 91688,
+          "duration": 434,
+          "text": "Get "
+        },
+        {
+          "time": 92122,
+          "duration": 244,
+          "text": "a "
+        },
+        {
+          "time": 92366,
+          "duration": 494,
+          "text": "feeling "
+        },
+        {
+          "time": 92860,
+          "duration": 232,
+          "text": "that "
+        },
+        {
+          "time": 93092,
+          "duration": 244,
+          "text": "I "
+        },
+        {
+          "time": 93336,
+          "duration": 369,
+          "text": "never, "
+        },
+        {
+          "time": 93705,
+          "duration": 351,
+          "text": "never, "
+        },
+        {
+          "time": 94056,
+          "duration": 351,
+          "text": "never, "
+        },
+        {
+          "time": 94407,
+          "duration": 333,
+          "text": "never "
+        },
+        {
+          "time": 94740,
+          "duration": 250,
+          "text": "had "
+        },
+        {
+          "time": 94990,
+          "duration": 773,
+          "text": "before, "
+        },
+        {
+          "time": 95763,
+          "duration": 250,
+          "text": "no, "
+        },
+        {
+          "time": 96013,
+          "duration": 257,
+          "text": "no"
+        }
+      ],
+      "element": {
+        "key": "L2",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 96280,
+      "duration": 2237,
+      "text": "I get a good feeling, yeah",
+      "syllabus": [
+        {
+          "time": 96280,
+          "duration": 280,
+          "text": "I "
+        },
+        {
+          "time": 96560,
+          "duration": 185,
+          "text": "get "
+        },
+        {
+          "time": 96745,
+          "duration": 130,
+          "text": "a "
+        },
+        {
+          "time": 96875,
+          "duration": 266,
+          "text": "good "
+        },
+        {
+          "time": 97141,
+          "duration": 585,
+          "text": "feeling, "
+        },
+        {
+          "time": 97726,
+          "duration": 791,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L3",
+        "singer": "v1",
+        "songPartIndex": 0
+      }
+    },
+    {
+      "time": 98912,
+      "duration": 6507,
+      "text": "Oh, sometimes I get a good feeling, yeah",
+      "syllabus": [
+        {
+          "time": 98912,
+          "duration": 1571,
+          "text": "Oh, "
+        },
+        {
+          "time": 100584,
+          "duration": 437,
+          "text": "some"
+        },
+        {
+          "time": 101021,
+          "duration": 1071,
+          "text": "times "
+        },
+        {
+          "time": 102196,
+          "duration": 117,
+          "text": "I "
+        },
+        {
+          "time": 102313,
+          "duration": 216,
+          "text": "get "
+        },
+        {
+          "time": 102529,
+          "duration": 100,
+          "text": "a "
+        },
+        {
+          "time": 102629,
+          "duration": 263,
+          "text": "good "
+        },
+        {
+          "time": 102892,
+          "duration": 621,
+          "text": "feeling, "
+        },
+        {
+          "time": 104464,
+          "duration": 955,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L4",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 107025,
+      "duration": 4479,
+      "text": "Get a feeling that I never, never, never, never had before, no, no",
+      "syllabus": [
+        {
+          "time": 107025,
+          "duration": 321,
+          "text": "Get "
+        },
+        {
+          "time": 107346,
+          "duration": 244,
+          "text": "a "
+        },
+        {
+          "time": 107590,
+          "duration": 494,
+          "text": "feeling "
+        },
+        {
+          "time": 108084,
+          "duration": 446,
+          "text": "that "
+        },
+        {
+          "time": 108530,
+          "duration": 100,
+          "text": "I "
+        },
+        {
+          "time": 108630,
+          "duration": 287,
+          "text": "never, "
+        },
+        {
+          "time": 108917,
+          "duration": 345,
+          "text": "never, "
+        },
+        {
+          "time": 109262,
+          "duration": 363,
+          "text": "never, "
+        },
+        {
+          "time": 109625,
+          "duration": 321,
+          "text": "never "
+        },
+        {
+          "time": 109946,
+          "duration": 262,
+          "text": "had "
+        },
+        {
+          "time": 110208,
+          "duration": 615,
+          "text": "before, "
+        },
+        {
+          "time": 110823,
+          "duration": 299,
+          "text": "no, "
+        },
+        {
+          "time": 111122,
+          "duration": 382,
+          "text": "no"
+        }
+      ],
+      "element": {
+        "key": "L5",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    },
+    {
+      "time": 111514,
+      "duration": 2249,
+      "text": "I get a good feeling, yeah",
+      "syllabus": [
+        {
+          "time": 111514,
+          "duration": 272,
+          "text": "I "
+        },
+        {
+          "time": 111786,
+          "duration": 279,
+          "text": "get "
+        },
+        {
+          "time": 112065,
+          "duration": 100,
+          "text": "a "
+        },
+        {
+          "time": 112165,
+          "duration": 250,
+          "text": "good "
+        },
+        {
+          "time": 112415,
+          "duration": 584,
+          "text": "feeling, "
+        },
+        {
+          "time": 113090,
+          "duration": 673,
+          "text": "yeah"
+        }
+      ],
+      "element": {
+        "key": "L6",
+        "singer": "v1",
+        "songPartIndex": 1
+      }
+    }
+  ],
+  "cached": "Remote",
+  "processingTime": {
+    "timeElapsed": 356,
+    "lastProcessed": 1789215808768,
+    "totalElapsedMs": 356,
+    "winnerSource": "qApple",
+    "syncPriority": 3,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "OK",
+        "elapsedMs": 50
+      },
+      "qq": {
+        "status": "BAD",
+        "elapsedMs": 356
+      },
+      "deezer": {
+        "status": "BAD",
+        "elapsedMs": 131
+      }
+    }
+  }
+}

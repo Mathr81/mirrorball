@@ -1,0 +1,37 @@
+{
+  "error": {
+    "message": "Lyrics not found in sources: qapple, qq, deezer",
+    "status": 404,
+    "details": {
+      "searchedSources": [
+        "qapple",
+        "qq",
+        "deezer"
+      ],
+      "songInfo": {
+        "title": "Without Me",
+        "artist": "Eminem",
+        "album": "The Eminem Show"
+      }
+    }
+  },
+  "processingTime": {
+    "timeElapsed": 8022,
+    "lastProcessed": 1789100553104,
+    "totalElapsedMs": 8022,
+    "sourcesStatus": {
+      "qapple": {
+        "status": "RTO",
+        "elapsedMs": 8022
+      },
+      "qq": {
+        "status": "RTO",
+        "elapsedMs": 8022
+      },
+      "deezer": {
+        "status": "RTO",
+        "elapsedMs": 8021
+      }
+    }
+  }
+}
