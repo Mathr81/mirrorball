@@ -146,7 +146,7 @@ lyrics[]      time, duration, text, syllabus[], element{}, translation?, transli
   *(Le composant lui-même lit `entry.element?.songPart` dans `convertKPoeLyrics` : chez lui
   ce champ est donc toujours `undefined`. Bug amont, à ne pas reproduire.)*
 - `element.key` (`"L1"`, `"L2"`…) n'était pas mentionné : il est pourtant **indispensable**,
-  c'est la clé qui relie une ligne à sa translittération en TTML (voir §9).
+  c'est la clé qui relie une ligne à sa translittération en TTML (voir §8).
 - `syllabus[]` porte **`isBackground`** (337 occurrences) — non mentionné, et c'est ce qui
   distingue les chœurs. Il n'y a **pas** de champ `part` : le groupement en mots est porté
   par les espaces de fin dans `text` (`"Is "`, `"this "`).
@@ -183,7 +183,34 @@ dialecte à produire, pas la norme TTML.**
 - Traduction : `<translation><text for="L1">…</text></translation>`, même mécanisme de clé.
 - `<songwriter>` alimente le pied de page.
 
-## 9. Autres points relevés sur le composant
+## 9. `isrc` confirmé — contourne entièrement les filtres §5 (test dédié)
+
+Suite au constat #6 (non testé à l'époque), sondage dédié (phase H,
+`scripts/probe-kpoe.ts H`) contre l'instance vivante :
+
+| Cas | Paramètres | Résultat |
+|---|---|---|
+| isrc seul | `isrc=GBUM71029604` | **200**, `Word`, qApple, 73 lignes — Bohemian Rhapsody, sans `title`/`artist` |
+| isrc + title/artist absurdes | `isrc=GBUM71029604&title=Zzqxv...&artist=Nobody...` | **200**, identique — l'isrc prime, le titre/artiste faux est ignoré |
+| isrc + duration très éloignée | `isrc=GBUM71029604&duration=1` (réelle 354) | **200**, identique — **l'isrc bypasse le filtre de durée** du constat #5 |
+| isrc d'un morceau qui échouait avec album+duration | `isrc=FRZ116000530` (Piaf) | **200**, `Line`, 28 lignes — remonte sans qu'il ait fallu retirer album/duration |
+| isrc syntaxiquement valide mais inexistant | `isrc=ZZZZZ0000000` | **404** propre, `searchedSources: ["qapple","qq"]` |
+
+> **Conclusion : l'isrc n'est pas juste « une clé de plus », c'est la clé qui rend
+> caduque toute la cascade de dégradation du constat #5.** Quand l'ISRC est
+> disponible (Spotify l'expose sur `item.external_ids.isrc`), il doit être
+> envoyé **seul**, sans `title`/`artist`/`album`/`duration` — les ajouter ne
+> peut qu'introduire du bruit sans bénéfice constaté. La cascade
+> titre/artiste/durée ne reste utile qu'en repli, quand Spotify ne fournit pas
+> d'ISRC pour la piste (cas rare mais existant, ex. certains contenus locaux).
+>
+> Note secondaire : sur le 404 isrc inexistant, `searchedSources` ne liste que
+> `qapple, qq` — pas `deezer`, contrairement à la chaîne par défaut du
+> constat #3. Sans incidence sur l'architecture (le comportement observé
+> reste « best-effort sur les sources vivantes de l'instance »), mais à garder
+> en tête si `deezer` doit un jour être vérifié spécifiquement.
+
+## 10. Autres points relevés sur le composant
 
 - Les presets responsives sont des **`@container (max-width: 519px)` / `@container (min-width: 900px)`**
   (`src/AmLyrics.ts:1892`, `1908`), avec `container-type: inline-size` sur l'hôte.

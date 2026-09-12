@@ -206,7 +206,7 @@ interface Line {
 }
 ```
 
-- **`translation?: string`** : absent de la spec d'origine. KPoe renvoie un
+- **`translation?: string`** — validé, à ajouter à l'IR. Absent de la spec d'origine. KPoe renvoie un
   champ `translation` distinct de `transliteration` sur 57 lignes de
   l'échantillon (finding #7), et le parser am-lyrics sait le lire via
   `<translation><text for="Lx">` avec le même mécanisme de clé que la
@@ -311,11 +311,16 @@ la spec Spicy §7).
 3. **Jamais de paramètre `album`** (finding #5).
 4. Cascade de tentatives dégradées, dans cet ordre, chacune consommant un
    slot de la file :
-   - `isrc` seul, si disponible (finding #6 — piste à valider en priorité,
-     non testée dans le sondage faute de mention de l'ISRC dans les
-     fixtures ; à confirmer empiriquement en premier geste d'implémentation,
-     avant d'écrire le reste de la cascade) ;
-   - sinon `title` + `artist` + `duration` (tolérance ~±5 s constatée) ;
+   - **`isrc` seul, sans aucun autre paramètre, si Spotify le fournit**
+     (`item.external_ids.isrc`) — confirmé par sondage dédié (finding #9,
+     phase H) : l'isrc court-circuite entièrement le matching flou, prime
+     sur un `title`/`artist` faux, et **bypasse le filtre de durée** qui fait
+     échouer des recherches par ailleurs correctes (finding #5). C'est donc
+     le chemin par défaut chaque fois qu'il est disponible, pas un simple
+     paramètre additionnel — ne pas envoyer `title`/`artist`/`duration` en
+     même temps, aucun bénéfice constaté à le faire ;
+   - sinon (piste locale sans ISRC, cas rare) `title` + `artist` + `duration`
+     (tolérance ~±5 s constatée) ;
    - sinon `title` + `artist` seuls.
    Premier succès gagne, on ne tente pas la suite.
 5. Un `429` applicatif respecte `retry-after` sans ouvrir le circuit ; un
@@ -327,14 +332,14 @@ la spec Spicy §7).
    URL morte à chaque `/api/lyrics` gaspillerait un slot de la file de
    `binimum.org` pour rien tant que les autres restent HS.
 
-⚠️ Proposition non demandée dans la spec d'origine, à valider explicitement :
-vu le coût d'une requête KPoe (file d'attente pouvant aller jusqu'à plusieurs
-secondes), si Spicy renvoie déjà `line`, on répond **immédiatement** au
-premier appel avec ce résultat `line`, et on lance la tentative KPoe
-« amélioration mot-à-mot » en tâche de fond, sans faire attendre l'utilisateur
-dessus. Si KPoe fait mieux, le cache est mis à jour et servira au prochain
-poll / rechargement, plutôt que d'ajouter la latence de la file d'attente
-KPoe à chaque premier affichage. Voir §8 pour la question à trancher.
+**Validé** : vu le coût d'une requête KPoe (file d'attente pouvant aller
+jusqu'à plusieurs secondes), si Spicy renvoie déjà `line`, on répond
+**immédiatement** au premier appel avec ce résultat `line`, et on lance la
+tentative KPoe « amélioration mot-à-mot » en tâche de fond, sans faire
+attendre l'utilisateur dessus. Si KPoe fait mieux, le cache est mis à jour
+(table `lyrics_best`, §7) et servira au prochain poll / rechargement, plutôt
+que d'ajouter la latence de la file d'attente KPoe à chaque premier
+affichage.
 
 **LRCLIB** : uniquement si aucune source précédente n'a fait mieux que
 `static`. TTL de cache court (proposé : 24 h) pour laisser une chance à une
@@ -385,36 +390,28 @@ CREATE TABLE lyrics_best (
 
 ---
 
-## 8. Points à valider explicitement avant d'écrire le code
+## 8. Décisions actées
 
 1. **Amélioration KPoe en tâche de fond après un `line` de Spicy** (§6) —
-   je préconise cette approche pour ne pas payer la latence de la file
-   d'attente KPoe sur l'affichage initial, mais ce n'est pas dans la
-   demande d'origine (« on continue vers KPoe » y était formulé comme
-   séquentiel). À trancher.
-2. **Ajout du champ `translation` à l'IR** (§3) — je le propose pour ne pas
-   perdre une donnée que KPoe fournit réellement et que le composant sait
-   afficher, mais ça sort du contrat IR fourni initialement.
-3. **Recherche par `isrc` chez KPoe** (finding #6) — présentée dans les
-   findings comme « à valider en priorité, non testée ». Je propose d'en
-   faire le tout premier geste d'implémentation (avant même le reste de la
-   cascade), avec un mini-script de sondage dédié plutôt que de l'écrire à
-   l'aveugle dans `query-cascade.ts`.
-4. **Conditions d'usage Spicy Lyrics** (spec Spicy, en tête de document) :
-   « accès accordé uniquement pour un usage personnel individuel via les
-   clients officiels ou leurs forks publics ». Ce projet est un usage
-   personnel mais n'est ni un client officiel ni un fork de ce dépôt — à
-   avoir en tête, je ne bloque pas dessus vu le contexte (usage strictement
-   personnel, non redistribué) mais je préfère le signaler plutôt que de
-   l'ignorer silencieusement.
-5. **Unité de temps Spicy** (`StartTime`/`EndTime`, spec Spicy §6.3) —
-   annoncée « proche de la milliseconde » mais non confirmée. Je ne peux pas
-   la vérifier depuis cet environnement (il faut un token Spotify réel et un
-   `trackId`) ; ce sera le premier test à écrire contre l'API réelle en
-   phase d'implémentation, avant d'écrire `spicy/to-ir.ts`.
+   **validé**. On répond immédiatement avec le `line` de Spicy, la tentative
+   KPoe se fait en arrière-plan et met à jour `lyrics_best` si elle fait mieux.
+2. **Ajout du champ `translation` à l'IR** (§3) — **validé**. `Line.translation?: string`,
+   alimenté par KPoe quand présent, absent pour Spicy/LRCLIB.
+3. **Recherche par `isrc` chez KPoe** — **fait**. Sondage dédié exécuté
+   (`scripts/probe-kpoe.ts H`, finding #9 dans `docs/kpoe-findings.md`) :
+   l'isrc bypasse entièrement le matching flou et le filtre de durée. La
+   cascade §6 en tient déjà compte : isrc seul en priorité absolue quand
+   disponible, sans autre paramètre.
+4. **Conditions d'usage Spicy Lyrics** — **acté, on continue**. Usage
+   strictement personnel et non redistribué ; le point reste documenté ici
+   pour mémoire mais ne bloque pas l'implémentation du provider Spicy.
+5. **Unité de temps Spicy** (`StartTime`/`EndTime`, spec Spicy §6.3) — reste
+   à vérifier empiriquement, impossible à tester depuis cet environnement
+   (il faut un token Spotify réel et un `trackId`). Ce sera le premier test
+   écrit contre l'API réelle en phase d'implémentation du provider Spicy,
+   avant d'écrire `spicy/to-ir.ts` — pas un blocage pour démarrer le reste.
 
-Rien d'autre dans les deux docs de référence ne remet en cause le contrat
-ci-dessus. Sous réserve de ta validation sur ces 5 points, l'implémentation
-peut démarrer par : (a) le port de `objpack.ts`, (b) le test isrc KPoe,
-(c) l'émetteur TTML avec ses fixtures, dans cet ordre — ce sont les trois
-briques dont dépend tout le reste.
+Implémentation démarrée dans cet ordre : (a) scaffold monorepo pnpm, (b) IR
++ émetteur TTML avec tests sur les fixtures déjà collectées, (c) provider
+KPoe (file d'attente, cascade isrc-first), (d) provider LRCLIB, (e) provider
+Spicy (objpack, session, TOTP) — le plus incertain, dernier de la liste.

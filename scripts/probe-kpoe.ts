@@ -46,6 +46,7 @@ interface Track {
   artist: string;
   album?: string;
   duration?: number;
+  isrc?: string;
 }
 
 /** Échantillon : hit anglophone, français, featuring, accents, live/remix, CJK, obscur. */
@@ -76,13 +77,15 @@ interface ProbeResult {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-function buildUrl(base: string, t: Partial<Track> & { source?: string }): string {
+function buildUrl(base: string, t: Partial<Track> & { source?: string; platformId?: string }): string {
   const u = new URL('/v2/lyrics/get', base);
   if (t.title !== undefined) u.searchParams.set('title', t.title);
   if (t.artist !== undefined) u.searchParams.set('artist', t.artist);
   if (t.album !== undefined) u.searchParams.set('album', t.album);
   if (t.duration !== undefined) u.searchParams.set('duration', String(t.duration));
   if (t.source !== undefined) u.searchParams.set('source', t.source);
+  if (t.isrc !== undefined) u.searchParams.set('isrc', t.isrc);
+  if (t.platformId !== undefined) u.searchParams.set('platformId', t.platformId);
   return u.toString();
 }
 
@@ -361,7 +364,62 @@ async function phaseG(): Promise<void> {
   saveReport('G-sensitivity-translit', out);
 }
 
-const PHASES: Record<string, () => Promise<void>> = { A: phaseA, B: phaseB, C: phaseC, D: phaseD, E: phaseE, F: phaseF, G: phaseG };
+// ── H. Recherche par `isrc` (finding #6 — non testée dans le sondage initial) ─
+async function phaseH(): Promise<void> {
+  console.log('\n═══ H. RECHERCHE PAR `isrc` ═══\n');
+  const out: Record<string, unknown>[] = [];
+
+  const line = (label: string, r: ProbeResult, s: Record<string, unknown>) => {
+    console.log(`${label.padEnd(52)} http=${r.status} type=${String(s.type ?? '—').padEnd(5)} src=${String(s.metadataSource ?? '—').padEnd(8)} lignes=${s.lineCount} syl=${s.linesWithSyllabus}`);
+    if (!r.ok) console.log(`   ${r.bodyText.replace(/\s+/g, ' ').slice(0, 200)}`);
+  };
+
+  // H1 — isrc seul, sans title/artist : suffit-il, comme le suggère le message d'erreur 400 ?
+  console.log('— H1. isrc seul (sans title/artist)\n');
+  const bohemian = { isrc: 'GBUM71029604' }; // Queen — Bohemian Rhapsody, lu dans metadata.isrc
+  let r = await probe(buildUrl(BASE, bohemian));
+  let s = summarize(r.json);
+  line('  isrc=GBUM71029604 (Bohemian Rhapsody)', r, s);
+  out.push({ case: 'isrc-only', params: bohemian, status: r.status, type: s.type, lines: s.lineCount });
+  if (r.ok) saveFixture('isrc-only-bohemian-rhapsody', r);
+
+  // H2 — isrc + title/artist délibérément faux : l'isrc prime-t-il sur le matching flou ?
+  console.log('\n— H2. isrc correct + title/artist délibérément faux\n');
+  const wrongMeta = { isrc: 'GBUM71029604', title: 'Zzqxv Nonexistent Track', artist: 'Nobody At All' };
+  r = await probe(buildUrl(BASE, wrongMeta));
+  s = summarize(r.json);
+  line('  isrc valide + title/artist absurdes', r, s);
+  out.push({ case: 'isrc-overrides-wrong-title-artist', params: wrongMeta, status: r.status, type: s.type, lines: s.lineCount, returnedTitle: (r.json as any)?.metadata?.title ?? null });
+
+  // H3 — isrc + duration très éloignée : l'isrc bypass-t-il le filtre de durée (finding #5) ?
+  console.log('\n— H3. isrc correct + duration très éloignée (contourne-t-il le filtre §5 ?)\n');
+  const wrongDuration = { isrc: 'GBUM71029604', duration: 1 };
+  r = await probe(buildUrl(BASE, wrongDuration));
+  s = summarize(r.json);
+  line('  isrc valide + duration=1 (réelle: 354)', r, s);
+  out.push({ case: 'isrc-bypasses-duration-filter', params: wrongDuration, status: r.status, type: s.type, lines: s.lineCount });
+
+  // H4 — isrc d'un morceau où retirer album/duration était nécessaire (Piaf, finding #5)
+  console.log('\n— H4. isrc seul sur un morceau qui échouait avec album+duration\n');
+  const piaf = { isrc: 'FRZ116000530' }; // Édith Piaf — Non, je ne regrette rien
+  r = await probe(buildUrl(BASE, piaf));
+  s = summarize(r.json);
+  line('  isrc=FRZ116000530 (Piaf)', r, s);
+  out.push({ case: 'isrc-piaf', params: piaf, status: r.status, type: s.type, lines: s.lineCount });
+  if (r.ok) saveFixture('isrc-only-piaf', r);
+
+  // H5 — isrc inexistant/invalide : 404 propre, ou 400 ?
+  console.log('\n— H5. isrc syntaxiquement valide mais inexistant\n');
+  const badIsrc = { isrc: 'ZZZZZ0000000' };
+  r = await probe(buildUrl(BASE, badIsrc));
+  s = summarize(r.json);
+  line('  isrc=ZZZZZ0000000 (inexistant)', r, s);
+  out.push({ case: 'isrc-nonexistent', params: badIsrc, status: r.status, type: s.type, lines: s.lineCount, body: r.ok ? undefined : r.bodyText.slice(0, 300) });
+
+  saveReport('H-isrc', out);
+}
+
+const PHASES: Record<string, () => Promise<void>> = { A: phaseA, B: phaseB, C: phaseC, D: phaseD, E: phaseE, F: phaseF, G: phaseG, H: phaseH };
 
 mkdirSync(FIXTURE_DIR, { recursive: true });
 for (const key of (process.argv[2] ?? 'ABCDEF').toUpperCase().split('')) {

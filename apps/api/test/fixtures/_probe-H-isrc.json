@@ -1,0 +1,52 @@
+[
+  {
+    "case": "isrc-only",
+    "params": {
+      "isrc": "GBUM71029604"
+    },
+    "status": 200,
+    "type": "Word",
+    "lines": 73
+  },
+  {
+    "case": "isrc-overrides-wrong-title-artist",
+    "params": {
+      "isrc": "GBUM71029604",
+      "title": "Zzqxv Nonexistent Track",
+      "artist": "Nobody At All"
+    },
+    "status": 200,
+    "type": "Word",
+    "lines": 73,
+    "returnedTitle": "Bohemian Rhapsody"
+  },
+  {
+    "case": "isrc-bypasses-duration-filter",
+    "params": {
+      "isrc": "GBUM71029604",
+      "duration": 1
+    },
+    "status": 200,
+    "type": "Word",
+    "lines": 73
+  },
+  {
+    "case": "isrc-piaf",
+    "params": {
+      "isrc": "FRZ116000530"
+    },
+    "status": 200,
+    "type": "Line",
+    "lines": 28
+  },
+  {
+    "case": "isrc-nonexistent",
+    "params": {
+      "isrc": "ZZZZZ0000000"
+    },
+    "status": 404,
+    "type": null,
+    "lines": 0,
+    "body": "{\"error\":{\"message\":\"Lyrics not found in sources: qapple, qq\",\"status\":404,\"details\":{\"searchedSources\":[\"qapple\",\"qq\"],\"songInfo\":{\"title\":\"\",\"artist\":\"\",\"album\":\"\"}}},\"processingTime\":{\"timeElapsed\":103,\"lastProcessed\":1789217838995,\"totalElapsedMs\":103,\"sourcesStatus\":{\"qapple\":{\"status\":\"BAD\",\"e"
+  }
+]
