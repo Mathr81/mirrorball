@@ -116,11 +116,45 @@ pnpm build
 Produit `apps/api/dist/` (Node) et `apps/web/dist/` (statique, avec service
 worker PWA généré par `vite-plugin-pwa`).
 
+## Docker
+
+Le plus simple pour tout lancer d'un coup, en local ou sur un VPS :
+
+```bash
+cp .env.example .env
+# renseigne .env comme pour l'installation manuelle (VITE_SPOTIFY_CLIENT_ID en particulier)
+docker compose up --build
+```
+
+Deux services (voir `docker-compose.yml`, `apps/api/Dockerfile`, `apps/web/Dockerfile`) :
+
+- **`api`** : image Node multi-stage (les outils de compilation du module
+  natif `better-sqlite3` restent dans l'étage de build, jamais dans l'image
+  finale), expose `8787`, persiste le cache SQLite dans un volume nommé
+  (`api-data`) — se reconstruit tout seul si perdu, aucune sauvegarde requise.
+- **`web`** : build Vite servi par nginx (`apps/web/nginx.conf`, fallback SPA
+  sur `index.html`), exposé sur `5173`. ⚠️ Les variables `VITE_*` sont figées
+  dans le bundle **au moment du build de l'image** (`docker-compose.yml` les
+  passe en `build.args`, lues depuis `.env`) — les changer nécessite de
+  reconstruire l'image (`docker compose up --build`), pas seulement de
+  redémarrer le conteneur.
+
+Par défaut les deux services restent sur des origines séparées comme en dev
+(CORS géré par `APP_ORIGIN`/`VITE_API_BASE_URL`, à garder cohérents dans
+`.env`). Pour les servir sous un seul domaine en production, mets un reverse
+proxy devant les deux (cf. section suivante) plutôt que d'exposer `5173`
+directement.
+
+Reconstruire après un changement de code : `docker compose up --build`.
+Repartir d'un cache vide : `docker compose down -v`.
+
 ## Déploiement (VPS)
 
-Architecture cible : `apps/api` tourne en process Node persistant, le build
-statique d'`apps/web` est servi par un reverse proxy qui route aussi les
-requêtes `/api/*` vers le process Node.
+Deux options : Docker (ci-dessus, le plus simple — ajoute un reverse proxy
+devant si tu veux un seul domaine public) ou un déploiement manuel des deux
+process. Architecture cible pour ce second cas : `apps/api` tourne en
+process Node persistant, le build statique d'`apps/web` est servi par un
+reverse proxy qui route aussi les requêtes `/api/*` vers le process Node.
 
 1. **Build sur le serveur** (ou build en CI puis déploiement des artefacts) :
 

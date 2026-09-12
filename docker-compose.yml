@@ -1,0 +1,35 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      PORT: 8787
+      DB_PATH: /data/cache.db
+      APP_ORIGIN: ${APP_ORIGIN:-http://localhost:5173}
+    volumes:
+      - api-data:/data
+    ports:
+      - "8787:8787"
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_SPOTIFY_CLIENT_ID: ${VITE_SPOTIFY_CLIENT_ID}
+        VITE_SPOTIFY_REDIRECT_URI: ${VITE_SPOTIFY_REDIRECT_URI:-http://localhost:5173/callback}
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:8787}
+    restart: unless-stopped
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
+
+volumes:
+  # Cache SQLite persistant entre les redémarrages — se reconstruit tout seul
+  # si perdu, aucune sauvegarde nécessaire.
+  api-data:
