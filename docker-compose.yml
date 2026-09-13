@@ -12,8 +12,8 @@ services:
       APP_ORIGIN: ${APP_ORIGIN:-http://localhost:5173}
     volumes:
       - api-data:/data
-    ports:
-      - "8787:8787"
+    # Pas de port publié : l'API n'est joignable que via le conteneur web
+    # (location /api/ de apps/web/nginx.conf).
 
   web:
     build:
