@@ -24,7 +24,13 @@ export interface KpoeTransliteration {
 
 export interface KpoeElement {
   key: string;
-  singer?: 'v1' | 'v2';
+  /**
+   * Pas seulement "v1"/"v2" en pratique : constaté aussi "v1000", "v2000"…
+   * (voix de groupe/autres, cf. metadata.agents). Toujours préfixé "v1" ou
+   * "v2" selon le côté, jamais autre chose de constaté — voir to-ir.ts pour
+   * la normalisation vers l'agent binaire de l'IR.
+   */
+  singer?: string;
   songPartIndex?: number;
 }
 

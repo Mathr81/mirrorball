@@ -55,7 +55,7 @@ function toLine(l: KpoeLine, index: number, sections: Section[]): Line {
     text: l.text,
     lead,
     background,
-    agent: l.element.singer ?? 'v1',
+    agent: normalizeAgent(l.element.singer),
     oppositeAligned: false,
     ...(sectionIndex !== undefined && sectionIndex < sections.length ? { sectionIndex } : {}),
   };
@@ -73,6 +73,17 @@ function toLine(l: KpoeLine, index: number, sections: Section[]): Line {
   }
 
   return line;
+}
+
+/**
+ * `element.singer` n'est pas limité à "v1"/"v2" en pratique : constaté aussi
+ * "v1000", "v2000" (voix de groupe/autres associées à un côté, cf.
+ * metadata.agents et son champ `type`). L'IR ne modélise que deux agents
+ * (contrat validé, aligné sur Spicy qui n'en a qu'un) : on regroupe par
+ * préfixe plutôt que de perdre l'info ou planter sur une valeur inattendue.
+ */
+function normalizeAgent(singer: string | undefined): 'v1' | 'v2' {
+  return singer?.startsWith('v2') ? 'v2' : 'v1';
 }
 
 /** KPoe porte le groupement en mot via l'espace final du texte, pas un attribut. */

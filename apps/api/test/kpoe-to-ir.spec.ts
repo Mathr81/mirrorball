@@ -73,6 +73,29 @@ describe('kpoeToIr — deux chanteurs (v1/v2)', () => {
   });
 });
 
+describe('kpoeToIr — chanteurs "v1000"/"v2000" (DtMF — Bad Bunny)', () => {
+  const raw = loadFixture('badbunny-dtmf');
+  const doc = kpoeToIr(raw);
+
+  it('constate des valeurs element.singer au-delà de "v1"/"v2" dans la fixture réelle', () => {
+    const rawSingers = new Set(raw.lyrics.map((l) => l.element.singer));
+    expect(rawSingers).toEqual(new Set(['v1', 'v1000', 'v2000']));
+  });
+
+  it('normalise toute valeur préfixée "v2" vers l\'agent "v2", tout le reste vers "v1"', () => {
+    doc.lines.forEach((l, i) => {
+      const rawSinger = raw.lyrics[i]!.element.singer;
+      expect(l.agent).toBe(rawSinger?.startsWith('v2') ? 'v2' : 'v1');
+    });
+    const agents = new Set(doc.lines.map((l) => l.agent));
+    expect(agents).toEqual(new Set(['v1', 'v2']));
+  });
+
+  it('produit un TTML valide via emitTtml (bout en bout)', () => {
+    expect(() => emitTtml(doc)).not.toThrow();
+  });
+});
+
 describe('kpoeToIr — transliteration et translation', () => {
   const raw = loadFixture('translit-iu-lilac');
   const doc = kpoeToIr(raw);
