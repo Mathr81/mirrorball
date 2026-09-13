@@ -198,11 +198,16 @@ interface Line {
   startMs: number; endMs: number; text: string;
   lead: Voice;
   background: Voice[];
-  agent: 'v1' | 'v2';
+  agent: string;               // ⚠️ AJUSTÉ — voir ci-dessous, plus limité à 'v1' | 'v2'
   oppositeAligned: boolean;
   roman?: { text: string; syllables?: Syllable[] };
   translation?: string;        // ⚠️ AJOUT — voir ci-dessous
   sectionIndex?: number;
+}
+
+interface LyricsDoc {
+  // … champs déjà en place …
+  agentTypes?: Record<string, string>;  // ⚠️ AJOUT — voir ci-dessous
 }
 ```
 
@@ -215,6 +220,18 @@ interface Line {
   pas de traduction (seulement de la romanisation, cf. spec Spicy §6.6) donc
   ce champ restera `undefined` pour les lignes issues de Spicy — cohérent
   avec le caractère optionnel.
+- **`agent: string` + `LyricsDoc.agentTypes?: Record<string, string>`** — ajusté depuis
+  `'v1' | 'v2'`. KPoe fournit des id au-delà de ces deux valeurs (`v1000`,
+  `v2000`, voix de groupe/autres, cf. `metadata.agents` et son champ `type`).
+  Le parser am-lyrics compare cet id précis ligne à ligne pour décider de
+  l'alignement gauche/droite (`calculateLineAlignments`), et lit le `type`
+  déclaré dans `<ttm:agent xml:id="…" type="…">` pour distinguer un choeur de
+  groupe (toujours à gauche) d'un duo qui alterne (`person`/`other`, avec un
+  défaut `person` pour tout id sans `type` explicite — même défaut appliqué
+  ici quand `agentTypes` ne couvre pas un id). Réduire l'IR à deux agents
+  binaires ferait dégénérer tout choeur de groupe en simple alternance de
+  duo. Spicy/LRCLIB n'ont qu'un seul agent implicite (`'v1'`, `agentTypes`
+  absent) — cohérent avec l'existant.
 - `oppositeAligned` existait déjà dans la spec ; confirmé par la spec Spicy
   (`OppositeAligned` sur `LyricsLineData`/`LineData`, §6.2/6.3). Pour KPoe, il
   n'y a pas de signal équivalent documenté dans les fixtures — l'IR mettra

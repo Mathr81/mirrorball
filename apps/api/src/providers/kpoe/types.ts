@@ -26,9 +26,10 @@ export interface KpoeElement {
   key: string;
   /**
    * Pas seulement "v1"/"v2" en pratique : constaté aussi "v1000", "v2000"…
-   * (voix de groupe/autres, cf. metadata.agents). Toujours préfixé "v1" ou
-   * "v2" selon le côté, jamais autre chose de constaté — voir to-ir.ts pour
-   * la normalisation vers l'agent binaire de l'IR.
+   * (voix de groupe/autres, cf. metadata.agents). Repris tel quel dans
+   * Line.agent par to-ir.ts — c'est cet id précis qui pilote l'alignement
+   * gauche/droite côté parser am-lyrics (calculateLineAlignments), pas
+   * juste une distinction binaire.
    */
   singer?: string;
   songPartIndex?: number;

@@ -175,7 +175,7 @@ dialecte à produire, pas la norme TTML.**
   ⚠️ Le `generateTTML()` du même composant écrit `itunes:song-part` (kebab-case), que son
   propre parser ne relit pas. Incohérence interne : suivre le **parser**, pas l'export.
 - Agents : `<ttm:agent xml:id="v1" type="person">`, lus par nom qualifié littéral.
-  `type` pilote l'alignement gauche/droite des lignes.
+  `type` pilote l'alignement gauche/droite des lignes — détail complet en §11.
 - Translittération : `<transliteration><text for="L1"><span begin…>…</span></text></transliteration>`,
   où `for` doit valoir l'`itunes:key` du `<p>`. **Ce n'est pas `ttm:role="x-roman"`**
   comme le supposait la spec. Si le nombre de spans correspond, la romanisation est
@@ -224,3 +224,50 @@ Suite au constat #6 (non testé à l'époque), sondage dédié (phase H,
 - Le composant embarque d'autres chemins réseau (Genius, lrclib, unison,
   `lyrics-api.binimum.org`, `/v1/songlist/search`). Tous sont court-circuités dès lors
   qu'on ne fournit que `ttml` et `currentTime`, conformément à la contrainte du projet.
+
+## 11. `calculateLineAlignments` — l'algorithme réel derrière `ttm:agent type`
+
+Lecture de `AmLyrics.calculateLineAlignments` (`src/AmLyrics.ts`, appelée avec
+`(lineSingers, agentTypes)` où `lineSingers[i]` = `ttm:agent` brut du `<p>` de la
+ligne *i*, et `agentTypes` = `{xml:id → type}` construit depuis `<ttm:agent>` dans
+`<head><metadata>`) :
+
+```js
+lineSingers.forEach((singerId, i) => {
+  let type = agentTypes[singerId];
+  if (!type) {
+    if (singerId === 'v1000') type = 'group';
+    else if (singerId === 'v2000') type = 'other';
+    else type = 'person';
+  }
+  if (type === 'group') {
+    side = 'start';                       // toujours à gauche, n'affecte pas l'alternance
+  } else {
+    if (lastPersonSingerId === null) side = (type === 'other') ? 'end' : 'start'; // 1ère ligne
+    else if (singerId !== lastPersonSingerId) currentSideIsLeft = !currentSideIsLeft; // alternance
+    side = currentSideIsLeft ? 'start' : 'end';
+    lastPersonSingerId = singerId;
+  }
+});
+// puis : si ≥85% des lignes assignées sont 'end', on inverse tout le résultat.
+```
+
+Points essentiels, non documentés par la spec de départ :
+
+- **Ce qui pilote l'alignement, c'est l'identité de `ttm:agent` ligne à ligne, pas
+  seulement `type`.** Deux lignes avec le même `ttm:agent` restent du même côté ;
+  un changement d'id fait basculer le côté (sauf pour `type: "group"`, toujours à
+  gauche, qui ne dérange pas l'alternance des autres lignes).
+- **`v1000`/`v2000` ont un statut spécial même sans `<ttm:agent type="…">` déclaré** :
+  fallback câblé en dur sur `group`/`other` respectivement. Tout autre id sans
+  `type` déclaré retombe sur `person`.
+- **Conséquence pour l'émetteur TTML (`ttml-emitter.ts`)** : réduire `Line.agent` à
+  un id binaire `'v1'`/`'v2'` (ancien comportement, corrigé) supprime cette
+  information avant même que le parser la voie — un chœur de groupe (`v1000`,
+  `metadata.agents.v1000.type === "group"` chez KPoe, cf. §7) dégénère alors en
+  simple alternance de duo. Il faut : (1) conserver l'id brut du chanteur dans
+  `Line.agent`, identique à `element.singer` ; (2) déclarer le vrai `type` par id
+  dans `<ttm:agent xml:id type>`, repris de `metadata.agents[id].type` (KPoe le
+  fournit directement — voir fixture `badbunny-dtmf.json`, `v1000: group`,
+  `v2000: other`, `v1: person`). Spicy/LRCLIB n'ont qu'un seul agent implicite
+  (`'v1'`, jamais de `type` à déclarer) : aucun changement de comportement pour eux.

@@ -82,17 +82,27 @@ describe('kpoeToIr — chanteurs "v1000"/"v2000" (DtMF — Bad Bunny)', () => {
     expect(rawSingers).toEqual(new Set(['v1', 'v1000', 'v2000']));
   });
 
-  it('normalise toute valeur préfixée "v2" vers l\'agent "v2", tout le reste vers "v1"', () => {
+  it('reprend element.singer tel quel sur Line.agent, sans le réduire à "v1"/"v2"', () => {
     doc.lines.forEach((l, i) => {
-      const rawSinger = raw.lyrics[i]!.element.singer;
-      expect(l.agent).toBe(rawSinger?.startsWith('v2') ? 'v2' : 'v1');
+      expect(l.agent).toBe(raw.lyrics[i]!.element.singer ?? 'v1');
     });
     const agents = new Set(doc.lines.map((l) => l.agent));
-    expect(agents).toEqual(new Set(['v1', 'v2']));
+    expect(agents).toEqual(new Set(['v1', 'v1000', 'v2000']));
   });
 
-  it('produit un TTML valide via emitTtml (bout en bout)', () => {
-    expect(() => emitTtml(doc)).not.toThrow();
+  it('reflète metadata.agents (type person/group/other) sur LyricsDoc.agentTypes', () => {
+    expect(doc.agentTypes).toEqual({
+      v1: 'person',
+      v1000: 'group',
+      v2000: 'other',
+    });
+  });
+
+  it('produit un TTML valide via emitTtml (bout en bout), avec le vrai type par agent', () => {
+    const ttml = emitTtml(doc);
+    expect(ttml).toContain('<ttm:agent type="person" xml:id="v1"/>');
+    expect(ttml).toContain('<ttm:agent type="group" xml:id="v1000"/>');
+    expect(ttml).toContain('<ttm:agent type="other" xml:id="v2000"/>');
   });
 });
 

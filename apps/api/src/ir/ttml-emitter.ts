@@ -16,6 +16,13 @@ import type { Line, LyricsDoc, Syllable, Voice } from './types.js';
  * - Traduction : même mécanisme, `<translation><text for="L1">…</text>`.
  * - Ne jamais émettre un TTML sans aucune ligne : le composant retombe alors
  *   sur son propre chemin réseau (qu'on veut précisément court-circuiter).
+ * - `<ttm:agent type="…">` : le parser lit ce `type` par id d'agent
+ *   (`agentMap[xml:id] = type`) et s'en sert, ligne par ligne, pour décider
+ *   l'alignement gauche/droite (`calculateLineAlignments`) — un id de type
+ *   "group" reste toujours à gauche, "other"/"person" alternent selon que
+ *   l'id change d'une ligne à l'autre. On émet donc le vrai type par agent
+ *   (`doc.agentTypes`) plutôt qu'un "person" fixe, qui ferait dégénérer tout
+ *   choeur de groupe en alternance de duo classique.
  */
 export function emitTtml(doc: LyricsDoc): string {
   if (doc.lines.length === 0) {
@@ -36,7 +43,7 @@ export function emitTtml(doc: LyricsDoc): string {
     '    xml:lang="und">',
     '  <head>',
     '    <metadata>',
-    ...agents.map((a) => `      <ttm:agent type="person" xml:id="${a}"/>`),
+    ...agents.map((a) => `      <ttm:agent type="${escapeXml(doc.agentTypes?.[a] ?? 'person')}" xml:id="${escapeXml(a)}"/>`),
     ...(songwriters ? [songwriters] : []),
     '    </metadata>',
     '  </head>',
@@ -50,8 +57,8 @@ export function emitTtml(doc: LyricsDoc): string {
   ].join('\n');
 }
 
-function collectAgents(lines: Line[]): Array<'v1' | 'v2'> {
-  const set = new Set<'v1' | 'v2'>();
+function collectAgents(lines: Line[]): string[] {
+  const set = new Set<string>();
   for (const l of lines) set.add(l.agent);
   if (set.size === 0) set.add('v1');
   return [...set].sort();
@@ -82,7 +89,7 @@ function emitBody(doc: LyricsDoc): string {
 function emitP(line: Line, sync: LyricsDoc['sync']): string {
   const begin = msToTtmlTime(line.startMs);
   const end = msToTtmlTime(line.endMs);
-  const attrs = `begin="${begin}" end="${end}" itunes:key="${escapeXml(line.key)}" ttm:agent="${line.agent}"`;
+  const attrs = `begin="${begin}" end="${end}" itunes:key="${escapeXml(line.key)}" ttm:agent="${escapeXml(line.agent)}"`;
 
   if (sync !== 'syllable' || line.lead.syllables.length === 0) {
     return `      <p ${attrs}>${escapeXml(line.text)}</p>`;

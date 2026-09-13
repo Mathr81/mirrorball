@@ -17,12 +17,16 @@ export function kpoeToIr(raw: KpoeResponse): LyricsDoc {
 
   const lines: Line[] = raw.lyrics.map((l, index) => toLine(l, index, sections));
 
+  const agentTypes: Record<string, string> = {};
+  for (const [id, a] of Object.entries(raw.metadata.agents ?? {})) agentTypes[id] = a.type;
+
   return {
     sync: raw.type === 'Word' ? 'syllable' : 'line',
     lines,
     sections,
     songWriters: raw.metadata.songWriters ?? [],
     provider: `kpoe:${raw.metadata.source.toLowerCase()}`,
+    ...(Object.keys(agentTypes).length > 0 ? { agentTypes } : {}),
   };
 }
 
@@ -55,7 +59,7 @@ function toLine(l: KpoeLine, index: number, sections: Section[]): Line {
     text: l.text,
     lead,
     background,
-    agent: normalizeAgent(l.element.singer),
+    agent: l.element.singer ?? 'v1',
     oppositeAligned: false,
     ...(sectionIndex !== undefined && sectionIndex < sections.length ? { sectionIndex } : {}),
   };
@@ -73,17 +77,6 @@ function toLine(l: KpoeLine, index: number, sections: Section[]): Line {
   }
 
   return line;
-}
-
-/**
- * `element.singer` n'est pas limité à "v1"/"v2" en pratique : constaté aussi
- * "v1000", "v2000" (voix de groupe/autres associées à un côté, cf.
- * metadata.agents et son champ `type`). L'IR ne modélise que deux agents
- * (contrat validé, aligné sur Spicy qui n'en a qu'un) : on regroupe par
- * préfixe plutôt que de perdre l'info ou planter sur une valeur inattendue.
- */
-function normalizeAgent(singer: string | undefined): 'v1' | 'v2' {
-  return singer?.startsWith('v2') ? 'v2' : 'v1';
 }
 
 /** KPoe porte le groupement en mot via l'espace final du texte, pas un attribut. */

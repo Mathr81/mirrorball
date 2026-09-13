@@ -28,7 +28,15 @@ export interface Line {
   text: string;
   lead: Voice;
   background: Voice[];
-  agent: 'v1' | 'v2';
+  /**
+   * Id brut du chanteur, tel qu'il doit être émis en `ttm:agent` sur le `<p>`.
+   * Pas limité à "v1"/"v2" : KPoe fournit aussi "v1000"/"v2000" (voix de
+   * groupe/autres) — voir `LyricsDoc.agentTypes`. Le parser am-lyrics compare
+   * cet id d'une ligne à l'autre pour décider de l'alternance gauche/droite
+   * (calculateLineAlignments) ; le réduire à "v1"/"v2" ferait perdre cette
+   * information au lieu de simplement l'ignorer.
+   */
+  agent: string;
   oppositeAligned: boolean;
   roman?: { text: string; syllables?: Syllable[] };
   /** Traduction (changement de langue), distincte de la romanisation. */
@@ -48,4 +56,14 @@ export interface LyricsDoc {
   sections: Section[];
   songWriters: string[];
   provider: string;
+  /**
+   * Type déclaré par la source pour chaque id d'agent rencontré dans `lines`
+   * (`person` | `group` | `other` chez KPoe, cf. `metadata.agents`). Sert à
+   * émettre `<ttm:agent type="...">` : le parser am-lyrics s'en sert pour
+   * distinguer un choeur de groupe (toujours aligné à gauche) d'un duo qui
+   * alterne. Absent (Spicy/LRCLIB, un seul agent "v1") ou id manquant ⇒
+   * l'émetteur retombe sur "person", le même défaut que le parser applique
+   * à un id qu'il ne connaît pas.
+   */
+  agentTypes?: Record<string, string>;
 }

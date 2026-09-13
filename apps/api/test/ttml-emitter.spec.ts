@@ -114,6 +114,28 @@ describe('emitTtml — sync: syllable', () => {
     expect(ttml).toContain('<ttm:agent type="person" xml:id="v1"/>');
     expect(ttml).toContain('<ttm:agent type="person" xml:id="v2"/>');
   });
+
+  it('retombe sur type="person" pour un agent absent de agentTypes (défaut du parser lui-même)', () => {
+    const doc = baseDoc({ lines: [line({ key: 'L1', agent: 'v1' })], agentTypes: {} });
+    const ttml = emitTtml(doc);
+    expect(ttml).toContain('<ttm:agent type="person" xml:id="v1"/>');
+  });
+
+  it('émet le vrai type par agent (group/other) depuis agentTypes, pas "person" fixe', () => {
+    const doc = baseDoc({
+      lines: [
+        line({ key: 'L1', agent: 'v1000' }),
+        line({ key: 'L2', agent: 'v2000' }),
+      ],
+      agentTypes: { v1000: 'group', v2000: 'other' },
+    });
+
+    const ttml = emitTtml(doc);
+    expect(ttml).toContain('<ttm:agent type="group" xml:id="v1000"/>');
+    expect(ttml).toContain('<ttm:agent type="other" xml:id="v2000"/>');
+    expect(ttml).toContain('ttm:agent="v1000"');
+    expect(ttml).toContain('ttm:agent="v2000"');
+  });
 });
 
 describe('emitTtml — sync: line', () => {
@@ -250,7 +272,7 @@ describe('emitTtml — cas limites', () => {
 function line(opts: {
   key: string;
   text?: string;
-  agent?: 'v1' | 'v2';
+  agent?: string;
   syllables?: Array<{ text: string; startMs: number; endMs: number; partOfWord: boolean; roman?: string }>;
   sectionIndex?: number;
 }) {
