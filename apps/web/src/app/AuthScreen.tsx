@@ -28,12 +28,11 @@ export function LoadingScreen() {
 export function LoginScreen({ onLogin }: { onLogin: () => void }) {
   return (
     <AuthShell>
-      <p className="auth__tagline">Les paroles, mot à mot, au rythme de ce que tu écoutes.</p>
+      <p className="auth__tagline">Les paroles, mot à mot, au rythme de Spotify.</p>
       <button type="button" className="button button--spotify" onClick={onLogin}>
         <SpotifyIcon />
         Se connecter avec Spotify
       </button>
-      <p className="auth__note">Connexion directe à Spotify (PKCE) — aucun jeton ne quitte ce navigateur.</p>
     </AuthShell>
   );
 }

@@ -58,24 +58,11 @@
   gap: 0.5rem;
 }
 
-.lyrics__empty-icon {
-  font-size: 3.25rem;
-  color: var(--text-faint);
-  margin-bottom: 0.5rem;
-  animation: spin 14s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .lyrics__empty-title {
   margin: 0;
-  font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: -0.015em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 .lyrics__empty-hint {

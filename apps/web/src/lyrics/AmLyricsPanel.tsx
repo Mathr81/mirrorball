@@ -6,7 +6,6 @@ import '@uimaxbai/am-lyrics/am-lyrics.js';
 import { AmLyrics } from '@uimaxbai/am-lyrics/react';
 import { useCallback, useEffect, useRef } from 'react';
 import type { CurrentlyPlaying } from '../playback/spotify-api.js';
-import { DiscIcon } from '../ui/icons.js';
 import type { LyricsResponse } from './lyrics-client.js';
 import { extractStaticLines } from './static-lyrics.js';
 import type { LyricsState } from './use-lyrics.js';
@@ -233,7 +232,6 @@ function LyricsSkeleton() {
 function EmptyState({ title, hint, onRetry }: { title: string; hint: string; onRetry?: () => void }) {
   return (
     <div className="lyrics lyrics--empty">
-      <DiscIcon className="lyrics__empty-icon" />
       <p className="lyrics__empty-title">{title}</p>
       <p className="lyrics__empty-hint">{hint}</p>
       {onRetry && (

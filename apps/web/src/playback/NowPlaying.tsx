@@ -1,7 +1,5 @@
-import type { LyricsState } from '../lyrics/use-lyrics.js';
 import type { Settings } from '../settings/use-settings.js';
 import { DiscIcon, NextIcon, PauseIcon, PlayIcon, PreviousIcon } from '../ui/icons.js';
-import { providerLabel, syncLabel } from '../ui/format.js';
 import { ProgressBar } from './ProgressBar.js';
 import type { CurrentlyPlaying } from './spotify-api.js';
 import type { TransportCommand } from './use-playback-clock.js';
@@ -11,11 +9,17 @@ interface Props {
   currentTimeMs: number;
   isPlaying: boolean;
   pending: TransportCommand | undefined;
-  lyrics: LyricsState;
   settings: Settings;
   onToggleRemaining: () => void;
   onSeek: (positionMs: number) => void;
   onCommand: (command: TransportCommand) => void;
+}
+
+/** Artistes et album sur une seule ligne, comme la vue « en cours de lecture » d'Apple Music. */
+function subtitle(track: CurrentlyPlaying | undefined): string {
+  if (!track) return '';
+  const artists = track.artists.join(', ');
+  return track.albumName && track.albumName !== track.name ? `${artists} — ${track.albumName}` : artists;
 }
 
 /**
@@ -23,7 +27,7 @@ interface Props {
  * transport. Tout ce qui pilote réellement Spotify est ici — le reste de
  * l'écran est consacré aux paroles.
  */
-export function NowPlaying({ track, currentTimeMs, isPlaying, pending, lyrics, settings, onToggleRemaining, onSeek, onCommand }: Props) {
+export function NowPlaying({ track, currentTimeMs, isPlaying, pending, settings, onToggleRemaining, onSeek, onCommand }: Props) {
   const busy = pending !== undefined;
   const disabled = !track;
 
@@ -50,18 +54,10 @@ export function NowPlaying({ track, currentTimeMs, isPlaying, pending, lyrics, s
         <h1 className="now-playing__title" title={track?.name ?? ''}>
           {track?.name ?? 'Aucune lecture en cours'}
         </h1>
-        <p className="now-playing__artists" title={track?.artists.join(', ') ?? ''}>
-          {track ? track.artists.join(', ') : 'Lance un morceau sur Spotify'}
+        <p className="now-playing__artists" title={subtitle(track)}>
+          {track ? subtitle(track) : 'Lance un morceau sur Spotify'}
         </p>
-        {track && <p className="now-playing__album">{track.albumName}</p>}
       </div>
-
-      {track && lyrics.status === 'ready' && lyrics.data && (
-        <p className="now-playing__chips">
-          <span className={`chip chip--${lyrics.data.sync}`}>{syncLabel(lyrics.data.sync)}</span>
-          <span className="chip">{providerLabel(lyrics.data.provider)}</span>
-        </p>
-      )}
 
       <ProgressBar
         positionMs={track ? currentTimeMs : 0}

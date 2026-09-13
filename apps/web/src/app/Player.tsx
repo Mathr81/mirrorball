@@ -120,7 +120,12 @@ export function Player({ auth }: { auth: SpotifyAuth }) {
         .join(' ')}
       style={style}
     >
-      <MemoBackdrop palette={palette} enabled={settings.ambient} />
+      <MemoBackdrop
+        imageUrl={playback.track?.albumImageUrl}
+        palette={palette}
+        isPlaying={playback.isPlaying}
+        enabled={settings.ambient}
+      />
 
       <aside className="player__rail">
         <MemoNowPlaying
@@ -128,7 +133,6 @@ export function Player({ auth }: { auth: SpotifyAuth }) {
           currentTimeMs={coarseTimeMs}
           isPlaying={playback.isPlaying}
           pending={playback.pending}
-          lyrics={lyrics}
           settings={settings}
           onToggleRemaining={() => toggle('showRemaining')}
           onSeek={seekTo}

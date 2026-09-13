@@ -15,13 +15,10 @@ const SIZES: Array<{ value: LyricsSize; label: string }> = [
   { value: 'lg', label: 'Grand' },
 ];
 
-function Switch({ checked, onChange, label, hint }: { checked: boolean; onChange: () => void; label: string; hint?: string }) {
+function Switch({ checked, onChange, label }: { checked: boolean; onChange: () => void; label: string }) {
   return (
-    <label className="field field--switch">
-      <span className="field__text">
-        <span className="field__label">{label}</span>
-        {hint && <span className="field__hint">{hint}</span>}
-      </span>
+    <label className="row row--switch">
+      <span className="row__label">{label}</span>
       <input type="checkbox" checked={checked} onChange={onChange} />
       <span className="switch" aria-hidden="true" />
     </label>
@@ -59,65 +56,53 @@ export function SettingsPanel({ open, onClose, onShowShortcuts, onLogout, settin
         <div className="settings__body">
           <section className="settings__section">
             <h3>Paroles</h3>
-            <div className="field">
-              <span className="field__label">Taille du texte</span>
-              <div className="segmented" role="group" aria-label="Taille du texte des paroles">
-                {SIZES.map((size) => (
-                  <button
-                    key={size.value}
-                    type="button"
-                    className={`segmented__option${settings.lyricsSize === size.value ? ' is-active' : ''}`}
-                    aria-pressed={settings.lyricsSize === size.value}
-                    onClick={() => update({ lyricsSize: size.value })}
-                  >
-                    {size.label}
-                  </button>
-                ))}
+            <div className="group">
+              <div className="row">
+                <span className="row__label">Taille du texte</span>
+                <div className="segmented" role="group" aria-label="Taille du texte des paroles">
+                  {SIZES.map((size) => (
+                    <button
+                      key={size.value}
+                      type="button"
+                      className={`segmented__option${settings.lyricsSize === size.value ? ' is-active' : ''}`}
+                      aria-pressed={settings.lyricsSize === size.value}
+                      onClick={() => update({ lyricsSize: size.value })}
+                    >
+                      {size.label}
+                    </button>
+                  ))}
+                </div>
               </div>
+              <Switch label="Mode immersif" checked={settings.immersive} onChange={() => toggle('immersive')} />
             </div>
           </section>
 
           <section className="settings__section">
             <h3>Ambiance</h3>
-            <Switch
-              label="Fond animé"
-              hint="Halos colorés dérivés de la pochette"
-              checked={settings.ambient}
-              onChange={() => toggle('ambient')}
-            />
-            <Switch
-              label="Accent depuis la pochette"
-              hint="Sinon, un blanc neutre"
-              checked={settings.accentFromArtwork}
-              onChange={() => toggle('accentFromArtwork')}
-            />
-            <Switch
-              label="Mode immersif"
-              hint="Les paroles occupent tout l'écran"
-              checked={settings.immersive}
-              onChange={() => toggle('immersive')}
-            />
+            <div className="group">
+              <Switch label="Fond animé" checked={settings.ambient} onChange={() => toggle('ambient')} />
+              <Switch label="Accent depuis la pochette" checked={settings.accentFromArtwork} onChange={() => toggle('accentFromArtwork')} />
+            </div>
+            <p className="settings__footnote">Le fond reprend la pochette du morceau, floutée et animée en continu.</p>
           </section>
 
           <section className="settings__section">
-            <h3>Avancé</h3>
-            <Switch
-              label="Panneau de debug"
-              hint="Dérive de l'horloge, RTT, fournisseurs"
-              checked={settings.showDebug}
-              onChange={() => toggle('showDebug')}
-            />
-            <button type="button" className="button button--ghost" onClick={onShowShortcuts}>
-              <KeyboardIcon />
-              Raccourcis clavier
-            </button>
+            <div className="group">
+              <Switch label="Panneau de debug" checked={settings.showDebug} onChange={() => toggle('showDebug')} />
+              <button type="button" className="row row--action" onClick={onShowShortcuts}>
+                <span className="row__label">Raccourcis clavier</span>
+                <KeyboardIcon />
+              </button>
+            </div>
           </section>
 
           <section className="settings__section">
-            <button type="button" className="button button--ghost button--danger" onClick={onLogout}>
-              <LogoutIcon />
-              Déconnexion
-            </button>
+            <div className="group">
+              <button type="button" className="row row--action row--danger" onClick={onLogout}>
+                <span className="row__label">Déconnexion</span>
+                <LogoutIcon />
+              </button>
+            </div>
           </section>
         </div>
       </div>

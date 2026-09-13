@@ -38,6 +38,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@kawarp/core':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@lit/react':
         specifier: ^1.0.5
         version: 1.0.8(@types/react@18.3.31)
@@ -950,6 +953,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@kawarp/core@1.2.1':
+    resolution: {integrity: sha512-9zVyWFlPIoOwUpYPJE9/+W1P10W7Lo06NoeAXJZn8D97KRMyeOMGjN4/aozWrDXtlSfSpmPSkxWlJoi/I+r8dw==}
 
   '@lit-labs/ssr-dom-shim@1.6.0':
     resolution: {integrity: sha512-VHb0ALPMTlgKjM6yIxxoQNnpKyUKLD04VzeQdsiXkMqkvYlAHxq9glGLmgbb889/1GsohSOAjvQYoiBppXFqrQ==}
@@ -3477,6 +3483,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
+
+  '@kawarp/core@1.2.1': {}
 
   '@lit-labs/ssr-dom-shim@1.6.0': {}
 

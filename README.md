@@ -43,12 +43,23 @@ documentés dans `docs/` :
 
 Deux zones : le volet « lecture en cours » (pochette, métadonnées, barre de
 progression scrutable, transport lecture/pause/précédent/suivant) et les
-paroles, qui occupent tout le reste. Le fond est une ambiance dérivée de la
-pochette du morceau — les couleurs dominantes sont extraites dans le
+paroles, qui occupent tout le reste.
+
+Le fond est la pochette elle-même, floutée et déformée en continu par un
+shader — le rendu « artwork liquide » d'Apple Music. Il est délégué à
+[`@kawarp/core`](https://github.com/better-lyrics/kawarp) (WebGL, flou de
+Kawase + domain warping), avec les mêmes réglages que
+[spicy-lyrics](https://github.com/Spikerko/spicy-lyrics/tree/main/src/components/DynamicBG),
+dont l'approche a servi de référence. L'animation ralentit à la pause et
+s'arrête quand l'onglet passe en arrière-plan.
+
+En parallèle, les couleurs dominantes de la pochette sont extraites dans le
 navigateur (`apps/web/src/color/palette.ts`, canvas + quantification par
-secteurs de teinte) et alimentent halos et couleur d'accent ; toute défaillance
-(CDN sans en-tête CORS, image illisible) retombe silencieusement sur une
-palette neutre.
+secteurs de teinte) : elles donnent la couleur d'accent, et servent de
+dégradé de repli si WebGL manque ou si la pochette n'est pas lisible en
+cross-origin. Toute défaillance retombe silencieusement sur une palette
+neutre — l'ambiance est un agrément, jamais un préalable à l'affichage des
+paroles.
 
 - **Mode immersif** (`F`, ou le bouton en haut à droite) : le volet se replie,
   seules les paroles restent, avec une pastille de rappel du morceau.
@@ -56,7 +67,7 @@ palette neutre.
   pendant la lecture, les commandes flottantes disparaissent — l'iPad posé sur
   son support n'affiche plus que les paroles.
 - **Réglages** (bouton engrenage, persistés en `localStorage`) : taille du
-  texte des paroles, fond animé, accent depuis la pochette, mode immersif,
+  texte des paroles, mode immersif, fond animé, accent depuis la pochette,
   panneau de debug.
 - **Raccourcis clavier** : `Espace` lecture/pause, `←`/`→` ∓5 s, `P`/`N`
   morceau précédent/suivant, `F` immersif, `D` debug, `?` l'aide, `Échap`

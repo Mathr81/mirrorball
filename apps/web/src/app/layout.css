@@ -23,10 +23,9 @@
   padding-bottom: calc(2.5rem + var(--safe-bottom));
   padding-left: calc(clamp(1.25rem, 2vw, 2rem) + var(--safe-left));
   box-sizing: border-box;
-  background: linear-gradient(180deg, rgba(6, 6, 10, 0.55), rgba(6, 6, 10, 0.35));
-  -webkit-backdrop-filter: blur(28px) saturate(130%);
-  backdrop-filter: blur(28px) saturate(130%);
-  border-right: 1px solid var(--border);
+  /* Assombrissement progressif plutôt qu'un panneau délimité : le volet doit
+     émerger du fond, pas être posé dessus comme une carte. */
+  background: linear-gradient(90deg, rgba(4, 4, 7, 0.82) 0%, rgba(4, 4, 7, 0.7) 45%, rgba(4, 4, 7, 0) 100%);
   transition:
     opacity var(--dur) var(--ease),
     transform var(--dur-slow) var(--ease);
@@ -169,8 +168,7 @@
     /* Réserve la place des commandes flottantes (immersif + réglages), qui
        viennent sinon se poser sur les boutons de transport. */
     padding-right: calc(1rem + 104px + var(--safe-right));
-    border-right: none;
-    border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, rgba(4, 4, 7, 0.85) 0%, rgba(4, 4, 7, 0.7) 55%, rgba(4, 4, 7, 0) 100%);
   }
 
   .player--immersive .player__rail {

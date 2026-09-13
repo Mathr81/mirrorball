@@ -78,14 +78,13 @@ function PreviewPlayer({ scene }: { scene: Scene }) {
       className={['player', settings.immersive ? 'player--immersive' : '', scene.idle ? 'player--idle' : ''].filter(Boolean).join(' ')}
       style={style}
     >
-      <AmbientBackdrop palette={palette} enabled={settings.ambient} />
+      <AmbientBackdrop imageUrl={track?.albumImageUrl} palette={palette} isPlaying enabled={settings.ambient} />
       <aside className="player__rail">
         <NowPlaying
           track={track}
           currentTimeMs={timeMs}
           isPlaying
           pending={undefined}
-          lyrics={scene.lyrics}
           settings={settings}
           onToggleRemaining={() => toggle('showRemaining')}
           onSeek={noop}

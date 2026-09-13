@@ -1,57 +1,37 @@
-import { useEffect, useState, type CSSProperties } from 'react';
 import type { Palette } from '../color/palette.js';
+import { useKawarp } from './use-kawarp.js';
 
 interface Props {
+  imageUrl: string | undefined;
   palette: Palette;
-  /** Faux : fond strictement sombre, aucun halo ni animation (réglage « sobre »). */
+  isPlaying: boolean;
+  /** Faux : fond strictement sombre, aucune animation (réglage « sobre »). */
   enabled: boolean;
 }
 
-interface LayerState {
-  layers: [Palette, Palette];
-  active: 0 | 1;
-}
-
 /**
- * Ambiance de fond dérivée de la pochette : trois halos très flous qui dérivent
- * lentement. Le changement de morceau ne peut pas être une bascule sèche de
- * couleurs — deux couches sont empilées, la nouvelle palette est peinte sur
- * celle du dessous puis les opacités se croisent.
+ * Fond « pochette liquide » : la pochette elle-même, floutée et déformée en
+ * continu par un shader (domain warping + flou de Kawase), comme le fond
+ * animé d'Apple Music. Le rendu est délégué à @kawarp/core — la même
+ * bibliothèque que spicy-lyrics, aux mêmes réglages.
+ *
+ * Si WebGL manque ou si la pochette n'est pas lisible en cross-origin, le
+ * repli est un dégradé statique tiré de la palette extraite : jamais d'écran
+ * noir, jamais d'erreur remontée à l'utilisateur.
  */
-export function AmbientBackdrop({ palette, enabled }: Props) {
-  const [state, setState] = useState<LayerState>({ layers: [palette, palette], active: 0 });
-
-  useEffect(() => {
-    setState((current) => {
-      if (current.layers[current.active] === palette) return current;
-      return current.active === 0
-        ? { layers: [current.layers[0], palette], active: 1 }
-        : { layers: [palette, current.layers[1]], active: 0 };
-    });
-  }, [palette]);
+export function AmbientBackdrop({ imageUrl, palette, isPlaying, enabled }: Props) {
+  const { canvasRef, ready } = useKawarp(imageUrl, palette, enabled, isPlaying);
 
   return (
-    <div className={`backdrop${enabled ? '' : ' backdrop--plain'}`} aria-hidden="true">
-      {enabled &&
-        state.layers.map((layer, index) => (
-          <div
-            key={index}
-            className={`backdrop__layer${state.active === index ? ' is-active' : ''}`}
-            style={
-              {
-                '--blob-1': layer.blobs[0],
-                '--blob-2': layer.blobs[1],
-                '--blob-3': layer.blobs[2],
-              } as CSSProperties
-            }
-          >
-            <span className="backdrop__blob backdrop__blob--a" />
-            <span className="backdrop__blob backdrop__blob--b" />
-            <span className="backdrop__blob backdrop__blob--c" />
-          </div>
-        ))}
-      <div className="backdrop__vignette" />
-      <div className="backdrop__grain" />
+    <div className="backdrop" aria-hidden="true">
+      {enabled && <canvas ref={canvasRef} className={`backdrop__canvas${ready ? ' is-ready' : ''}`} />}
+      {enabled && !ready && (
+        <div
+          className="backdrop__fallback"
+          style={{ background: `linear-gradient(135deg, ${palette.blobs[0]}, ${palette.blobs[1]} 55%, ${palette.blobs[2]})` }}
+        />
+      )}
+      <div className="backdrop__shade" />
     </div>
   );
 }

@@ -38,19 +38,15 @@
   align-items: center;
   gap: 1.1rem;
   text-align: center;
-  max-width: 380px;
+  max-width: 420px;
   animation: card-in var(--dur-slow) var(--ease);
 }
 
 .auth__wordmark {
-  margin: 0.5rem 0 0;
-  font-size: 2.1rem;
-  font-weight: 700;
+  margin: 0.6rem 0 0;
+  font-size: 2rem;
+  font-weight: 600;
   letter-spacing: -0.035em;
-  background: linear-gradient(180deg, #fff 30%, rgba(255, 255, 255, 0.62));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 .auth__tagline {
@@ -90,7 +86,7 @@
     radial-gradient(circle at 36% 30%, rgba(255, 255, 255, 0.26) 0%, transparent 46%),
     radial-gradient(circle at 40% 34%, #8e93bd 0%, #4c4f6d 42%, #23243352 70%, #14141d 100%);
   box-shadow:
-    0 0 80px hsl(268 80% 62% / 0.35),
+    0 0 70px rgba(190, 200, 235, 0.22),
     0 28px 60px -22px rgba(0, 0, 0, 0.9),
     inset -12px -18px 36px rgba(0, 0, 0, 0.5);
 }
@@ -123,18 +119,7 @@
   inset: 0;
   border-radius: 50%;
   background:
-    radial-gradient(circle at 33% 26%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 17%),
-    radial-gradient(circle at 62% 18%, rgba(255, 255, 255, 0.5) 0%, transparent 9%),
-    radial-gradient(circle at 24% 62%, hsl(198 90% 78% / 0.55) 0%, transparent 10%),
-    radial-gradient(circle at 74% 68%, hsl(320 90% 78% / 0.45) 0%, transparent 11%);
-  animation: glints 4.5s ease-in-out infinite alternate;
-}
-
-@keyframes glints {
-  from {
-    opacity: 0.75;
-  }
-  to {
-    opacity: 1;
-  }
+    radial-gradient(circle at 33% 26%, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 17%),
+    radial-gradient(circle at 62% 19%, rgba(255, 255, 255, 0.4) 0%, transparent 8%),
+    radial-gradient(circle at 26% 63%, rgba(255, 255, 255, 0.28) 0%, transparent 9%);
 }
