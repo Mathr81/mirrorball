@@ -1,0 +1,327 @@
+/* Jetons de design et primitives partagées. Tout le reste des styles s'appuie
+   sur ces variables : changer l'ambiance de l'appli se fait ici. */
+
+:root {
+  color-scheme: dark;
+
+  --bg: #07070a;
+  --bg-elevated: rgba(18, 18, 24, 0.72);
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-hover: rgba(255, 255, 255, 0.11);
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.18);
+
+  --text: #f5f5f7;
+  --text-muted: rgba(245, 245, 247, 0.64);
+  --text-faint: rgba(245, 245, 247, 0.38);
+
+  /* Écrasé à l'exécution par la couleur dominante de la pochette. */
+  --accent: hsl(268 85% 72%);
+  --accent-contrast: #0a0a0c;
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 24px 60px -24px rgba(0, 0, 0, 0.85);
+  --shadow-panel: 0 40px 90px -30px rgba(0, 0, 0, 0.9);
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast: 140ms;
+  --dur: 260ms;
+  --dur-slow: 520ms;
+
+  --safe-top: env(safe-area-inset-top);
+  --safe-right: env(safe-area-inset-right);
+  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-left: env(safe-area-inset-left);
+
+  --lyrics-scale: 1;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+}
+
+html,
+body {
+  /* Anti-rebond de scroll en standalone iOS — l'appli est une page fixe unique,
+     rien ne doit « rebondir » au bord de l'écran. */
+  overscroll-behavior: none;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ---------- Primitives ---------- */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.7rem 1.35rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-fast) var(--ease),
+    border-color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.button svg {
+  font-size: 1.15rem;
+  flex: none;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.button--spotify {
+  background: #1db954;
+  color: #06120a;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+}
+
+.button--spotify:hover {
+  background: #23d365;
+}
+
+.button--ghost {
+  width: 100%;
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--text);
+  border-radius: var(--radius);
+}
+
+.button--ghost:hover {
+  background: var(--surface-hover);
+  border-color: var(--border-strong);
+}
+
+.button--danger {
+  color: #ff8b8b;
+}
+
+.button--danger:hover {
+  background: rgba(255, 92, 92, 0.12);
+  border-color: rgba(255, 92, 92, 0.35);
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease);
+}
+
+.icon-button:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.icon-button:active {
+  transform: scale(0.94);
+}
+
+.icon-button--glass {
+  background: var(--bg-elevated);
+  border-color: var(--border);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: blur(20px) saturate(150%);
+}
+
+.icon-button[aria-pressed='true'] {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.chip--syllable {
+  color: color-mix(in srgb, var(--accent) 75%, white);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+
+/* ---------- Formulaires du tiroir de réglages ---------- */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.field--switch {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.field__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.field__label {
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.field__hint {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  line-height: 1.35;
+}
+
+.field--switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  flex: none;
+  position: relative;
+  width: 46px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition:
+    background-color var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  transition:
+    transform var(--dur) var(--ease),
+    background-color var(--dur) var(--ease);
+}
+
+.field--switch input:checked + .switch {
+  background: color-mix(in srgb, var(--accent) 65%, transparent);
+  border-color: color-mix(in srgb, var(--accent) 70%, transparent);
+}
+
+.field--switch input:checked + .switch::after {
+  transform: translateX(18px);
+  background: #fff;
+}
+
+.field--switch input:focus-visible + .switch {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.segmented {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.segmented__option {
+  min-height: 38px;
+  border: none;
+  border-radius: calc(var(--radius) - 5px);
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease);
+}
+
+.segmented__option:hover {
+  color: var(--text);
+}
+
+.segmented__option.is-active {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

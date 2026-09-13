@@ -60,6 +60,16 @@ export class VirtualClock {
     }
   }
 
+  /**
+   * Bascule lecture/pause immédiate, sans attendre la confirmation du poller —
+   * l'horloge doit se figer (ou repartir) dans la frame du clic, pas trois
+   * secondes plus tard. La prochaine observation corrige la position si besoin.
+   */
+  setPlaying(playing: boolean): void {
+    this.playing = playing;
+    this.rate = 1;
+  }
+
   /** Changement de morceau : reset complet, pas de convergence progressive. */
   resetForTrack(initialProgressMs: number, isPlaying: boolean): void {
     this.timeMs = initialProgressMs;

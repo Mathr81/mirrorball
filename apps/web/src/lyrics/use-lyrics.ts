@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { CurrentlyPlaying } from '../playback/spotify-api.js';
 import { fetchLyrics, LyricsError, type LyricsAttempt, type LyricsResponse } from './lyrics-client.js';
 
@@ -6,14 +6,24 @@ export interface LyricsState {
   status: 'idle' | 'loading' | 'ready' | 'not_found' | 'error';
   data: LyricsResponse | undefined;
   attempts: LyricsAttempt[];
+  /** Relance la recherche pour le morceau courant (bouton « Réessayer »). */
+  reload: () => void;
 }
 
-const IDLE: LyricsState = { status: 'idle', data: undefined, attempts: [] };
+type LyricsResult = Omit<LyricsState, 'reload'>;
+
+const IDLE: LyricsResult = { status: 'idle', data: undefined, attempts: [] };
 
 /** Ne relance une requête que sur changement de morceau, jamais à chaque tick du poller. */
 export function useLyrics(track: CurrentlyPlaying | undefined, getAccessToken: () => Promise<string | undefined>): LyricsState {
-  const [state, setState] = useState<LyricsState>(IDLE);
+  const [state, setState] = useState<LyricsResult>(IDLE);
+  const [nonce, setNonce] = useState(0);
   const trackIdRef = useRef<string | undefined>();
+
+  const reload = useCallback(() => {
+    trackIdRef.current = undefined;
+    setNonce((n) => n + 1);
+  }, []);
 
   useEffect(() => {
     if (!track) {
@@ -59,7 +69,7 @@ export function useLyrics(track: CurrentlyPlaying | undefined, getAccessToken: (
     return () => {
       cancelled = true;
     };
-  }, [track, getAccessToken]);
+  }, [track, getAccessToken, nonce]);
 
-  return state;
+  return { ...state, reload };
 }

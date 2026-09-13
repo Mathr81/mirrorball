@@ -1,0 +1,140 @@
+/* Écrans hors lecteur : chargement, connexion, retour OAuth. */
+
+.auth {
+  position: relative;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(2rem + var(--safe-top)) calc(1.5rem + var(--safe-right)) calc(2rem + var(--safe-bottom))
+    calc(1.5rem + var(--safe-left));
+  box-sizing: border-box;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.auth__glow {
+  position: absolute;
+  inset: -30%;
+  background:
+    radial-gradient(40% 40% at 30% 28%, hsl(268 70% 40% / 0.55), transparent 70%),
+    radial-gradient(38% 38% at 72% 62%, hsl(198 70% 38% / 0.45), transparent 70%),
+    radial-gradient(30% 30% at 50% 90%, hsl(324 60% 40% / 0.4), transparent 70%);
+  filter: blur(70px);
+  animation: auth-drift 24s var(--ease) infinite alternate;
+}
+
+@keyframes auth-drift {
+  to {
+    transform: translate3d(4%, -3%, 0) scale(1.12);
+  }
+}
+
+.auth__card {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  text-align: center;
+  max-width: 380px;
+  animation: card-in var(--dur-slow) var(--ease);
+}
+
+.auth__wordmark {
+  margin: 0.5rem 0 0;
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  background: linear-gradient(180deg, #fff 30%, rgba(255, 255, 255, 0.62));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.auth__tagline {
+  margin: -0.4rem 0 0.4rem;
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.auth__status {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.auth__status--error {
+  color: #ff9f9f;
+  line-height: 1.5;
+}
+
+.auth__note {
+  margin: 0.25rem 0 0;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  line-height: 1.5;
+}
+
+/* ---------- Boule à facettes ---------- */
+
+.mirrorball {
+  position: relative;
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* Sphère : teinte de base + ombrage volumétrique, éclairée en haut à gauche. */
+  background:
+    radial-gradient(circle at 36% 30%, rgba(255, 255, 255, 0.26) 0%, transparent 46%),
+    radial-gradient(circle at 40% 34%, #8e93bd 0%, #4c4f6d 42%, #23243352 70%, #14141d 100%);
+  box-shadow:
+    0 0 80px hsl(268 80% 62% / 0.35),
+    0 28px 60px -22px rgba(0, 0, 0, 0.9),
+    inset -12px -18px 36px rgba(0, 0, 0, 0.5);
+}
+
+/* Facettes : une grille de miroirs carrés. Elle défile horizontalement — c'est
+   ce glissement, et non une rotation de l'élément, qui donne la sensation que
+   la boule tourne (les rangées, elles, ne doivent pas bouger). */
+.mirrorball::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.16) 0 9px, rgba(0, 0, 0, 0.3) 9px 11px),
+    repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 0 9px, rgba(0, 0, 0, 0.34) 9px 11px);
+  mix-blend-mode: overlay;
+  animation: facets 7s linear infinite;
+}
+
+@keyframes facets {
+  to {
+    background-position:
+      -11px 0,
+      0 0;
+  }
+}
+
+/* Reflet spéculaire et éclats : fixes pendant que les facettes défilent dessous. */
+.mirrorball__sheen {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 33% 26%, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 17%),
+    radial-gradient(circle at 62% 18%, rgba(255, 255, 255, 0.5) 0%, transparent 9%),
+    radial-gradient(circle at 24% 62%, hsl(198 90% 78% / 0.55) 0%, transparent 10%),
+    radial-gradient(circle at 74% 68%, hsl(320 90% 78% / 0.45) 0%, transparent 11%);
+  animation: glints 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes glints {
+  from {
+    opacity: 0.75;
+  }
+  to {
+    opacity: 1;
+  }
+}

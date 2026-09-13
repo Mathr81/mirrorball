@@ -1,0 +1,113 @@
+/* Ambiance de fond : trois halos très flous dérivés de la pochette, empilés en
+   deux couches pour un fondu au changement de morceau. */
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--bg);
+  pointer-events: none;
+}
+
+.backdrop__layer {
+  position: absolute;
+  inset: -20%;
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease);
+}
+
+.backdrop__layer.is-active {
+  opacity: 1;
+}
+
+.backdrop__blob {
+  position: absolute;
+  width: 78%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  /* Un flou de cette taille coûte cher à repeindre : les halos ne sont composés
+     qu'une fois puis déplacés par transform, jamais re-flouté à chaque frame. */
+  filter: blur(90px);
+  will-change: transform;
+}
+
+.backdrop__blob--a {
+  top: -8%;
+  left: -6%;
+  background: radial-gradient(circle at 50% 50%, var(--blob-1) 0%, transparent 68%);
+  opacity: 0.85;
+  animation: drift-a 42s var(--ease) infinite alternate;
+}
+
+.backdrop__blob--b {
+  top: 18%;
+  right: -14%;
+  background: radial-gradient(circle at 50% 50%, var(--blob-2) 0%, transparent 68%);
+  opacity: 0.75;
+  animation: drift-b 55s var(--ease) infinite alternate;
+}
+
+.backdrop__blob--c {
+  bottom: -18%;
+  left: 22%;
+  background: radial-gradient(circle at 50% 50%, var(--blob-3) 0%, transparent 68%);
+  opacity: 0.7;
+  animation: drift-c 48s var(--ease) infinite alternate;
+}
+
+@keyframes drift-a {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(14%, 10%, 0) scale(1.18);
+  }
+}
+
+@keyframes drift-b {
+  from {
+    transform: translate3d(0, 0, 0) scale(1.1);
+  }
+  to {
+    transform: translate3d(-16%, 14%, 0) scale(0.92);
+  }
+}
+
+@keyframes drift-c {
+  from {
+    transform: translate3d(0, 0, 0) scale(0.95);
+  }
+  to {
+    transform: translate3d(12%, -14%, 0) scale(1.2);
+  }
+}
+
+/* Assombrit les bords : les paroles restent lisibles quelle que soit la pochette. */
+.backdrop__vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(130% 100% at 50% 40%, transparent 0%, rgba(5, 5, 8, 0.42) 72%, rgba(5, 5, 8, 0.78) 100%),
+    linear-gradient(180deg, rgba(5, 5, 8, 0.3) 0%, transparent 32%, rgba(5, 5, 8, 0.4) 100%);
+}
+
+/* Grain léger : casse les bandes de dégradé sur les grands aplats sombres. */
+.backdrop__grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+.backdrop--plain .backdrop__vignette,
+.backdrop--plain .backdrop__grain {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .backdrop__blob {
+    animation: none !important;
+  }
+}

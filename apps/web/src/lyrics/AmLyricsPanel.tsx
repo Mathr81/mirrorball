@@ -4,8 +4,9 @@
 // réactivité Lit — ttml/currentTime deviennent de simples propriétés JS ignorées.
 import '@uimaxbai/am-lyrics/am-lyrics.js';
 import { AmLyrics } from '@uimaxbai/am-lyrics/react';
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import type { CurrentlyPlaying } from '../playback/spotify-api.js';
+import { DiscIcon } from '../ui/icons.js';
 import type { LyricsResponse } from './lyrics-client.js';
 import { extractStaticLines } from './static-lyrics.js';
 import type { LyricsState } from './use-lyrics.js';
@@ -20,6 +21,38 @@ interface Props {
 interface LastReady {
   trackId: string;
   data: LyricsResponse;
+}
+
+/**
+ * Le composant peint, sous la dernière ligne, un pied de page « Source … /
+ * am-lyrics … Star me on GitHub » qu'aucune propriété publique ne désactive
+ * (l'attribut `hide-source-footer` a disparu en 1.6.x) et qu'aucune règle
+ * externe n'atteint, puisqu'il vit dans le shadow DOM. On injecte donc une
+ * feuille de style dans ce shadow root — ouvert — plutôt que de laisser du
+ * texte promotionnel au milieu des paroles. `opacity` et non `display: none` :
+ * ce pied de page sert aussi de zone de défilement à la dernière ligne, le
+ * supprimer de la mise en page casserait le scroll de fin de morceau.
+ */
+const SHADOW_PATCH = `
+  .lyrics-footer { opacity: 0 !important; pointer-events: none; }
+
+  /* Le retrait horizontal est figé en dur par les presets internes du composant
+     (14px sous 520px, 32px au-delà de 900px) : ces règles-là visent un élément
+     du shadow DOM, aucune variable posée de l'extérieur ne les atteint. D'où
+     cette règle, qui rend le retrait pilotable via --mb-lyrics-inline-padding.
+     Le !important est nécessaire : Lit passe par adoptedStyleSheets, qui
+     s'appliquent APRÈS les balises style du shadow root — à spécificité égale,
+     sans lui, ce sont les presets du composant qui gagneraient. */
+  .lyrics-container { --am-lyrics-inline-padding: var(--mb-lyrics-inline-padding, 32px) !important; }
+`;
+
+function patchShadowRoot(el: AmLyricsElement): void {
+  const root = el.shadowRoot;
+  if (!root || root.querySelector('style[data-mirrorball]')) return;
+  const style = document.createElement('style');
+  style.setAttribute('data-mirrorball', '');
+  style.textContent = SHADOW_PATCH;
+  root.append(style);
 }
 
 /** Sous-ensemble de l'API réelle du custom element dont on a besoin — évite une dépendance sur son type interne non exporté publiquement. */
@@ -69,6 +102,12 @@ export function AmLyricsPanel({ track, currentTimeMs, lyrics, onSeek }: Props) {
   const elRef = useRef<AmLyricsElement | null>(null);
   const appliedTtmlRef = useRef<string | undefined>(undefined);
 
+  const attachRef = useCallback((node: unknown) => {
+    const el = node as AmLyricsElement | null;
+    elRef.current = el;
+    if (el) patchShadowRoot(el);
+  }, []);
+
   const stopped = !track;
   const last = lastReadyRef.current;
   const activeTtml =
@@ -116,60 +155,92 @@ export function AmLyricsPanel({ track, currentTimeMs, lyrics, onSeek }: Props) {
   if (!track) {
     if (!last) {
       return (
-        <div className="lyrics-panel lyrics-panel--status">
-          <p>Aucune lecture en cours.</p>
-        </div>
+        <EmptyState
+          title="Rien en lecture"
+          hint="Lance un morceau sur Spotify : les paroles apparaîtront ici, calées à la milliseconde."
+        />
       );
     }
     return (
-      <div className="lyrics-panel lyrics-panel--stopped">
-        <AmLyrics ref={(node) => { elRef.current = node as unknown as AmLyricsElement | null; }} key={last.trackId} />
-        <p className="lyrics-overlay">Lecture arrêtée</p>
+      <div className="lyrics lyrics--stopped">
+        <AmLyrics ref={attachRef} key={last.trackId} />
+        <p className="lyrics__badge">Lecture arrêtée</p>
       </div>
     );
   }
 
   if (lyrics.status === 'idle' || lyrics.status === 'loading') {
-    return (
-      <div className="lyrics-panel lyrics-panel--status">
-        <p>Chargement des paroles…</p>
-      </div>
-    );
+    return <LyricsSkeleton />;
   }
 
   if (lyrics.status === 'not_found') {
     return (
-      <div className="lyrics-panel lyrics-panel--status">
-        <p>Aucune parole trouvée pour ce morceau.</p>
-      </div>
+      <EmptyState
+        title="Aucune parole trouvée"
+        hint="Les trois fournisseurs ont été interrogés sans résultat pour ce morceau."
+        onRetry={lyrics.reload}
+      />
     );
   }
 
   if (lyrics.status === 'error' || !lyrics.data) {
     return (
-      <div className="lyrics-panel lyrics-panel--status">
-        <p>Paroles indisponibles pour le moment.</p>
-      </div>
+      <EmptyState
+        title="Paroles indisponibles"
+        hint="Le service de paroles n'a pas répondu."
+        onRetry={lyrics.reload}
+      />
     );
   }
 
   if (lyrics.data.sync === 'static') {
     return (
-      <div className="lyrics-panel lyrics-panel--static">
-        {extractStaticLines(lyrics.data.ttml).map((line, i) => (
-          <p key={i}>{line}</p>
-        ))}
+      <div className="lyrics lyrics--static">
+        <div className="lyrics__static-inner">
+          <p className="lyrics__static-note">Paroles non synchronisées</p>
+          {extractStaticLines(lyrics.data.ttml).map((line, i) => (
+            <p key={i}>{line}</p>
+          ))}
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="lyrics-panel">
+    <div className="lyrics">
       <AmLyrics
-        ref={(node) => { elRef.current = node as unknown as AmLyricsElement | null; }}
+        ref={attachRef}
         key={track.trackId}
         onLineClick={(e: Event) => onSeek((e as CustomEvent<{ timestamp: number }>).detail.timestamp)}
       />
+    </div>
+  );
+}
+
+/** Largeurs volontairement irrégulières : une pile de barres identiques ne ressemble pas à des paroles. */
+const SKELETON_WIDTHS = ['62%', '78%', '48%', '70%', '84%', '56%', '66%'];
+
+function LyricsSkeleton() {
+  return (
+    <div className="lyrics lyrics--skeleton" aria-label="Chargement des paroles" aria-busy="true">
+      {SKELETON_WIDTHS.map((width, index) => (
+        <span key={index} className="lyrics__skeleton-line" style={{ width, animationDelay: `${index * 90}ms` }} />
+      ))}
+    </div>
+  );
+}
+
+function EmptyState({ title, hint, onRetry }: { title: string; hint: string; onRetry?: () => void }) {
+  return (
+    <div className="lyrics lyrics--empty">
+      <DiscIcon className="lyrics__empty-icon" />
+      <p className="lyrics__empty-title">{title}</p>
+      <p className="lyrics__empty-hint">{hint}</p>
+      {onRetry && (
+        <button type="button" className="button button--ghost" onClick={onRetry}>
+          Réessayer
+        </button>
+      )}
     </div>
   );
 }

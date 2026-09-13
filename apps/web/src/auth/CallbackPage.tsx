@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { AuthShell } from '../app/AuthScreen.js';
 import { handleCallback, startLogin } from './spotify-auth.js';
 
 export function CallbackPage({ onDone }: { onDone: () => void }) {
@@ -15,18 +16,18 @@ export function CallbackPage({ onDone }: { onDone: () => void }) {
 
   if (error) {
     return (
-      <main className="auth-screen">
-        <p>Connexion à Spotify impossible : {error}</p>
-        <button type="button" onClick={() => void startLogin()}>
+      <AuthShell>
+        <p className="auth__status auth__status--error">Connexion à Spotify impossible : {error}</p>
+        <button type="button" className="button button--spotify" onClick={() => void startLogin()}>
           Réessayer
         </button>
-      </main>
+      </AuthShell>
     );
   }
 
   return (
-    <main className="auth-screen">
-      <p>Connexion à Spotify…</p>
-    </main>
+    <AuthShell>
+      <p className="auth__status">Connexion à Spotify…</p>
+    </AuthShell>
   );
 }

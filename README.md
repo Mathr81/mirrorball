@@ -39,6 +39,34 @@ documentés dans `docs/` :
 - [`docs/spicy-lyrics-api.md`](docs/spicy-lyrics-api.md) — spec Spicy Lyrics
   fournie séparément (reverse-engineered, non officielle).
 
+### Interface
+
+Deux zones : le volet « lecture en cours » (pochette, métadonnées, barre de
+progression scrutable, transport lecture/pause/précédent/suivant) et les
+paroles, qui occupent tout le reste. Le fond est une ambiance dérivée de la
+pochette du morceau — les couleurs dominantes sont extraites dans le
+navigateur (`apps/web/src/color/palette.ts`, canvas + quantification par
+secteurs de teinte) et alimentent halos et couleur d'accent ; toute défaillance
+(CDN sans en-tête CORS, image illisible) retombe silencieusement sur une
+palette neutre.
+
+- **Mode immersif** (`F`, ou le bouton en haut à droite) : le volet se replie,
+  seules les paroles restent, avec une pastille de rappel du morceau.
+- **Effacement automatique** : après quelques secondes sans geste ni frappe
+  pendant la lecture, les commandes flottantes disparaissent — l'iPad posé sur
+  son support n'affiche plus que les paroles.
+- **Réglages** (bouton engrenage, persistés en `localStorage`) : taille du
+  texte des paroles, fond animé, accent depuis la pochette, mode immersif,
+  panneau de debug.
+- **Raccourcis clavier** : `Espace` lecture/pause, `←`/`→` ∓5 s, `P`/`N`
+  morceau précédent/suivant, `F` immersif, `D` debug, `?` l'aide, `Échap`
+  ferme les panneaux.
+
+Les commandes de transport passent par l'API Spotify, qui exige un appareil
+actif et un compte Premium : les deux refus correspondants (404
+`NO_ACTIVE_DEVICE`, 403) sont distingués et expliqués à l'écran plutôt que
+réduits à « erreur réseau ».
+
 ### Limitations connues
 
 - **Décodeur SLObjPack non porté** (`apps/api/src/providers/spicy/objpack.ts`) :
@@ -88,6 +116,15 @@ pnpm dev:web   # http://localhost:5173
 
 `APP_ORIGIN` (env api) et `VITE_API_BASE_URL` (env web) doivent se
 correspondre pour que le CORS entre les deux origines fonctionne.
+
+### Banc d'essai visuel
+
+`http://localhost:5173/preview.html?scene=…` rend l'interface avec des données
+factices — ni compte Spotify ni backend — pour inspecter chaque état sans
+avoir à les provoquer en vrai : `player`, `immersive`, `idle`, `loading`,
+`notfound`, `static`, `stopped`, `settings`, `shortcuts`, `debug`, `plain`,
+`large`, `login`. Les scènes sont déclarées dans `apps/web/preview/main.tsx`.
+Vite ne construit que `index.html` : cette page ne part jamais en production.
 
 ## Tests
 

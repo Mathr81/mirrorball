@@ -1,0 +1,169 @@
+/* Zone des paroles : le composant am-lyrics est piloté par ses variables CSS,
+   les états (chargement, absence, erreur) sont rendus par nous. */
+
+.lyrics {
+  height: 100%;
+  position: relative;
+}
+
+.player__stage am-lyrics {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  /* Surbrillance : blanc franc, très légèrement teinté par la couleur du
+     morceau — un accent pur perdrait en lisibilité sur les lignes actives. */
+  --am-lyrics-highlight-color: color-mix(in srgb, var(--accent) 18%, white);
+  --am-lyrics-highlight-surface: rgba(255, 255, 255, 0.07);
+  --am-lyrics-highlight-radius: 18px;
+  --am-lyrics-glow-radius: 7px;
+  --mb-lyrics-inline-padding: clamp(20px, 4vw, 72px);
+
+  /* Échelle typographique pilotée par les réglages (petit / moyen / grand). */
+  --lyplus-font-size-base: calc(34px * var(--lyrics-scale));
+  --am-lyrics-compact-font-size: calc(28px * var(--lyrics-scale));
+  --am-lyrics-wide-font-size: calc(46px * var(--lyrics-scale));
+  --am-lyrics-line-spacing: calc(26px * var(--lyrics-scale));
+  --am-lyrics-compact-line-spacing: calc(21px * var(--lyrics-scale));
+  --am-lyrics-wide-line-spacing: calc(34px * var(--lyrics-scale));
+  --am-lyrics-line-height: 1.22;
+}
+
+/* Immersif : sans le volet, les paroles collées au bord gauche d'un grand écran
+   paraissent perdues — la colonne se recentre au-delà d'une largeur de confort. */
+.player--immersive .player__stage am-lyrics {
+  --mb-lyrics-inline-padding: max(clamp(24px, 4vw, 72px), calc((100% - 1180px) / 2));
+}
+
+/* Fondu haut/bas : les lignes émergent du fond au lieu d'être coupées net. */
+.player__stage {
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 7%, #000 90%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, #000 7%, #000 90%, transparent 100%);
+}
+
+/* ---------- États ---------- */
+
+.lyrics--empty,
+.lyrics--skeleton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.5rem, 5vw, 4rem);
+  box-sizing: border-box;
+}
+
+.lyrics--empty {
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.lyrics__empty-icon {
+  font-size: 3.25rem;
+  color: var(--text-faint);
+  margin-bottom: 0.5rem;
+  animation: spin 14s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lyrics__empty-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.lyrics__empty-hint {
+  margin: 0 0 0.75rem;
+  max-width: 34ch;
+  color: var(--text-faint);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.lyrics--empty .button {
+  width: auto;
+  min-width: 160px;
+}
+
+/* Squelette de chargement : la forme des paroles s'installe avant le texte. */
+.lyrics__skeleton-line {
+  height: calc(30px * var(--lyrics-scale));
+  margin-bottom: calc(22px * var(--lyrics-scale));
+  border-radius: var(--radius-pill);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.12) 45%,
+    rgba(255, 255, 255, 0.05) 90%
+  );
+  background-size: 300% 100%;
+  animation: shimmer 2.4s var(--ease) infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 160% 0;
+  }
+  to {
+    background-position: -60% 0;
+  }
+}
+
+/* Lecture arrêtée : les dernières paroles restent affichées, estompées. */
+.lyrics--stopped am-lyrics {
+  opacity: 0.35;
+  filter: saturate(0.6);
+  transition: opacity var(--dur) var(--ease);
+}
+
+.lyrics__badge {
+  position: absolute;
+  inset: auto 0 50% 0;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-elevated);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+/* Paroles non synchronisées : lecture au calme, colonne étroite et centrée. */
+.lyrics--static {
+  overflow-y: auto;
+  padding: clamp(2rem, 6vh, 4rem) clamp(1.5rem, 4vw, 3rem);
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+.lyrics__static-inner {
+  max-width: 46ch;
+  margin: 0 auto;
+  font-size: calc(1.25rem * var(--lyrics-scale));
+  line-height: 1.75;
+  color: rgba(245, 245, 247, 0.8);
+}
+
+.lyrics__static-inner p {
+  margin: 0 0 0.35em;
+}
+
+.lyrics__static-note {
+  margin: 0 0 1.5rem !important;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
